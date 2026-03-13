@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s5-30k-100k-r3",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 69187,
+  "tailTokens": 29874,
+  "summaryChars": 3936,
+  "summaryTokensEst": 984,
+  "compressionRatio": 3.2,
+  "foldLatencyMs": 17688,
+  "foldTokensIn": 24920,
+  "foldTokensOut": 1145,
+  "foldCostUsd": 0.091935,
+  "judgeScore": 1.5,
+  "judgeReasoning": "This summary is essentially unusable. It contains only a single graph-search query and results about a primacy/recency experiment — no context about what the agent was doing, why this search was performed, what work is in progress, or what to do next. An agent waking up with this would have no idea whether this was exploratory research, part of a larger experiment series, or what action to take. The summary replaced 100K tokens but preserved almost nothing actionable.",
+  "judgeCostUsd": 0.007527,
+  "totalCostUsd": 0.09946200000000001,
+  "timestamp": "2026-02-15T20:20:06.505Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-20k-80k-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 2,
+  "foldInputTokens": 60036,
+  "tailTokens": 19941,
+  "summaryChars": 5778,
+  "summaryTokensEst": 1445,
+  "compressionRatio": 3.7,
+  "foldLatencyMs": 52904,
+  "foldTokensIn": 12879,
+  "foldTokensOut": 1895,
+  "foldCostUsd": 0.067062,
+  "judgeScore": 4,
+  "judgeReasoning": "Well-organized multi-topic summary with clear topic separation. Each workstream is distinguishable and contains actionable context (e.g., 'Discord now possible with Puppeteer installed', 'memory compaction when >50 lines', 'Sartre before Gita'). Minor weaknesses: some topics are complete/historical (Moltbook research, SOUL.md updates) rather than active work, and the sheer number of topics (13) creates mild cognitive load. But an agent could quickly scan topic headers and orient to active threads (Discord setup, poetry queue, budget management, curriculum building). The format makes it easy to find relevant context without reading everything.",
+  "judgeCostUsd": 0.009057,
+  "totalCostUsd": 0.07611899999999999,
+  "timestamp": "2026-02-15T19:46:59.676Z"
+}

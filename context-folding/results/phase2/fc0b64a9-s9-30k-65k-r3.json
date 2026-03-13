@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-30k-65k-r3",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 35321,
+  "tailTokens": 29166,
+  "summaryChars": 2100,
+  "summaryTokensEst": 525,
+  "compressionRatio": 2.2,
+  "foldLatencyMs": 12739,
+  "foldTokensIn": 2491,
+  "foldTokensOut": 548,
+  "foldCostUsd": 0.015693,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Agent can continue the active work (reviewing usage-log.md to diagnose outbox filtering), and the pending-action section clearly states what the user asked and where the agent left off. However, the completed-topic section is verbose and includes details that won't matter going forward (the initial incomplete summary, the specific challenge). The active-topic section lists many specific items (book titles, paper names, concepts) that could be condensed—what matters is 'substantial activity wasn't surfaced' not every individual item. The agent would spend time parsing historical context rather than immediately acting on the diagnosis task.",
+  "judgeCostUsd": 0.005886,
+  "totalCostUsd": 0.021578999999999997,
+  "timestamp": "2026-02-15T20:01:52.190Z"
+}

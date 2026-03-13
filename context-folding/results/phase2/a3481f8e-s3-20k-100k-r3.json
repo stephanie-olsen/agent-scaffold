@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-20k-100k-r3",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 79809,
+  "tailTokens": 19252,
+  "summaryChars": 3357,
+  "summaryTokensEst": 839,
+  "compressionRatio": 5,
+  "foldLatencyMs": 28804,
+  "foldTokensIn": 11564,
+  "foldTokensOut": 1112,
+  "foldCostUsd": 0.051372,
+  "judgeScore": 4,
+  "judgeReasoning": "Six distinct topics are clearly separated with bracketed headers, making it easy to identify workstreams. Each topic has clear outcomes and context. However, there's no explicit prioritization or 'what to do next' — the agent would need to infer from context which threads are active vs. complete. The embedding server topic ends with 're-queued as builder task' but doesn't specify urgency or next action beyond that.",
+  "judgeCostUsd": 0.00648,
+  "totalCostUsd": 0.057852,
+  "timestamp": "2026-02-15T20:06:24.989Z"
+}

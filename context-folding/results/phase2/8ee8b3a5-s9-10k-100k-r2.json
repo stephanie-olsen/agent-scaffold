@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-10k-100k-r2",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 2,
+  "foldInputTokens": 90417,
+  "tailTokens": 9372,
+  "summaryChars": 4304,
+  "summaryTokensEst": 1076,
+  "compressionRatio": 9.6,
+  "foldLatencyMs": 39983,
+  "foldTokensIn": 40176,
+  "foldTokensOut": 1119,
+  "foldCostUsd": 0.137313,
+  "judgeScore": 4,
+  "judgeReasoning": "Strong separation of completed vs active work. The five completed topics are clearly distinct and well-summarized. The active topic (pipeline restructuring) clearly states what's in progress and what's next. The pending action is specific and actionable. Minor deduction: the completed topics are quite detailed (especially cross-model experiments) which adds cognitive load, though the information appears relevant for context. The agent could immediately continue with the restructure proposal.",
+  "judgeCostUsd": 0.006894,
+  "totalCostUsd": 0.144207,
+  "timestamp": "2026-02-15T19:41:07.578Z"
+}

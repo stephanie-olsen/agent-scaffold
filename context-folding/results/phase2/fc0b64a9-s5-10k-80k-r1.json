@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-10k-80k-r1",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 10000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 59955,
+  "tailTokens": 9954,
+  "summaryChars": 2252,
+  "summaryTokensEst": 563,
+  "compressionRatio": 7.6,
+  "foldLatencyMs": 22942,
+  "foldTokensIn": 22337,
+  "foldTokensOut": 602,
+  "foldCostUsd": 0.076041,
+  "judgeScore": 2.5,
+  "judgeReasoning": "Eight distinct workstreams are present but crammed into a single narrative structure without clear separation of what's active vs. complete. The agent would need to parse all 8 topics to figure out that only #8 (consolidation task) appears to be the active next step, while #4 (RIF experiment) may still be running. No clear prioritization or status indicators — just a chronological list that forces re-reading to extract actionable state.",
+  "judgeCostUsd": 0.005853,
+  "totalCostUsd": 0.081894,
+  "timestamp": "2026-02-15T19:35:45.353Z"
+}

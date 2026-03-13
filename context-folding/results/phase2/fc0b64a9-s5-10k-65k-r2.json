@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-10k-65k-r2",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 54766,
+  "tailTokens": 9721,
+  "summaryChars": 244,
+  "summaryTokensEst": 61,
+  "compressionRatio": 6.7,
+  "foldLatencyMs": 4065,
+  "foldTokensIn": 17452,
+  "foldTokensOut": 79,
+  "foldCostUsd": 0.053541,
+  "judgeScore": 1.5,
+  "judgeReasoning": "This is a mid-action snapshot, not a summary. The agent was checking if 'supersedes' is used in graph files. No context about what problem this solves, what the broader goal is, or what to do after the grep completes. Agent would be completely disoriented.",
+  "judgeCostUsd": 0.003753,
+  "totalCostUsd": 0.057294,
+  "timestamp": "2026-02-15T19:35:08.370Z"
+}

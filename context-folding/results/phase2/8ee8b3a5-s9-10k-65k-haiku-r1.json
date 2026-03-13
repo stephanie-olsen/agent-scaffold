@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-10k-65k-haiku-r1",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 54908,
+  "tailTokens": 9931,
+  "summaryChars": 5381,
+  "summaryTokensEst": 1345,
+  "compressionRatio": 5.8,
+  "foldLatencyMs": 22873,
+  "foldTokensIn": 24585,
+  "foldTokensOut": 1475,
+  "foldCostUsd": 0.025568,
+  "judgeScore": 4,
+  "judgeReasoning": "Clear separation of completed vs active topics makes orientation easy. Could immediately resume thinking parameter investigation and DeepSeek experiment monitoring. Slight deduction: the paper queue section is long (8 items) but lacks prioritization — which papers matter most for current work? Also, 'pending-action' duplicates info already in active-topic. Overall very usable.",
+  "judgeCostUsd": 0.007635,
+  "totalCostUsd": 0.033203,
+  "timestamp": "2026-02-15T21:14:27.922Z"
+}

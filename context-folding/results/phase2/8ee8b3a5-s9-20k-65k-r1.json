@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-20k-65k-r1",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 50379,
+  "tailTokens": 14460,
+  "summaryChars": 4219,
+  "summaryTokensEst": 1055,
+  "compressionRatio": 4.2,
+  "foldLatencyMs": 34829,
+  "foldTokensIn": 15328,
+  "foldTokensOut": 1136,
+  "foldCostUsd": 0.063024,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Single active thread (web-reader lookup) with clear next step (review results, decide what to queue). Five completed topics cleanly separated with [completed-topic] tags. Could immediately continue: check web-reader findings, queue relevant adversarial papers, respond to Steph. Minor deduction: 'Steph suggested' appears twice (pending-action and completed-topic) creating slight redundancy, but doesn't impede action.",
+  "judgeCostUsd": 0.006984,
+  "totalCostUsd": 0.070008,
+  "timestamp": "2026-02-15T19:43:44.531Z"
+}

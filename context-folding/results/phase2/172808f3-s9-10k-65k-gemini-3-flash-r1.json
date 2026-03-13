@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s9-10k-65k-gemini-3-flash-r1",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 54876,
+  "tailTokens": 9852,
+  "summaryChars": 2099,
+  "summaryTokensEst": 525,
+  "compressionRatio": 6.4,
+  "foldLatencyMs": 12476,
+  "foldTokensIn": 22596,
+  "foldTokensOut": 610,
+  "foldCostUsd": 0.0025036,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent separation of completed vs. active work. Four completed topics are clearly closed, and the active context compression discussion has clear state (user proposed folding, agent analyzing trade-offs). The pending-action captures exactly where the conversation paused. Only minor improvement possible: could specify *which* trade-offs are being analyzed (e.g., 'nuance loss vs. context collapse risk').",
+  "judgeCostUsd": 0.005373,
+  "totalCostUsd": 0.007876600000000001,
+  "timestamp": "2026-02-15T21:21:09.258Z"
+}

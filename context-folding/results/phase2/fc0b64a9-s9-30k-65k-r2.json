@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-30k-65k-r2",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 35321,
+  "tailTokens": 29166,
+  "summaryChars": 2328,
+  "summaryTokensEst": 582,
+  "compressionRatio": 2.2,
+  "foldLatencyMs": 13991,
+  "foldTokensIn": 2491,
+  "foldTokensOut": 607,
+  "foldCostUsd": 0.016578,
+  "judgeScore": 4,
+  "judgeReasoning": "Clear separation of completed vs. active work. Agent can immediately see the core issue (outbox didn't populate despite substantial activity) and what to do next (analyze why and respond to user). The completed-topic section is slightly verbose but doesn't obscure the active investigation. Minor deduction for including some detail that won't be needed going forward (specific log entries), but overall very usable.",
+  "judgeCostUsd": 0.005403,
+  "totalCostUsd": 0.021981,
+  "timestamp": "2026-02-15T20:01:33.890Z"
+}

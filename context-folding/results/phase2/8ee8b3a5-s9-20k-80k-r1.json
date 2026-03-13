@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-20k-80k-r1",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 52444,
+  "tailTokens": 19935,
+  "summaryChars": 3913,
+  "summaryTokensEst": 978,
+  "compressionRatio": 3.9,
+  "foldLatencyMs": 31969,
+  "foldTokensIn": 16972,
+  "foldTokensOut": 1086,
+  "foldCostUsd": 0.067206,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Strong single-thread narrative with clear separation of completed vs active work. The pending-action section makes next step immediately actionable (add Chen paper to queue). Completed topics are genuinely closed-loop. Only minor weakness: could trim some detail in completed sections (e.g., full book titles when 'queued' is the operative fact), but this doesn't meaningfully slow orientation. Agent could resume work in seconds.",
+  "judgeCostUsd": 0.006825,
+  "totalCostUsd": 0.074031,
+  "timestamp": "2026-02-15T19:45:39.743Z"
+}

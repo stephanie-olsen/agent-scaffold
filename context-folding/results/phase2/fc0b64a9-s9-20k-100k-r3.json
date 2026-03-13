@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-20k-100k-r3",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 80381,
+  "tailTokens": 19561,
+  "summaryChars": 4511,
+  "summaryTokensEst": 1128,
+  "compressionRatio": 4.8,
+  "foldLatencyMs": 42637,
+  "foldTokensIn": 27293,
+  "foldTokensOut": 1290,
+  "foldCostUsd": 0.101229,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent single-topic focus with clear active work. The 6 completed topics are cleanly separated and summarized. The active book pipeline audit is specific: what was found (206 vs 3 discrepancy), what's running (diff command), what to determine next (pipeline dropping books vs intentional design). The pending-action section makes the current state immediately actionable. Minor deduction: could be slightly more concise in completed topics (some details like '34 existing edges' or 'C0 baseline 54.9s' are archival rather than orientation-critical), but this doesn't meaningfully impair usability.",
+  "judgeCostUsd": 0.007977,
+  "totalCostUsd": 0.109206,
+  "timestamp": "2026-02-15T20:00:55.767Z"
+}

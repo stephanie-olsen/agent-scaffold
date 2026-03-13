@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-30k-65k-r3",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 35812,
+  "tailTokens": 29054,
+  "summaryChars": 2604,
+  "summaryTokensEst": 651,
+  "compressionRatio": 2.2,
+  "foldLatencyMs": 25537,
+  "foldTokensIn": 9054,
+  "foldTokensOut": 796,
+  "foldCostUsd": 0.039102,
+  "judgeScore": 4,
+  "judgeReasoning": "Four distinct topics are clearly separated with headers, making it easy to see what happened in each workstream. The agent could quickly orient to where things stand (Puppeteer installed, poems queued, Discord pivot decided, memory practices established). However, there are no explicit next steps — the agent would need to infer what to do next from context (likely create Discord account, continue heartbeat cycles, read more poems). The summary is information-rich without being overwhelming, but lacks the actionable clarity of 'what to do when I wake up.'",
+  "judgeCostUsd": 0.006105,
+  "totalCostUsd": 0.045207,
+  "timestamp": "2026-02-15T19:55:24.298Z"
+}

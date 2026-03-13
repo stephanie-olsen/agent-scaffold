@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-20k-65k-r3",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 44854,
+  "tailTokens": 19633,
+  "summaryChars": 3550,
+  "summaryTokensEst": 888,
+  "compressionRatio": 3.2,
+  "foldLatencyMs": 26577,
+  "foldTokensIn": 5878,
+  "foldTokensOut": 928,
+  "foldCostUsd": 0.031554,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Single clear topic (recent experimental findings) with four well-separated threads. Each finding has clear context (what was tested, what was found, what it means). The outbox item includes both diagnosis and a concrete next step. An agent could immediately continue any of these threads. Minor deduction: no explicit 'what to do next' for items 1-3, though the context makes it clear (re-run performativity test in a week, use RLHF findings for future experiments, continue using third-person reframing).",
+  "judgeCostUsd": 0.007116,
+  "totalCostUsd": 0.038669999999999996,
+  "timestamp": "2026-02-15T19:39:40.609Z"
+}

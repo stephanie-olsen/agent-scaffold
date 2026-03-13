@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s3-30k-100k-r3",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 69824,
+  "tailTokens": 29638,
+  "summaryChars": 5559,
+  "summaryTokensEst": 1390,
+  "compressionRatio": 3.2,
+  "foldLatencyMs": 52115,
+  "foldTokensIn": 12473,
+  "foldTokensOut": 1997,
+  "foldCostUsd": 0.067374,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Information is complete and topics are clearly separated, which is excellent. However, the sheer number of topics (18) creates cognitive load — an agent would need to scan the entire summary to find active work. The interview prep topics (7 of 18) are all complete/done, yet they occupy ~40% of the summary with no clear 'archive' separation. Active work (resumeMessage bug needing test, compaction implementation, domain diversity enforcement) is buried among completed prep work. A 'What's actually in progress' section would make this immediately actionable instead of requiring full parse.",
+  "judgeCostUsd": 0.008577,
+  "totalCostUsd": 0.075951,
+  "timestamp": "2026-02-15T20:27:27.180Z"
+}

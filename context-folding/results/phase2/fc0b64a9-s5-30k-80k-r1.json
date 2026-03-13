@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-30k-80k-r1",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 40025,
+  "tailTokens": 29884,
+  "summaryChars": 1326,
+  "summaryTokensEst": 332,
+  "compressionRatio": 2.7,
+  "foldLatencyMs": 9306,
+  "foldTokensIn": 2299,
+  "foldTokensOut": 375,
+  "foldCostUsd": 0.012522,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Single workstream (research pipeline) is clear, and the self-correction about outbox usage shows good meta-awareness. However, the summary front-loads a confession that wastes orientation time, and while it lists what's done, it doesn't specify next actions (download Uberland/Lupyan? review experiments? act on outbox items?). The agent could continue but would need to infer priorities from the 'should have flagged' list rather than having explicit next steps.",
+  "judgeCostUsd": 0.005277,
+  "totalCostUsd": 0.017799,
+  "timestamp": "2026-02-15T19:43:12.550Z"
+}

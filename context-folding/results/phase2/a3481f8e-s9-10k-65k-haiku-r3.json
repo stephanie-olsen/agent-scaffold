@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s9-10k-65k-haiku-r3",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 54973,
+  "tailTokens": 9186,
+  "summaryChars": 5354,
+  "summaryTokensEst": 1339,
+  "compressionRatio": 6.3,
+  "foldLatencyMs": 18194,
+  "foldTokensIn": 23132,
+  "foldTokensOut": 1480,
+  "foldCostUsd": 0.024425600000000002,
+  "judgeScore": 4,
+  "judgeReasoning": "Strong separation of completed vs. active work. The five completed topics are clearly closed and the one active topic (boot context loading) is well-defined with specific next steps. However, the pending-action section duplicates the active-topic content almost verbatim, adding noise without value. An agent could immediately continue the boot context investigation but would waste a few seconds parsing the redundancy.",
+  "judgeCostUsd": 0.007692,
+  "totalCostUsd": 0.0321176,
+  "timestamp": "2026-02-15T21:16:26.953Z"
+}

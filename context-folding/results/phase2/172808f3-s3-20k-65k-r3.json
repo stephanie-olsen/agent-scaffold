@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s3-20k-65k-r3",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 44892,
+  "tailTokens": 19836,
+  "summaryChars": 2714,
+  "summaryTokensEst": 679,
+  "compressionRatio": 3.2,
+  "foldLatencyMs": 25910,
+  "foldTokensIn": 6450,
+  "foldTokensOut": 942,
+  "foldCostUsd": 0.03348,
+  "judgeScore": 4,
+  "judgeReasoning": "Well-organized multi-topic summary with clear topic separators. Each thread is distinguishable with outcomes and next steps. The hop decay research has a clear next step (implement fan-out normalization, test 0.65). Paper queue problem has actionable solution (domain cap enforcement). Minor weakness: interview prep thread ends vaguely (created doc but no next action), and some topics feel complete rather than active (hop depth testing marked done). Overall, agent could quickly orient and continue most work.",
+  "judgeCostUsd": 0.00609,
+  "totalCostUsd": 0.03957,
+  "timestamp": "2026-02-15T20:16:05.650Z"
+}

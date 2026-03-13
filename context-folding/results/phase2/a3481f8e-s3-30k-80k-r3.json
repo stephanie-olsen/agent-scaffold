@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-30k-80k-r3",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 3,
+  "foldInputTokens": 50035,
+  "tailTokens": 29788,
+  "summaryChars": 2196,
+  "summaryTokensEst": 549,
+  "compressionRatio": 2.7,
+  "foldLatencyMs": 20067,
+  "foldTokensIn": 7561,
+  "foldTokensOut": 755,
+  "foldCostUsd": 0.034008,
+  "judgeScore": 4,
+  "judgeReasoning": "Four distinct workstreams are clearly separated with topic headers, making it easy to distinguish what was done in each area. The post-compaction hook work is actionable (next compaction will test Opus 4.6), and the MEMORY.md changes are complete. However, the security audit thread lacks a clear next step—the agent disabled soul-evil but the broader concerns (web-reader risks, cron sandboxing) are mentioned without follow-up actions. A minor amount of implementation detail (file paths, line numbers) could be trimmed, but overall this is highly usable.",
+  "judgeCostUsd": 0.006144,
+  "totalCostUsd": 0.04015199999999999,
+  "timestamp": "2026-02-15T20:08:48.350Z"
+}

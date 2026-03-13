@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-20k-100k-r2",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 2,
+  "foldInputTokens": 80381,
+  "tailTokens": 19561,
+  "summaryChars": 4165,
+  "summaryTokensEst": 1041,
+  "compressionRatio": 4.9,
+  "foldLatencyMs": 39904,
+  "foldTokensIn": 27293,
+  "foldTokensOut": 1276,
+  "foldCostUsd": 0.101019,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent separation of completed vs active work. The 8 completed topics are clearly closed-loop, and the single active topic (book pipeline audit) has clear state: what was found, what command is running, what to check next. The agent could immediately continue the diff analysis. Only minor weakness: could explicitly state 'next step: analyze diff output and check queue/raw' rather than leaving it implicit in 'need to complete'.",
+  "judgeCostUsd": 0.007152,
+  "totalCostUsd": 0.108171,
+  "timestamp": "2026-02-15T20:00:04.978Z"
+}

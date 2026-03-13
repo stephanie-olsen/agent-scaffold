@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s3-30k-80k-r1",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 52880,
+  "tailTokens": 26793,
+  "summaryChars": 3112,
+  "summaryTokensEst": 778,
+  "compressionRatio": 2.9,
+  "foldLatencyMs": 29367,
+  "foldTokensIn": 8111,
+  "foldTokensOut": 1030,
+  "foldCostUsd": 0.039783,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent multi-topic organization with clear topic separators. Each workstream is self-contained and actionable. The agent could immediately identify what's active (fork fix needs config.patch testing, paper queue rebalancing implemented, interview prep paused) vs what's complete (hop depth testing, decay research). Only minor gap: doesn't explicitly state next priority if resuming work, but context makes it clear enough.",
+  "judgeCostUsd": 0.006072,
+  "totalCostUsd": 0.045855,
+  "timestamp": "2026-02-15T20:23:33.896Z"
+}

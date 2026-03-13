@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-20k-100k-r3",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 80381,
+  "tailTokens": 19561,
+  "summaryChars": 1359,
+  "summaryTokensEst": 340,
+  "compressionRatio": 5,
+  "foldLatencyMs": 11743,
+  "foldTokensIn": 30050,
+  "foldTokensOut": 400,
+  "foldCostUsd": 0.09615,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Single clear topic (book pipeline audit). Agent knows exactly what's wrong (93 books extracted but not integrated, queue stalled, duplicates) and has an obvious next step (investigate why integration fails). The four numbered issues provide a clean mental model. Only minor weakness: doesn't explicitly say 'investigate integration' is THE priority vs. other issues.",
+  "judgeCostUsd": 0.004902,
+  "totalCostUsd": 0.101052,
+  "timestamp": "2026-02-15T19:42:05.968Z"
+}

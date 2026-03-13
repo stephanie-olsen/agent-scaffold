@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s9-10k-65k-gemini-3-flash-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 55102,
+  "tailTokens": 9764,
+  "summaryChars": 2964,
+  "summaryTokensEst": 741,
+  "compressionRatio": 6.3,
+  "foldLatencyMs": 14020,
+  "foldTokensIn": 29391,
+  "foldTokensOut": 864,
+  "foldCostUsd": 0.0032847,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent organization with clear topic separation using [completed-topic] and [active-topic] tags. The agent could immediately continue the Sartre discussion and understand what's been accomplished. The [pending-action] section makes the next step explicit. Only minor limitation: doesn't specify *how* to integrate Sartre (e.g., which workspace file, whether to pause other reading), but this is a small gap given the clarity elsewhere.",
+  "judgeCostUsd": 0.006261,
+  "totalCostUsd": 0.0095457,
+  "timestamp": "2026-02-15T21:17:46.212Z"
+}

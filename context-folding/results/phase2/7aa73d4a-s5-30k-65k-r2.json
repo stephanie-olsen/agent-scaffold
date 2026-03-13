@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-30k-65k-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 35812,
+  "tailTokens": 29054,
+  "summaryChars": 1218,
+  "summaryTokensEst": 305,
+  "compressionRatio": 2.2,
+  "foldLatencyMs": 12203,
+  "foldTokensIn": 9731,
+  "foldTokensOut": 287,
+  "foldCostUsd": 0.033498,
+  "judgeScore": 2,
+  "judgeReasoning": "This appears to be a response fragment, not a compaction summary. An agent waking up with only this would have no idea what MoltCircle is, why they're building it, what's been decided, or what to do next. It references 'the design doc' and 'your questions' that aren't included. The context about 1.5M dormant accounts is unexplained. This reads like message #47 in a conversation, not a standalone summary that replaces 65K tokens.",
+  "judgeCostUsd": 0.005088,
+  "totalCostUsd": 0.038586,
+  "timestamp": "2026-02-15T20:12:15.575Z"
+}

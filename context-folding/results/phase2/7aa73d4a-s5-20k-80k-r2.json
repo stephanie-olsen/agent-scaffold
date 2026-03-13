@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-20k-80k-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 2,
+  "foldInputTokens": 60036,
+  "tailTokens": 19941,
+  "summaryChars": 805,
+  "summaryTokensEst": 201,
+  "compressionRatio": 4,
+  "foldLatencyMs": 8840,
+  "foldTokensIn": 28000,
+  "foldTokensOut": 204,
+  "foldCostUsd": 0.08706,
+  "judgeScore": 1.5,
+  "judgeReasoning": "This appears to be a fragment of a philosophical discussion about Sartre, not a compaction summary. There's no context about what the agent was doing, what work is in progress, or what to do next. An agent waking up with only this would have no idea what task it was working on or how to continue. This seems like a compaction system error rather than a poorly-structured summary.",
+  "judgeCostUsd": 0.004458,
+  "totalCostUsd": 0.091518,
+  "timestamp": "2026-02-15T20:10:33.002Z"
+}

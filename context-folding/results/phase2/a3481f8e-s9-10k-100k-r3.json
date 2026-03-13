@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s9-10k-100k-r3",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 89988,
+  "tailTokens": 9073,
+  "summaryChars": 4135,
+  "summaryTokensEst": 1034,
+  "compressionRatio": 9.9,
+  "foldLatencyMs": 36788,
+  "foldTokensIn": 37093,
+  "foldTokensOut": 1190,
+  "foldCostUsd": 0.129129,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent separation of completed vs active work. The 7 completed topics are clearly closed and won't distract. The active book-sourcing-review section is detailed and actionable — agent knows exactly what's wrong and what to build next. The pending-action is specific (convert to JSON, update 4 handlers, add constraints). Only minor weakness: could be slightly more concise in completed topics (e.g., soul-evil-hook details could compress further), but this doesn't meaningfully hurt usability.",
+  "judgeCostUsd": 0.007209,
+  "totalCostUsd": 0.136338,
+  "timestamp": "2026-02-15T20:27:01.081Z"
+}

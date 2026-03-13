@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s9-10k-65k-r2",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 54973,
+  "tailTokens": 9186,
+  "summaryChars": 4133,
+  "summaryTokensEst": 1033,
+  "compressionRatio": 6.5,
+  "foldLatencyMs": 33876,
+  "foldTokensIn": 23132,
+  "foldTokensOut": 1195,
+  "foldCostUsd": 0.087321,
+  "judgeScore": 4,
+  "judgeReasoning": "Clear separation of completed vs active work. The 7 completed topics are well-summarized and distinguishable. The active topic and pending action make it obvious what to do next (answer 3 user questions after finding bootstrap order). Minor weakness: the pending-action section is slightly verbose (repeats the questions twice), and the assistant state could be more concise. But the agent could immediately continue without confusion.",
+  "judgeCostUsd": 0.006882,
+  "totalCostUsd": 0.094203,
+  "timestamp": "2026-02-15T20:21:26.263Z"
+}

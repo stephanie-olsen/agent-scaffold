@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-10k-80k-r1",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 59955,
+  "tailTokens": 9954,
+  "summaryChars": 4156,
+  "summaryTokensEst": 1039,
+  "compressionRatio": 7.3,
+  "foldLatencyMs": 40424,
+  "foldTokensIn": 20888,
+  "foldTokensOut": 1186,
+  "foldCostUsd": 0.080454,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Strong single-topic focus (graph growth mechanisms) with clear pending action. Completed topics are cleanly separated and won't distract. The active section clearly states what was being worked on (consolidation cadence, co-retrieval tracking) and exactly where the agent left off (checking cron intervals, needs to either add to existing interval or create new one). RIF experiment status is appropriately backgrounded. Only minor weakness: could be slightly more explicit about which option (4hr vs 8hr vs new 6hr cron) seems preferable, but the agent has enough context to make that call quickly.",
+  "judgeCostUsd": 0.007653,
+  "totalCostUsd": 0.08810699999999999,
+  "timestamp": "2026-02-15T19:47:11.959Z"
+}

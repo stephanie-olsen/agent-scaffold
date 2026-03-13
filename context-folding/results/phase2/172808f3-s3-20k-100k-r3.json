@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s3-20k-100k-r3",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 79502,
+  "tailTokens": 19960,
+  "summaryChars": 4942,
+  "summaryTokensEst": 1236,
+  "compressionRatio": 4.7,
+  "foldLatencyMs": 47219,
+  "foldTokensIn": 14133,
+  "foldTokensOut": 1679,
+  "foldCostUsd": 0.067584,
+  "judgeScore": 2.5,
+  "judgeReasoning": "Contains 13 distinct topics spanning interview prep, database architecture, paper queue management, fork fixes, and creative image work. Information is accurate and complete, but an agent waking up would struggle to prioritize — what's actively in progress vs done? The interview is presumably over (post-interview reflection), but 4 interview prep topics suggest ongoing work. Image generation shows active task but buried at end. No clear 'do this next' guidance across the sprawl.",
+  "judgeCostUsd": 0.00759,
+  "totalCostUsd": 0.075174,
+  "timestamp": "2026-02-15T20:21:31.096Z"
+}

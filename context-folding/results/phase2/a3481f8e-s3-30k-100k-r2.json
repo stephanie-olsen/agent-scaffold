@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-30k-100k-r2",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 100000,
+  "rep": 2,
+  "foldInputTokens": 69187,
+  "tailTokens": 29874,
+  "summaryChars": 2801,
+  "summaryTokensEst": 700,
+  "compressionRatio": 3.3,
+  "foldLatencyMs": 27560,
+  "foldTokensIn": 10422,
+  "foldTokensOut": 1012,
+  "foldCostUsd": 0.046446,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent topic separation with clear bracketed headers. Each workstream shows what was done and current state. Minor weakness: no explicit 'next steps' section, though most are implied (e.g., 'Next compaction will use Opus 4.6'). Agent could immediately resume any thread without confusion. Concise at 2,801 chars — easy to orient quickly.",
+  "judgeCostUsd": 0.00606,
+  "totalCostUsd": 0.052506000000000004,
+  "timestamp": "2026-02-15T20:09:49.995Z"
+}

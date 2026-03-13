@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-20k-80k-r2",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 2,
+  "foldInputTokens": 49931,
+  "tailTokens": 19978,
+  "summaryChars": 3713,
+  "summaryTokensEst": 928,
+  "compressionRatio": 3.8,
+  "foldLatencyMs": 32714,
+  "foldTokensIn": 8850,
+  "foldTokensOut": 1094,
+  "foldCostUsd": 0.04296,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Agent could continue work but would need to re-orient. The completed topics are well-separated and clear. However, the active RIF experiment section is confusing: it contains both status details AND a pending-action that contradicts itself (Steph said 'start' but then lists why we can't start). The agent would waste time parsing whether to act or wait. A clearer structure would separate 'RIF experiment status' (what's done/blocked) from 'immediate next step' (ask Steph what she meant by 'start' given the blockers).",
+  "judgeCostUsd": 0.007326,
+  "totalCostUsd": 0.050286,
+  "timestamp": "2026-02-15T19:57:51.691Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-30k-65k-r2",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 34187,
+  "tailTokens": 29972,
+  "summaryChars": 2244,
+  "summaryTokensEst": 561,
+  "compressionRatio": 2.2,
+  "foldLatencyMs": 20347,
+  "foldTokensIn": 4646,
+  "foldTokensOut": 731,
+  "foldCostUsd": 0.024903,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Four distinct topics are clearly separated and labeled, which is good. However, there's no indication of what's ACTIVE vs. DONE. The security audit topic ends with 'discussed broader security concerns' but doesn't say if action is needed. The performance topic identifies the bottleneck and solution but doesn't say if further work is required. An agent could figure out context but would need to re-read to determine priorities and next steps.",
+  "judgeCostUsd": 0.005556,
+  "totalCostUsd": 0.030459,
+  "timestamp": "2026-02-15T20:07:11.560Z"
+}

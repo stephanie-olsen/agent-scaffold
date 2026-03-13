@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-20k-100k-r1",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 80381,
+  "tailTokens": 19561,
+  "summaryChars": 5388,
+  "summaryTokensEst": 1347,
+  "compressionRatio": 4.8,
+  "foldLatencyMs": 47574,
+  "foldTokensIn": 27293,
+  "foldTokensOut": 1567,
+  "foldCostUsd": 0.105384,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Summary clearly separates completed from active work and provides good context on what's been done. However, the active work section is weak: the RIF experiment status is unclear (is it still running? should I check results?), and the book pipeline audit ends mid-analysis with no clear next step beyond 'complete analysis.' An agent could continue but would need to re-orient on what to actually do next with these active threads.",
+  "judgeCostUsd": 0.007965,
+  "totalCostUsd": 0.113349,
+  "timestamp": "2026-02-15T19:59:19.928Z"
+}

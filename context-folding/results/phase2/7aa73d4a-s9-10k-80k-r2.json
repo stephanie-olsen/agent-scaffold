@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s9-10k-80k-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 80000,
+  "rep": 2,
+  "foldInputTokens": 70753,
+  "tailTokens": 9224,
+  "summaryChars": 4646,
+  "summaryTokensEst": 1162,
+  "compressionRatio": 7.7,
+  "foldLatencyMs": 44175,
+  "foldTokensIn": 37132,
+  "foldTokensOut": 1498,
+  "foldCostUsd": 0.133866,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent single-session summary with clear topic separation and minimal noise. The [completed-topic] structure makes it easy to see what's done. The [pending-action] section clearly states what's next (heartbeat trigger, spawn book-summarizer, reflection task). Only minor weakness: could be slightly more explicit about the immediate next action being 'read HEARTBEAT.md' vs. the broader context of what follows, but the pending action is clear enough to act on immediately.",
+  "judgeCostUsd": 0.007716,
+  "totalCostUsd": 0.141582,
+  "timestamp": "2026-02-15T20:21:45.007Z"
+}

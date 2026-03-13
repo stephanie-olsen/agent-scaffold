@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-10k-65k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 55102,
+  "tailTokens": 9764,
+  "summaryChars": 3477,
+  "summaryTokensEst": 869,
+  "compressionRatio": 6.2,
+  "foldLatencyMs": 33225,
+  "foldTokensIn": 28075,
+  "foldTokensOut": 1004,
+  "foldCostUsd": 0.099285,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Summary captures the arc well (memory restructure → poetry practice → Discord planning → cost crisis → MoltCircle prep) and what's actively in motion (Discord setup using Puppeteer, books queued). However, the next steps are implicit rather than explicit—an agent would need to infer 'create Discord account today' from context. The fold structure helps separate topics, but some threads (poetry practice, book queue) feel like background noise rather than active work. Could be tighter on what actually needs doing next vs what happened.",
+  "judgeCostUsd": 0.006834,
+  "totalCostUsd": 0.10611899999999999,
+  "timestamp": "2026-02-15T20:00:53.016Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-20k-65k-r3",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 44854,
+  "tailTokens": 19633,
+  "summaryChars": 3866,
+  "summaryTokensEst": 967,
+  "compressionRatio": 3.2,
+  "foldLatencyMs": 29704,
+  "foldTokensIn": 4886,
+  "foldTokensOut": 1177,
+  "foldCostUsd": 0.032313,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Agent could continue the outbox fix work — the active topic is clear and files are identified. However, the 5 completed topics add cognitive load without actionable value (they're done, why list them?). The pending-action section repeats information from active-topic. A working agent needs 'what am I doing right now' (outbox fix) and maybe 'what's queued' — not a tour of yesterday's finished work. Trimming completed topics would make this a 4.5.",
+  "judgeCostUsd": 0.007278,
+  "totalCostUsd": 0.039591,
+  "timestamp": "2026-02-15T19:56:35.718Z"
+}

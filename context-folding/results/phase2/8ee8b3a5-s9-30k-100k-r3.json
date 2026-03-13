@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-30k-100k-r3",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 30000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 70168,
+  "tailTokens": 29621,
+  "summaryChars": 3641,
+  "summaryTokensEst": 910,
+  "compressionRatio": 3.3,
+  "foldLatencyMs": 31431,
+  "foldTokensIn": 24585,
+  "foldTokensOut": 1026,
+  "foldCostUsd": 0.089145,
+  "judgeScore": 4,
+  "judgeReasoning": "Clear separation of completed vs active work. The six completed topics are well-bounded and won't distract. The active topic (thinking parameter investigation) is specific and actionable — agent knows exactly where they left off (mid-investigation, checking config vs status). The pending-action section provides good context. Minor weakness: could be slightly more explicit about what the next concrete step is (check openclaw.json structure? test a prompt? verify model capabilities?), but the investigation thread is clear enough to resume effectively.",
+  "judgeCostUsd": 0.00678,
+  "totalCostUsd": 0.095925,
+  "timestamp": "2026-02-15T19:57:48.657Z"
+}

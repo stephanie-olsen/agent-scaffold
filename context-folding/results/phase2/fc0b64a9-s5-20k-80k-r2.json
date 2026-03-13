@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-20k-80k-r2",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 2,
+  "foldInputTokens": 49931,
+  "tailTokens": 19978,
+  "summaryChars": 2919,
+  "summaryTokensEst": 730,
+  "compressionRatio": 3.9,
+  "foldLatencyMs": 28374,
+  "foldTokensIn": 10043,
+  "foldTokensOut": 868,
+  "foldCostUsd": 0.043149,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Agent could continue work but would need to re-orient across multiple threads. The fold structure helps separate topics, and key findings (performativity trend, RLHF domain test, outbox fix) are clear. However, active work is scattered: RIF experiment needs 5 more days of logs (actionable), RLHF framing test is proposed but not started (unclear priority), outbox is seeded but not clear if monitoring is needed. The 'what to do next' requires parsing 7 folds to extract. A 'Next Steps' section would raise this to 4+.",
+  "judgeCostUsd": 0.006732,
+  "totalCostUsd": 0.049881,
+  "timestamp": "2026-02-15T19:40:48.053Z"
+}

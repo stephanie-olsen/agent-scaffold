@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s5-10k-100k-r1",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s5",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 89988,
+  "tailTokens": 9073,
+  "summaryChars": 6579,
+  "summaryTokensEst": 1645,
+  "compressionRatio": 9.4,
+  "foldLatencyMs": 58336,
+  "foldTokensIn": 41905,
+  "foldTokensOut": 1885,
+  "foldCostUsd": 0.15399,
+  "judgeScore": 3,
+  "judgeReasoning": "Information is complete and accurate, but organization makes it hard to use. The fold-by-fold narrative buries active work (book sourcing improvements, hybridSearch bug) among completed infrastructure changes. An agent would spend significant time parsing to find: (1) what's the current priority (book task redesign vs bug fix?), (2) what specifically needs doing next (implement book-queue.json? fix hybridSearch?). The 325-fold span and chronological structure create cognitive load rather than clarity.",
+  "judgeCostUsd": 0.009132,
+  "totalCostUsd": 0.163122,
+  "timestamp": "2026-02-15T20:13:30.385Z"
+}

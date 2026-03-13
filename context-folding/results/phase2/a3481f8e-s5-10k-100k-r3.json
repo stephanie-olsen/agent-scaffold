@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s5-10k-100k-r3",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s5",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 89988,
+  "tailTokens": 9073,
+  "summaryChars": 9837,
+  "summaryTokensEst": 2459,
+  "compressionRatio": 8.7,
+  "foldLatencyMs": 84554,
+  "foldTokensIn": 41905,
+  "foldTokensOut": 2728,
+  "foldCostUsd": 0.166635,
+  "judgeScore": 2.5,
+  "judgeReasoning": "Contains accurate information but has critical usability problems. Six distinct workstreams (compaction extraction, bundled hooks security, MEMORY.md cleanup, boot order optimization, hybridSearch debugging, book sourcing) are crammed into one narrative without clear separation or prioritization. The agent would need to parse 9,837 chars and mentally separate threads before acting. Most recent work (book sourcing improvements) ends mid-planning with no clear next step. Compare to calibration examples: this resembles Example B (multiple topics under one narrative) more than Example A (single clear thread).",
+  "judgeCostUsd": 0.011883,
+  "totalCostUsd": 0.178518,
+  "timestamp": "2026-02-15T20:15:58.542Z"
+}

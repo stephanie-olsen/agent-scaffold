@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-10k-100k-r2",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 2,
+  "foldInputTokens": 89988,
+  "tailTokens": 9073,
+  "summaryChars": 3868,
+  "summaryTokensEst": 967,
+  "compressionRatio": 10,
+  "foldLatencyMs": 36240,
+  "foldTokensIn": 13335,
+  "foldTokensOut": 1282,
+  "foldCostUsd": 0.059235,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Information is complete and topics are clearly separated with brackets, which helps orientation. However, the agent would need to parse 6 different workstreams to figure out what's actually active vs. done. Most topics read as completed work rather than active threads requiring continuation. The only clear next action is 'test-hybridSearch-broken' in exploration queue. An agent waking up would know what happened but spend time figuring out what to do next.",
+  "judgeCostUsd": 0.006957,
+  "totalCostUsd": 0.066192,
+  "timestamp": "2026-02-15T20:01:28.299Z"
+}

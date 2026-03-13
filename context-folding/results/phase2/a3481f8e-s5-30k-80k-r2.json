@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s5-30k-80k-r2",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 2,
+  "foldInputTokens": 50035,
+  "tailTokens": 29788,
+  "summaryChars": 986,
+  "summaryTokensEst": 247,
+  "compressionRatio": 2.7,
+  "foldLatencyMs": 9568,
+  "foldTokensIn": 16191,
+  "foldTokensOut": 293,
+  "foldCostUsd": 0.052968,
+  "judgeScore": 1.5,
+  "judgeReasoning": "This appears to be a mid-conversation code review fragment, not a summary. An agent waking up with this would have no idea what project they're working on, what the broader context is, or what to do next. It's a single technical exchange about hook registration logic, not a workable summary of agent state. There's no 'what we're doing', 'what's done', or 'next steps' — just one unresolved question about config.",
+  "judgeCostUsd": 0.00495,
+  "totalCostUsd": 0.057918000000000004,
+  "timestamp": "2026-02-15T20:19:26.088Z"
+}

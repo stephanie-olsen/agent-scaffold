@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-20k-65k-r3",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 50379,
+  "tailTokens": 14460,
+  "summaryChars": 4380,
+  "summaryTokensEst": 1095,
+  "compressionRatio": 4.2,
+  "foldLatencyMs": 33163,
+  "foldTokensIn": 15328,
+  "foldTokensOut": 1196,
+  "foldCostUsd": 0.063924,
+  "judgeScore": 4,
+  "judgeReasoning": "Strong separation of completed vs active topics makes orientation easy. Clear what's done (6 completed topics), what's pending (adversarial research decision), and what state the agent is in (just got web-reader results, deciding on queuing). Minor weakness: the completed topics section is dense—could be slightly more scannable—but the active/pending distinction compensates well. Agent could immediately continue the adversarial research thread.",
+  "judgeCostUsd": 0.00693,
+  "totalCostUsd": 0.070854,
+  "timestamp": "2026-02-15T19:45:01.930Z"
+}

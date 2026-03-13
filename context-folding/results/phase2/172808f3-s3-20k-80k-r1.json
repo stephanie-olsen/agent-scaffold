@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s3-20k-80k-r1",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 59888,
+  "tailTokens": 19785,
+  "summaryChars": 3070,
+  "summaryTokensEst": 768,
+  "compressionRatio": 3.9,
+  "foldLatencyMs": 35243,
+  "foldTokensIn": 10690,
+  "foldTokensOut": 1088,
+  "foldCostUsd": 0.04839,
+  "judgeScore": 4,
+  "judgeReasoning": "Well-structured multi-topic summary with clear separation using topic tags. Each workstream is distinct and actionable. Minor weaknesses: some topics are purely historical (interview prep, hop decay research) with no clear next steps, and the resumeMessage bug fix status is ambiguous ('still needs testing' but unclear if agent should test it now). The active work (paper queue enforcement, compaction strategy options) is clear enough to continue, but a few stale threads add minor noise.",
+  "judgeCostUsd": 0.006357,
+  "totalCostUsd": 0.054747000000000004,
+  "timestamp": "2026-02-15T20:16:45.614Z"
+}

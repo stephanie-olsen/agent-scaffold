@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-30k-80k-r2",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 2,
+  "foldInputTokens": 40025,
+  "tailTokens": 29884,
+  "summaryChars": 2374,
+  "summaryTokensEst": 594,
+  "compressionRatio": 2.6,
+  "foldLatencyMs": 15072,
+  "foldTokensIn": 2299,
+  "foldTokensOut": 639,
+  "foldCostUsd": 0.016482,
+  "judgeScore": 2,
+  "judgeReasoning": "This summary captures a specific moment of self-diagnosis (outbox failure) but provides no context for what the agent was doing before or should do next. A newly-woken agent would know books were integrated and concepts explored, but not why, for what purpose, or what active work depends on this. The fold marker '[fold:0-9]' suggests this is a fragment of a longer conversation, making it even less self-contained.",
+  "judgeCostUsd": 0.005889,
+  "totalCostUsd": 0.022371000000000002,
+  "timestamp": "2026-02-15T19:43:32.539Z"
+}

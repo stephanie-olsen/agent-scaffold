@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-20k-80k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 60036,
+  "tailTokens": 19941,
+  "summaryChars": 5336,
+  "summaryTokensEst": 1334,
+  "compressionRatio": 3.8,
+  "foldLatencyMs": 49590,
+  "foldTokensIn": 12879,
+  "foldTokensOut": 1781,
+  "foldCostUsd": 0.065352,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Information is complete and topics are clearly separated, which is good. However, the agent would need to parse 12 distinct topics to figure out what's actively in progress vs. what's resolved. The most actionable items (Puppeteer installation, memory compaction practice, heartbeat timing) are buried among completed discussions. A stronger summary would front-load active work: 'Currently: poetry pipeline running (8 queued), heartbeat at 60m (reverting tonight), Puppeteer ready for Discord setup. Token budget: switched to Sonnet for cron, monitoring usage.' The chronological heartbeat entries add context but dilute focus—what matters is current state, not that there were three heartbeats.",
+  "judgeCostUsd": 0.008838,
+  "totalCostUsd": 0.07418999999999999,
+  "timestamp": "2026-02-15T19:46:00.337Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-10k-100k-r2",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 2,
+  "foldInputTokens": 90053,
+  "tailTokens": 9889,
+  "summaryChars": 5313,
+  "summaryTokensEst": 1328,
+  "compressionRatio": 8.9,
+  "foldLatencyMs": 48702,
+  "foldTokensIn": 33066,
+  "foldTokensOut": 1495,
+  "foldCostUsd": 0.121623,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent separation of completed vs active work. The 6 completed topics are clearly closed and won't distract. The active book pipeline section is detailed and actionable: clear what's done (audit, easy fixes, subagent spawned), what's in progress (reconciliation script), and what's running in background (RIF experiment). The pending-action block provides perfect context for immediate continuation. Only minor weakness: could explicitly state 'next step: finish reconciliation script' but it's strongly implied.",
+  "judgeCostUsd": 0.008652,
+  "totalCostUsd": 0.130275,
+  "timestamp": "2026-02-15T19:50:31.841Z"
+}

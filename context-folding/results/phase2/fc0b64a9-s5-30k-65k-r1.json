@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-30k-65k-r1",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 35321,
+  "tailTokens": 29166,
+  "summaryChars": 1802,
+  "summaryTokensEst": 451,
+  "compressionRatio": 2.2,
+  "foldLatencyMs": 11984,
+  "foldTokensIn": 2299,
+  "foldTokensOut": 475,
+  "foldCostUsd": 0.014022,
+  "judgeScore": 2,
+  "judgeReasoning": "This summary demonstrates the exact problem it's trying to fix — it's a meta-commentary about not surfacing work rather than a usable summary of the work itself. An agent waking up with this would know it integrated 'Weapons of the Weak' and completed an experiment, but has no idea what those concepts mean, why they matter, or what to do next. The self-critique ('I was lazy', 'that's on me') is noise that doesn't help continuation. A 2 because the raw information is present but buried in apology-framing that makes it harder to parse than a straightforward summary would be.",
+  "judgeCostUsd": 0.006042,
+  "totalCostUsd": 0.020064,
+  "timestamp": "2026-02-15T19:42:23.757Z"
+}

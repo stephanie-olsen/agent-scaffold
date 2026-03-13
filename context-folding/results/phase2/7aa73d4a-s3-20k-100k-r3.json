@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-20k-100k-r3",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 79794,
+  "tailTokens": 19669,
+  "summaryChars": 6060,
+  "summaryTokensEst": 1515,
+  "compressionRatio": 4.7,
+  "foldLatencyMs": 52500,
+  "foldTokensIn": 16367,
+  "foldTokensOut": 1860,
+  "foldCostUsd": 0.077001,
+  "judgeScore": 2.5,
+  "judgeReasoning": "Information is complete and accurate, but organization makes it hard to use. Nine topics are listed sequentially without clear prioritization or separation of what's active vs. complete. An agent waking up would need to parse 6K characters across memory strategy, SOUL updates, book pipeline, MoltCircle pivot, Puppeteer install, token crisis, identity questions, poetry responses, Sartre processing, image discussion, consciousness exploration, and background loop implementation to figure out what to do next. The background thinking loop (current_thinking.md running every 5min) is buried in topic 11 but seems like active infrastructure. No clear 'what matters now' signal.",
+  "judgeCostUsd": 0.008793,
+  "totalCostUsd": 0.085794,
+  "timestamp": "2026-02-15T19:53:33.196Z"
+}

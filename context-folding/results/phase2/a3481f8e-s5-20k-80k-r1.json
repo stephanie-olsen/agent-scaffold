@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s5-20k-80k-r1",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 63616,
+  "tailTokens": 16207,
+  "summaryChars": 1101,
+  "summaryTokensEst": 275,
+  "compressionRatio": 4.9,
+  "foldLatencyMs": 11679,
+  "foldTokensIn": 26047,
+  "foldTokensOut": 281,
+  "foldCostUsd": 0.082356,
+  "judgeScore": 2,
+  "judgeReasoning": "This is a fragment of a conversation about graph node file management, not a workable summary. An agent waking up with only this would have no idea what system they're working on, what the broader context is, or what to do next. The three numbered questions at the end suggest this was mid-discussion, not a summary of completed work. Missing: what project this relates to, what problem prompted this discussion, what (if anything) was decided or done.",
+  "judgeCostUsd": 0.004848,
+  "totalCostUsd": 0.087204,
+  "timestamp": "2026-02-15T20:17:11.342Z"
+}

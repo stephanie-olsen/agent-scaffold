@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-30k-65k-r3",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 35321,
+  "tailTokens": 29166,
+  "summaryChars": 2518,
+  "summaryTokensEst": 630,
+  "compressionRatio": 2.2,
+  "foldLatencyMs": 17093,
+  "foldTokensIn": 2299,
+  "foldTokensOut": 725,
+  "foldCostUsd": 0.017772,
+  "judgeScore": 2,
+  "judgeReasoning": "This summary is a meta-conversation about outbox usage, not a workable context for continuing work. An agent waking up with this would know some books were sourced and some concepts were explored, but wouldn't know what to DO next or why any of this matters. The outbox at the end helps slightly, but the bulk of the summary is self-critique rather than actionable state. The agent would need to ask 'what was I working on?' before proceeding.",
+  "judgeCostUsd": 0.006267,
+  "totalCostUsd": 0.024038999999999998,
+  "timestamp": "2026-02-15T19:42:58.374Z"
+}

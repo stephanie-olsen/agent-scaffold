@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-10k-65k-gemini-3-flash-r1",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 54766,
+  "tailTokens": 9721,
+  "summaryChars": 2241,
+  "summaryTokensEst": 560,
+  "compressionRatio": 6.4,
+  "foldLatencyMs": 12667,
+  "foldTokensIn": 17444,
+  "foldTokensOut": 617,
+  "foldCostUsd": 0.0019912000000000003,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent separation of completed vs active work. The agent can immediately continue: monitor RIF experiment (1hr ETA), implement supersedes edge (currently mapping dependencies), then tackle consolidation changes. The four topics are clearly delineated with brackets. Minor deduction: could be slightly more explicit about priority order (RIF monitoring is time-sensitive, supersedes is in-progress, consolidation is next), but the active-topic framing makes this reasonably clear.",
+  "judgeCostUsd": 0.005688,
+  "totalCostUsd": 0.007679200000000001,
+  "timestamp": "2026-02-15T21:20:12.525Z"
+}

@@ -1,0 +1,25 @@
+{
+  "session": "172808f3-017d-4515-8814-41d22bc69ecb",
+  "sessionType": "conversational",
+  "strategy": "s5",
+  "model": "sonnet",
+  "mode": "snapshot",
+  "promptStyle": "conservative",
+  "snapshot": {
+    "threshold": 0.6,
+    "originalTokens": 90110,
+    "foldedTokens": 19990,
+    "compressionRatio": 4.5077538769384695,
+    "foldLatencyMs": 1,
+    "foldTokensIn": 18298,
+    "foldTokensOut": 100,
+    "plan": {
+      "action": "unified-folding",
+      "groups": 1,
+      "summarizedCount": 206,
+      "keptCount": 93
+    }
+  },
+  "evaluation": null,
+  "timestamp": "2026-02-15T16:14:22.632Z"
+}

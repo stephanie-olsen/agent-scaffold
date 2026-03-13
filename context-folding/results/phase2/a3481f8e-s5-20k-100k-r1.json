@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s5-20k-100k-r1",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 79809,
+  "tailTokens": 19252,
+  "summaryChars": 42,
+  "summaryTokensEst": 11,
+  "compressionRatio": 5.2,
+  "foldLatencyMs": 2281,
+  "foldTokensIn": 31359,
+  "foldTokensOut": 10,
+  "foldCostUsd": 0.094227,
+  "judgeScore": 1,
+  "judgeReasoning": "This summary is completely unusable. It contains only 'Build done. Now hard restart' with no context about what was built, why a restart is needed, what the agent was working on, or what to do after restarting. An agent waking up with this would have zero actionable information and would need to start from scratch or ask clarifying questions about everything.",
+  "judgeCostUsd": 0.003786,
+  "totalCostUsd": 0.098013,
+  "timestamp": "2026-02-15T20:17:50.048Z"
+}

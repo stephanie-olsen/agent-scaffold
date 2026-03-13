@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-10k-65k-gemini-3-flash-r3",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 54766,
+  "tailTokens": 9721,
+  "summaryChars": 2105,
+  "summaryTokensEst": 526,
+  "compressionRatio": 6.4,
+  "foldLatencyMs": 18089,
+  "foldTokensIn": 17444,
+  "foldTokensOut": 582,
+  "foldCostUsd": 0.0019772,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent separation of completed vs. active work. The two active topics (RIF experiment and graph revision) are clearly distinguished with specific states: experiment running with 3 workers, 1 hour ETA; graph work at 'mapping dependencies' stage. Next steps are implicit but clear (monitor experiment, complete dependency mapping). Only minor weakness: could be slightly more explicit about what to do after dependency mapping completes.",
+  "judgeCostUsd": 0.005442,
+  "totalCostUsd": 0.0074192,
+  "timestamp": "2026-02-15T21:20:52.541Z"
+}

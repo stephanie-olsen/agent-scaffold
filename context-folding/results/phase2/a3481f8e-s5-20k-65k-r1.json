@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s5-20k-65k-r1",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 45054,
+  "tailTokens": 19105,
+  "summaryChars": 1187,
+  "summaryTokensEst": 297,
+  "compressionRatio": 3.4,
+  "foldLatencyMs": 9802,
+  "foldTokensIn": 16191,
+  "foldTokensOut": 334,
+  "foldCostUsd": 0.053583,
+  "judgeScore": 1.5,
+  "judgeReasoning": "This is a mid-conversation technical explanation about hook registration logic, not a compaction summary. It contains no context about what the agent was doing, what goals were being pursued, or what to do next. An agent waking up with only this would have no idea what work was in progress or why this hook discussion mattered. This appears to be a compaction system error — it extracted a single message instead of summarizing the conversation.",
+  "judgeCostUsd": 0.004944,
+  "totalCostUsd": 0.058526999999999996,
+  "timestamp": "2026-02-15T20:16:12.255Z"
+}

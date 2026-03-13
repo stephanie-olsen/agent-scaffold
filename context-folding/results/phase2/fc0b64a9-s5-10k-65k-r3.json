@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-10k-65k-r3",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 54766,
+  "tailTokens": 9721,
+  "summaryChars": 411,
+  "summaryTokensEst": 103,
+  "compressionRatio": 6.7,
+  "foldLatencyMs": 5805,
+  "foldTokensIn": 17452,
+  "foldTokensOut": 102,
+  "foldCostUsd": 0.053886,
+  "judgeScore": 2,
+  "judgeReasoning": "This appears to be a mid-conversation fragment about implementing a revision mechanism, not a summary of completed work or active state. The agent would have no context about what system this is for, what problem prompted the revision mechanism, what's already built, or what to do after implementing these three components. It reads like someone's notes during a design discussion, not a handoff document.",
+  "judgeCostUsd": 0.004032,
+  "totalCostUsd": 0.057918000000000004,
+  "timestamp": "2026-02-15T19:35:18.094Z"
+}

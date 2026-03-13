@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-20k-100k-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 2,
+  "foldInputTokens": 79794,
+  "tailTokens": 19669,
+  "summaryChars": 4807,
+  "summaryTokensEst": 1202,
+  "compressionRatio": 4.8,
+  "foldLatencyMs": 42928,
+  "foldTokensIn": 16367,
+  "foldTokensOut": 1693,
+  "foldCostUsd": 0.074496,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Summary contains all major workstreams and is well-organized with clear topic labels. However, it's purely historical—reads like a changelog rather than a working context. An agent waking up would know what happened but not what to do next. No active tasks are highlighted (e.g., 'Being and Nothingness summarizer still running', 'background-thinking cron now active'). The 14 topics, while separated, create cognitive load without clear prioritization of what matters now vs. what's complete.",
+  "judgeCostUsd": 0.007731,
+  "totalCostUsd": 0.08222700000000001,
+  "timestamp": "2026-02-15T19:49:42.588Z"
+}

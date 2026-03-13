@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-10k-65k-haiku-r2",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 54766,
+  "tailTokens": 9721,
+  "summaryChars": 5942,
+  "summaryTokensEst": 1486,
+  "compressionRatio": 5.8,
+  "foldLatencyMs": 23060,
+  "foldTokensIn": 17459,
+  "foldTokensOut": 1690,
+  "foldCostUsd": 0.0207272,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Information is complete and well-organized by topic, but the agent would need to re-orient on priorities. The RIF experiment is clearly active (running, ~1hr ETA), but the 'pending-action' section lists 4 implementation tasks without indicating which is next or most urgent. The supersedes edge work is mentioned twice (once in graph-edge section, once in pending-action) without clear status — was the agent 'about to map dependencies' or still planning? A busy agent needs to know: finish watching RIF experiment, THEN tackle supersedes audit, or start audit now while experiment runs?",
+  "judgeCostUsd": 0.008967,
+  "totalCostUsd": 0.0296942,
+  "timestamp": "2026-02-15T21:17:22.213Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-10k-65k-r3",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 54766,
+  "tailTokens": 9721,
+  "summaryChars": 5019,
+  "summaryTokensEst": 1255,
+  "compressionRatio": 6,
+  "foldLatencyMs": 43819,
+  "foldTokensIn": 17459,
+  "foldTokensOut": 1313,
+  "foldCostUsd": 0.072072,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent separation of completed vs active work. Agent could immediately continue the edge type dependency mapping and respond to user's consolidation/n² concerns. The one active topic is crystal clear: three growth mechanisms proposed, user feedback on each, assistant was mid-grep when paused. Minor: could be slightly more explicit about what the truncated grep output contained, but context is sufficient to continue.",
+  "judgeCostUsd": 0.007326,
+  "totalCostUsd": 0.079398,
+  "timestamp": "2026-02-15T19:46:25.261Z"
+}

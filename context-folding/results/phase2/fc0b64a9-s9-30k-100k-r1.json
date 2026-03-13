@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-30k-100k-r1",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 30000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 80381,
+  "tailTokens": 19561,
+  "summaryChars": 6335,
+  "summaryTokensEst": 1584,
+  "compressionRatio": 4.7,
+  "foldLatencyMs": 52643,
+  "foldTokensIn": 21418,
+  "foldTokensOut": 1708,
+  "foldCostUsd": 0.089874,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Active work is clear (writing consolidation handler, RIF experiment running), and the completed topics are well-separated. However, the summary is dense with 7 completed topics when only 1-2 are relevant to continuing work. The pending-action section accurately captures state but is buried after 5K chars of completed context. An agent could orient and continue but would spend time parsing irrelevant detail first.",
+  "judgeCostUsd": 0.009198,
+  "totalCostUsd": 0.099072,
+  "timestamp": "2026-02-15T20:04:38.907Z"
+}

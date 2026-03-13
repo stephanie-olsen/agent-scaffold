@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-20k-65k-r3",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 45122,
+  "tailTokens": 19744,
+  "summaryChars": 4751,
+  "summaryTokensEst": 1188,
+  "compressionRatio": 3.1,
+  "foldLatencyMs": 43064,
+  "foldTokensIn": 10461,
+  "foldTokensOut": 1505,
+  "foldCostUsd": 0.053958,
+  "judgeScore": 3,
+  "judgeReasoning": "Information is complete and accurate, but organization makes it hard to orient. Nine topics are presented chronologically rather than by active status. An agent would need to parse the entire summary to find what's actually in progress (Discord setup with Puppeteer installed, poems in queue, books in queue, budget monitoring) versus what's resolved (memory practices established, config changes applied). Next steps are implicit rather than explicit—no clear 'what to do now' section separating active work from completed context.",
+  "judgeCostUsd": 0.007554,
+  "totalCostUsd": 0.061512,
+  "timestamp": "2026-02-15T19:45:03.338Z"
+}

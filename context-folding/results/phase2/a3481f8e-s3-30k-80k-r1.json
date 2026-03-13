@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-30k-80k-r1",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 50035,
+  "tailTokens": 29788,
+  "summaryChars": 2249,
+  "summaryTokensEst": 562,
+  "compressionRatio": 2.7,
+  "foldLatencyMs": 20499,
+  "foldTokensIn": 7561,
+  "foldTokensOut": 747,
+  "foldCostUsd": 0.033888,
+  "judgeScore": 4,
+  "judgeReasoning": "Four distinct workstreams are clearly separated with topic labels, making it easy to identify what was done in each area. However, there are no explicit 'next steps' or 'in progress' markers — the agent would need to infer what to do next (e.g., monitor next compaction for Opus 4.6, verify vulnerable-node-review runs). The summary is information-dense but lacks actionable orientation for immediate continuation.",
+  "judgeCostUsd": 0.005652,
+  "totalCostUsd": 0.03954,
+  "timestamp": "2026-02-15T20:07:55.901Z"
+}

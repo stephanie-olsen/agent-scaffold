@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-10k-100k-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 2,
+  "foldInputTokens": 89528,
+  "tailTokens": 9935,
+  "summaryChars": 5870,
+  "summaryTokensEst": 1468,
+  "compressionRatio": 8.8,
+  "foldLatencyMs": 57174,
+  "foldTokensIn": 45575,
+  "foldTokensOut": 1693,
+  "foldCostUsd": 0.16212,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Information is complete and chronologically organized, but the agent would need to parse 9 fold sections spanning poetry, philosophy, cost management, and technical setup to orient. Active work is present (background thinking loop just created, Sartre notes done, poems in queue) but buried among completed context. A busy agent waking up would spend time reconstructing 'what matters now' from historical narrative rather than immediately acting.",
+  "judgeCostUsd": 0.008451,
+  "totalCostUsd": 0.17057099999999997,
+  "timestamp": "2026-02-15T20:06:51.055Z"
+}

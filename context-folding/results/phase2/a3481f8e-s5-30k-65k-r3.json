@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s5-30k-65k-r3",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 34187,
+  "tailTokens": 29972,
+  "summaryChars": 1643,
+  "summaryTokensEst": 411,
+  "compressionRatio": 2.2,
+  "foldLatencyMs": 13762,
+  "foldTokensIn": 4319,
+  "foldTokensOut": 476,
+  "foldCostUsd": 0.020097,
+  "judgeScore": 2,
+  "judgeReasoning": "This summary captures a single technical issue (wrong model in post-compaction hook) but is formatted as a frozen mid-action snapshot rather than a usable state. The agent wakes up inside a <think> block and attempt_completion that already happened. There's no clear 'what I should do next' — just a description of what was discovered. To continue, the agent would need to re-parse this entire block to extract that it should change line 17, rebuild hooks, and restart the server. A usable summary would state: 'Issue found: post-compaction hook uses Sonnet 4.5 instead of Opus 4.6. Next: change line 17 in handler.ts, rebuild, restart.'",
+  "judgeCostUsd": 0.006405,
+  "totalCostUsd": 0.026502,
+  "timestamp": "2026-02-15T20:18:56.649Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-30k-100k-r3",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 30000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 80381,
+  "tailTokens": 19561,
+  "summaryChars": 4155,
+  "summaryTokensEst": 1039,
+  "compressionRatio": 4.9,
+  "foldLatencyMs": 38935,
+  "foldTokensIn": 21418,
+  "foldTokensOut": 1166,
+  "foldCostUsd": 0.081744,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent single-topic focus with clear active work. The RIF suppression experiment is unambiguous: what's running (194 configs, 3 workers), what's done (C0 baseline), what to do next (monitor completion, share results). Completed topics are cleanly separated and don't interfere with the active work. The pending-action section makes it trivial to resume. Only minor deduction: the graph consolidation work in completed-topic 4 could potentially be confused as active, but the pending-action clarifies priorities well.",
+  "judgeCostUsd": 0.007452,
+  "totalCostUsd": 0.089196,
+  "timestamp": "2026-02-15T20:06:27.037Z"
+}

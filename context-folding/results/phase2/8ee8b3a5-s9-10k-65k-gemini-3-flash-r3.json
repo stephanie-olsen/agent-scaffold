@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-10k-65k-gemini-3-flash-r3",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 54908,
+  "tailTokens": 9931,
+  "summaryChars": 2540,
+  "summaryTokensEst": 635,
+  "compressionRatio": 6.2,
+  "foldLatencyMs": 14848,
+  "foldTokensIn": 23888,
+  "foldTokensOut": 692,
+  "foldCostUsd": 0.0026656,
+  "judgeScore": 3.5,
+  "judgeReasoning": "The summary clearly separates six distinct topics and identifies what's active vs. completed. The DeepSeek experiment status is actionable (rerunning after API error). However, the pending-action section is awkward—it quotes the user's question but doesn't clarify what the agent discovered or needs to do next about the thinking parameter discrepancy. An agent would know to continue investigating but wouldn't immediately know the current finding (that there's a mismatch between config and header). The completed topics are well-compressed but take up space without immediate utility.",
+  "judgeCostUsd": 0.006201,
+  "totalCostUsd": 0.0088666,
+  "timestamp": "2026-02-15T21:18:59.592Z"
+}

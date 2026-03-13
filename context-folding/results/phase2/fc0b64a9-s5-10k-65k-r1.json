@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-10k-65k-r1",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 54766,
+  "tailTokens": 9721,
+  "summaryChars": 205,
+  "summaryTokensEst": 51,
+  "compressionRatio": 6.7,
+  "foldLatencyMs": 4287,
+  "foldTokensIn": 17452,
+  "foldTokensOut": 65,
+  "foldCostUsd": 0.053331,
+  "judgeScore": 1,
+  "judgeReasoning": "This is not a summary — it's a single incomplete action mid-execution. The agent has no context about what project they're working on, what the goal was, what 'supersedes' relates to, or what to do after this grep. They would need to start completely over.",
+  "judgeCostUsd": 0.003681,
+  "totalCostUsd": 0.057012,
+  "timestamp": "2026-02-15T19:35:01.016Z"
+}

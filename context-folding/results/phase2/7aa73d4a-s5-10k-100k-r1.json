@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-10k-100k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 89528,
+  "tailTokens": 9935,
+  "summaryChars": 5706,
+  "summaryTokensEst": 1427,
+  "compressionRatio": 8.8,
+  "foldLatencyMs": 53709,
+  "foldTokensIn": 45575,
+  "foldTokensOut": 1636,
+  "foldCostUsd": 0.161265,
+  "judgeScore": 2.5,
+  "judgeReasoning": "Information is complete and accurate, but organization makes it hard to act on. Six distinct workstreams (memory system, MoltCircle, poetry practice, background thinking loop, reading queue, cost optimization) are woven chronologically rather than separated by topic. An agent would need to parse 5700 chars and mentally separate threads before knowing what to do next. The fold structure helps somewhat, but 'what's actively in progress' vs 'what's done' requires careful reading across all sections.",
+  "judgeCostUsd": 0.008688,
+  "totalCostUsd": 0.169953,
+  "timestamp": "2026-02-15T20:05:48.635Z"
+}

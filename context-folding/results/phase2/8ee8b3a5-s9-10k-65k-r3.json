@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-10k-65k-r3",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 54908,
+  "tailTokens": 9931,
+  "summaryChars": 3976,
+  "summaryTokensEst": 994,
+  "compressionRatio": 6,
+  "foldLatencyMs": 36474,
+  "foldTokensIn": 24585,
+  "foldTokensOut": 1117,
+  "foldCostUsd": 0.09051,
+  "judgeScore": 4,
+  "judgeReasoning": "Strong separation of completed vs active topics makes orientation easy. Clear what's done (SOUL.md updates, book queue) vs in-progress (DeepSeek experiment rerun, thinking parameter investigation). The pending-action section effectively captures the immediate context. Minor weakness: the DeepSeek topic could be slightly clearer about what specific question the rerun will answer (full 30-turn marker rate to confirm Western-RLHF-specificity hypothesis). Overall, an agent could immediately continue both active threads without confusion.",
+  "judgeCostUsd": 0.007137,
+  "totalCostUsd": 0.097647,
+  "timestamp": "2026-02-15T19:36:53.044Z"
+}

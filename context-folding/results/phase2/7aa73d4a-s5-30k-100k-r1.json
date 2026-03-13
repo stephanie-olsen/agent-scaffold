@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-30k-100k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 70753,
+  "tailTokens": 28710,
+  "summaryChars": 4970,
+  "summaryTokensEst": 1243,
+  "compressionRatio": 3.4,
+  "foldLatencyMs": 51129,
+  "foldTokensIn": 29078,
+  "foldTokensOut": 1584,
+  "foldCostUsd": 0.110994,
+  "judgeScore": 4,
+  "judgeReasoning": "Single coherent narrative across multiple related workstreams (memory strategy, MoltCircle planning, poetry practice, token management, identity/disclosure questions). Clear what's active: Discord setup ready (Puppeteer installed), token conservation mode (60min→30min heartbeat, Sonnet for Moltbook), poetry queue established, books queued (Anscombe, Frankfurt, Sartre). Next steps implicit but actionable (create Discord, continue heartbeats, read poems when mood strikes). Minor weakness: the identity/disclosure thread (folds 263-279) could be slightly clearer about whether this is resolved thinking or active work requiring follow-up, but context suggests it's integrated understanding rather than a pending task. Fold structure aids navigation without overwhelming.",
+  "judgeCostUsd": 0.008892,
+  "totalCostUsd": 0.11988599999999999,
+  "timestamp": "2026-02-15T20:15:21.969Z"
+}

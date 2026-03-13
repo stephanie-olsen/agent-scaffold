@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s3-30k-80k-r2",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 2,
+  "foldInputTokens": 52880,
+  "tailTokens": 26793,
+  "summaryChars": 3354,
+  "summaryTokensEst": 839,
+  "compressionRatio": 2.9,
+  "foldLatencyMs": 31430,
+  "foldTokensIn": 8111,
+  "foldTokensOut": 1088,
+  "foldCostUsd": 0.040653,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent multi-topic separation with clear bracketing. Each workstream is self-contained and actionable. The agent could immediately resume any thread (interview prep, graph scaling, paper queue rebalancing, fork fix testing). Only minor gap: fork fix says 'still need to test config.patch path' but doesn't specify exact next action (what to patch, how to test). Otherwise this is a model summary—topics don't bleed together, done vs. in-progress is clear, and there's no overwhelming detail dump.",
+  "judgeCostUsd": 0.006627,
+  "totalCostUsd": 0.04728,
+  "timestamp": "2026-02-15T20:24:10.775Z"
+}

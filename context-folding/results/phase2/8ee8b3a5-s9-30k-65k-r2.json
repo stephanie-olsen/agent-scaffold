@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-30k-65k-r2",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 35019,
+  "tailTokens": 29820,
+  "summaryChars": 2216,
+  "summaryTokensEst": 554,
+  "compressionRatio": 2.1,
+  "foldLatencyMs": 16306,
+  "foldTokensIn": 3369,
+  "foldTokensOut": 580,
+  "foldCostUsd": 0.018807,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Agent could continue work but with some inefficiency. The three active questions are clear (pending-improvements update, cold experiment connection, file modification check), and the directives-as-repertoire finding is useful context. However, the summary doesn't indicate whether the pending-improvements update was actually completed or still needs doing, and the cold experiment connection remains vague ('not yet established'). Agent would need to re-check file state and re-synthesize the research findings rather than having clear next steps.",
+  "judgeCostUsd": 0.00558,
+  "totalCostUsd": 0.024387,
+  "timestamp": "2026-02-15T19:49:44.941Z"
+}

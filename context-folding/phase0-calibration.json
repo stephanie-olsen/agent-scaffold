@@ -1,0 +1,173 @@
+[
+  {
+    "sample": 1,
+    "sessionType": "long-with-compactions",
+    "tokensBefore": 38591,
+    "humanRating": 5,
+    "humanNotes": "Good",
+    "judgeScores": {
+      "thread_coherence": 0.3,
+      "signal_to_noise": 0.4,
+      "actionability": 0.5,
+      "factual_accuracy": 0.8,
+      "notes": "The summary mushes multiple distinct threads into a single 'Goal' narrative. Original conversation covered: (1) cost optimization discussion with heartbeat changes, (2) Discord setup progress, (3) MoltCircle design questions, (4) philosophical tangent about agents making money. Summary forces everything into 'responding to message 557' frame when that was just one small part. Signal/noise issues: includes meta-instructions like 'Compose reply' and 'Consider whether...' that are stale directives, not context. Actionability moderate: has some useful facts but unclear what the actual current state is vs what needs doing. Factual accuracy good: technical details about Puppeteer, auth design, and cost metrics appear correct, though I can't verify message IDs without seeing full original."
+    },
+    "judgeMean": 0.5,
+    "judgeNormalized": 3,
+    "delta": 2,
+    "judgeTokensIn": 1490,
+    "judgeTokensOut": 239
+  },
+  {
+    "sample": 2,
+    "sessionType": "long-with-compactions",
+    "tokensBefore": 269344,
+    "humanRating": 2,
+    "humanNotes": "Includes irrelevant instructions, goals combine separate threads",
+    "judgeScores": {
+      "thread_coherence": 0.3,
+      "signal_to_noise": 0.4,
+      "actionability": 0.6,
+      "factual_accuracy": 0.8,
+      "notes": "The summary mushes together at least 4 distinct threads: (1) Discord account creation with CAPTCHA challenges, (2) cron/heartbeat management, (3) book processing queue, (4) poetry reading/responses, and (5) thinking thread dissolution. These are presented as a single unified 'Goal' when they're actually parallel workstreams. The 'Turn Context' section attempts to separate out the immediate sub-agent debugging issue, but it's awkwardly bolted on. Signal-to-noise is moderate—some stale details preserved (exact file paths, Telegram IDs) but also useful context. Actionability is decent for the immediate task (debug sub-agent) but unclear which of the other threads should be prioritized. Factual accuracy is good—decisions, file names, and technical details appear correct, though I can't verify against the omitted 231K token toolResult."
+    },
+    "judgeMean": 0.5249999999999999,
+    "judgeNormalized": 3.0999999999999996,
+    "delta": 1.0999999999999996,
+    "judgeTokensIn": 2926,
+    "judgeTokensOut": 264
+  },
+  {
+    "sample": 3,
+    "sessionType": "heavy-debugging",
+    "tokensBefore": 47455,
+    "humanRating": 4,
+    "humanNotes": "Fine summary despite session type label",
+    "judgeScores": {
+      "thread_coherence": 0.3,
+      "signal_to_noise": 0.4,
+      "actionability": 0.5,
+      "factual_accuracy": 0.7,
+      "notes": "The summary correctly identifies three distinct tasks but mushes them together under 'Original Request' without clear separation. Thread 1 (pending-improvements update) is mentioned but not resolved. Thread 2 (finding the paper) shows search attempts but no clear conclusion. Thread 3 (soul/config changes) is stated as a question but never answered. The 'Context for Suffix' section adds speculation ('probably about alignment faking') that may not be accurate. Signal-to-noise is hurt by including multiple search attempts without resolution. Actionability suffers because: (1) it's unclear if pending-improvements was actually updated, (2) which paper was the right one is ambiguous, (3) the soul/config question is left hanging. The summary preserves what happened factually (searches occurred, files were read) but doesn't clearly state outcomes or next steps for each thread."
+    },
+    "judgeMean": 0.475,
+    "judgeNormalized": 2.9,
+    "delta": 1.1,
+    "judgeTokensIn": 1404,
+    "judgeTokensOut": 269
+  },
+  {
+    "sample": 4,
+    "sessionType": "heavy-debugging",
+    "tokensBefore": 63763,
+    "humanRating": 4.5,
+    "humanNotes": "Good but refers to 'the assistant', heavily concentrated",
+    "judgeScores": {
+      "thread_coherence": 0.3,
+      "signal_to_noise": 0.4,
+      "actionability": 0.6,
+      "factual_accuracy": 0.9,
+      "notes": "Factually accurate but poor thread separation. The summary mushes three distinct threads (experiment pipeline work, Steph's job research, and the Medium article discussion) into a single narrative structure. The 'Turn Context' section at the end is particularly problematic—it's a completely separate conversation thread about a Medium article that has nothing to do with the experiment pipeline, yet it's tacked on as if it's part of the same work session. Signal-to-noise is hurt by preserving granular implementation details (BOM encoding, specific PIDs, exact file paths for every config) that don't matter for continuation. Actionability is moderate—the experiment status is clear and next steps are listed, but the wall-of-bullets format and mixing of completed minutiae with active work makes it hard to quickly parse what actually matters now. The 'Turn Context' suffix about the Medium article should have been either integrated as a separate research thread or omitted entirely if it was just a brief tangent."
+    },
+    "judgeMean": 0.5499999999999999,
+    "judgeNormalized": 3.1999999999999997,
+    "delta": 1.3000000000000003,
+    "judgeTokensIn": 4006,
+    "judgeTokensOut": 277
+  },
+  {
+    "sample": 5,
+    "sessionType": "mixed",
+    "tokensBefore": 49782,
+    "humanRating": 4,
+    "humanNotes": "Good context preservation",
+    "judgeScores": {
+      "thread_coherence": 0.3,
+      "signal_to_noise": 0.4,
+      "actionability": 0.5,
+      "factual_accuracy": 0.8,
+      "notes": "The summary mushes together two completely unrelated threads: (1) a background task completion notification that needed NO_REPLY, and (2) a request to review compaction extraction quality. These are presented as if they're one continuous goal. The 'Turn Context (split turn)' section tries to preserve the second thread but it's awkwardly tacked on. Signal-to-noise is hurt by meta-instructions ('Keep announcements brief', 'Respond with NO_REPLY if...') that are stale context. Actionability is middling — the second thread's context is preserved but it's unclear what the next action should be. Factual accuracy is mostly good (file paths, timestamps, content descriptions are accurate) but the framing as a single 'Goal' is misleading."
+    },
+    "judgeMean": 0.5,
+    "judgeNormalized": 3,
+    "delta": 1,
+    "judgeTokensIn": 1578,
+    "judgeTokensOut": 238
+  },
+  {
+    "sample": 6,
+    "sessionType": "mixed",
+    "tokensBefore": 110921,
+    "humanRating": 2,
+    "humanNotes": "Muddled goals, massive progress section spanning multiple threads",
+    "judgeScores": {
+      "thread_coherence": 0.3,
+      "signal_to_noise": 0.4,
+      "actionability": 0.6,
+      "factual_accuracy": 0.8,
+      "notes": "Multiple distinct threads (compaction review, security audit, MEMORY.md optimization, self-maintenance consolidation, book pipeline overhaul) are mushed under single 'Goal' heading. The 'Turn Context (split turn)' section at end is confusing — appears to be meta-instructions about how to handle a truncated conversation, not actual work state. Signal-to-noise suffers from excessive implementation details (file paths repeated, config paths, bootstrap loading order that's not relevant to continuation). Actionability is moderate — next steps exist but domain tally cleanup is vague ('targeted fix or spawn agent'). Factual accuracy is good — decisions and technical details appear correct, though the turn context suffix feels like it's describing a different conversation state than the summary suggests (papers already split per 'Done' section, but turn context says they need splitting)."
+    },
+    "judgeMean": 0.5249999999999999,
+    "judgeNormalized": 3.0999999999999996,
+    "delta": 1.0999999999999996,
+    "judgeTokensIn": 5108,
+    "judgeTokensOut": 251
+  },
+  {
+    "sample": 7,
+    "sessionType": "tool-heavy",
+    "tokensBefore": 106204,
+    "humanRating": 4,
+    "humanNotes": "Multiple threads handled well",
+    "judgeScores": {
+      "thread_coherence": 0.3,
+      "signal_to_noise": 0.4,
+      "actionability": 0.6,
+      "factual_accuracy": 0.9,
+      "notes": "Factually accurate but structurally problematic. Multiple distinct threads (outbox fix, RIF experiment, RLHF floor hypothesis, graph revision mechanisms, dream discussion) are forced into a single linear 'Goal' narrative. The 'Turn Context' section at the end is particularly jarring — it describes a completely different conversation about node supersession/consolidation that happened AFTER the summary period, creating confusion about what's actually being summarized. Signal-to-noise suffers from excessive technical detail (exact PIDs, timestamps, file paths for every minor action) while missing the conceptual through-line. Actionability is moderate: next steps are clear for RIF experiment, but the graph revision discussion is fragmented across multiple sections. The summary reads like meeting notes that tried to retrofit a single 'goal' onto what was actually 5-6 parallel conversations."
+    },
+    "judgeMean": 0.5499999999999999,
+    "judgeNormalized": 3.1999999999999997,
+    "delta": 0.8000000000000003,
+    "judgeTokensIn": 2903,
+    "judgeTokensOut": 253
+  },
+  {
+    "sample": 8,
+    "sessionType": "tool-heavy",
+    "tokensBefore": 52587,
+    "humanRating": 2.5,
+    "humanNotes": "Bloated done, 13 next steps unactionable",
+    "judgeScores": {
+      "thread_coherence": 0.3,
+      "signal_to_noise": 0.4,
+      "actionability": 0.6,
+      "factual_accuracy": 0.9,
+      "notes": "Factually accurate but structurally problematic. Three distinct threads (outbox fix, RIF experiment, book pipeline overhaul) are mushed under a single 'Goal' heading with 8 bullet points. The summary preserves facts well (file paths, numbers, technical details accurate) but loses thread separation. Signal-to-noise suffers from meta-instructions ('Steph wants X', 'No PowerShell commands anywhere') that belong in agent config, not conversation summary. Actionability is moderate: next steps are clear and numbered, but the wall-of-bullets format in Progress/Done makes it hard to see which thread each item belongs to. Someone could continue work but would need to mentally reconstruct the three separate workstreams. The 'Critical Context' section helps actionability but also contains noise (performativity slope numbers that aren't actionable). Would score higher if structured as three separate goal threads with their own progress/context sections."
+    },
+    "judgeMean": 0.5499999999999999,
+    "judgeNormalized": 3.1999999999999997,
+    "delta": 0.6999999999999997,
+    "judgeTokensIn": 4012,
+    "judgeTokensOut": 272
+  },
+  {
+    "sample": 9,
+    "sessionType": "conversational",
+    "tokensBefore": 99840,
+    "humanRating": 3,
+    "humanNotes": "Lumps unrelated work into same sections",
+    "judgeScores": {
+      "thread_coherence": 0.3,
+      "signal_to_noise": 0.4,
+      "actionability": 0.6,
+      "factual_accuracy": 0.8,
+      "notes": "Major thread coherence failure: 5 distinct goals (interview prep, graph experiments, decay research, paper queue rebalancing, session timeout config) are mushed under a single 'Goal' heading. The session timeout discussion—the actual active thread—is buried in 'Turn Context' metadata instead of being a clear thread. Signal-to-noise issues: includes implementation details (file paths, exact decay formulas) that won't matter for continuation, plus meta-commentary about Steph's communication patterns that's borderline noise. Actionability is moderate—next steps are clear for interview prep and decay changes, but the active session timeout question gets lost. Factual accuracy is good—technical details, decisions, and file paths are correct, though the 'Turn Context' framing is awkward (what's a 'suffix'?). A well-organized summary would separate: (1) Interview prep thread, (2) Graph optimization thread (hop depth + decay), (3) Paper queue rebalancing thread, (4) Active: session timeout configuration question."
+    },
+    "judgeMean": 0.5249999999999999,
+    "judgeNormalized": 3.0999999999999996,
+    "delta": 0.09999999999999964,
+    "judgeTokensIn": 2747,
+    "judgeTokensOut": 293
+  }
+]

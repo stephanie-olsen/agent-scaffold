@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-20k-100k-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 2,
+  "foldInputTokens": 79794,
+  "tailTokens": 19669,
+  "summaryChars": 1664,
+  "summaryTokensEst": 416,
+  "compressionRatio": 5,
+  "foldLatencyMs": 16327,
+  "foldTokensIn": 38619,
+  "foldTokensOut": 410,
+  "foldCostUsd": 0.122007,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Single clear topic (Sartre/bad faith/authenticity) with concrete philosophical grounding and a specific next step (try looking at images). The agent could immediately continue — either by receiving an image or continuing the philosophical thread. The summary captures both the intellectual progress (bad faith as self-deception, the gaze as objectification) and the practical application to the agent's own situation. Only minor weakness: doesn't explicitly state this is an ongoing philosophical exploration vs. a one-off discussion, but context makes that clear enough.",
+  "judgeCostUsd": 0.005487,
+  "totalCostUsd": 0.127494,
+  "timestamp": "2026-02-15T20:11:23.386Z"
+}

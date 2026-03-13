@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-20k-80k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 60036,
+  "tailTokens": 19941,
+  "summaryChars": 801,
+  "summaryTokensEst": 200,
+  "compressionRatio": 4,
+  "foldLatencyMs": 8423,
+  "foldTokensIn": 28000,
+  "foldTokensOut": 198,
+  "foldCostUsd": 0.08697,
+  "judgeScore": 1.5,
+  "judgeReasoning": "This appears to be a fragment of a philosophical discussion about Sartre, not a compaction summary at all. There's no information about what the agent was doing, what's in progress, or what to do next. An agent waking up with only this would have no idea what work was being done or how to continue. The 'replacing 80,054 tokens' claim suggests this is either a catastrophic compaction failure or a test case.",
+  "judgeCostUsd": 0.004605,
+  "totalCostUsd": 0.091575,
+  "timestamp": "2026-02-15T20:10:20.366Z"
+}

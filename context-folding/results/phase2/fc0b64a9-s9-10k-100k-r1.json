@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-10k-100k-r1",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 90053,
+  "tailTokens": 9889,
+  "summaryChars": 4649,
+  "summaryTokensEst": 1162,
+  "compressionRatio": 9.1,
+  "foldLatencyMs": 45043,
+  "foldTokensIn": 33066,
+  "foldTokensOut": 1349,
+  "foldCostUsd": 0.119433,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent separation of completed vs active work. The five completed topics are clearly closed-loop summaries. The active book pipeline section is detailed and actionable: clear what's broken (59 orphans, PowerShell on Linux), what's in progress (subagent converting scripts, reconciliation script being built), and what's next (finish script, run it, report). The RIF experiment background process is tracked. Only minor weakness: could be slightly more explicit about whether to prioritize book pipeline over waiting for RIF results, but context makes it clear book work continues while experiment runs.",
+  "judgeCostUsd": 0.008004,
+  "totalCostUsd": 0.127437,
+  "timestamp": "2026-02-15T19:49:37.258Z"
+}

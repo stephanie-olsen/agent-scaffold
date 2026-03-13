@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-30k-80k-r3",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 3,
+  "foldInputTokens": 51519,
+  "tailTokens": 28458,
+  "summaryChars": 2287,
+  "summaryTokensEst": 572,
+  "compressionRatio": 2.8,
+  "foldLatencyMs": 22601,
+  "foldTokensIn": 10926,
+  "foldTokensOut": 745,
+  "foldCostUsd": 0.043953,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent topic separation with clear bracketed headers makes it easy to distinguish five distinct workstreams. Each section captures what was done and why, with enough context to continue (e.g., 'Discord pivot' includes the principle established, 'poetry' includes the non-rigid approach decided). Minor weakness: no explicit 'next steps' section, so agent must infer priorities (likely Discord implementation and budget monitoring), but the recent budget crisis naturally signals urgency.",
+  "judgeCostUsd": 0.00558,
+  "totalCostUsd": 0.049533,
+  "timestamp": "2026-02-15T19:57:16.220Z"
+}

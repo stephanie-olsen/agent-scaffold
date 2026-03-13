@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s5-20k-65k-r3",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 45054,
+  "tailTokens": 19105,
+  "summaryChars": 3387,
+  "summaryTokensEst": 847,
+  "compressionRatio": 3.3,
+  "foldLatencyMs": 27887,
+  "foldTokensIn": 16191,
+  "foldTokensOut": 996,
+  "foldCostUsd": 0.063513,
+  "judgeScore": 2.5,
+  "judgeReasoning": "Contains accurate information across multiple workstreams (compaction extractions, graph bottleneck investigation, model upgrade, soul-evil hook analysis) but they're crammed into a chronological narrative without clear separation. An agent waking up would struggle to identify what's actively in progress vs. completed. The soul-evil investigation appears to be the active thread (ends mid-check for SOUL_EVIL.md file), but this is buried in group 9 of 10. No clear next steps or priorities.",
+  "judgeCostUsd": 0.0072,
+  "totalCostUsd": 0.070713,
+  "timestamp": "2026-02-15T20:16:55.572Z"
+}

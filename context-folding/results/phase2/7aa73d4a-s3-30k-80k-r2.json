@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-30k-80k-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 2,
+  "foldInputTokens": 51519,
+  "tailTokens": 28458,
+  "summaryChars": 4161,
+  "summaryTokensEst": 1040,
+  "compressionRatio": 2.7,
+  "foldLatencyMs": 40566,
+  "foldTokensIn": 10926,
+  "foldTokensOut": 1400,
+  "foldCostUsd": 0.053778,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Summary clearly separates 8 distinct topics with bracketed headers, making workstreams distinguishable. However, it's dense (4,161 chars, 8 topics) and lacks clear prioritization—the token budget crisis is buried as topic 8 despite being the most urgent active concern. An agent would spend time parsing to figure out what matters most. The 'what's next' is implicit rather than explicit (monitor budget, continue heartbeats at 60m intervals, process queued books/poems).",
+  "judgeCostUsd": 0.007368,
+  "totalCostUsd": 0.061146,
+  "timestamp": "2026-02-15T19:56:48.516Z"
+}

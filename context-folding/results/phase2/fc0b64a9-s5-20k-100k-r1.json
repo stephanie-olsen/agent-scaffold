@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-20k-100k-r1",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 80381,
+  "tailTokens": 19561,
+  "summaryChars": 1536,
+  "summaryTokensEst": 384,
+  "compressionRatio": 5,
+  "foldLatencyMs": 13401,
+  "foldTokensIn": 30050,
+  "foldTokensOut": 440,
+  "foldCostUsd": 0.09675,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Single clear topic (book pipeline audit). Agent knows exactly what was discovered (backlog gap, duplicates, no completion tracking) and has three specific next-step options to choose from. The numbered issues make it easy to orient. Only minor weakness: could explicitly state 'waiting for your direction' rather than ending with questions, but the options are actionable enough.",
+  "judgeCostUsd": 0.005052,
+  "totalCostUsd": 0.101802,
+  "timestamp": "2026-02-15T19:41:35.638Z"
+}

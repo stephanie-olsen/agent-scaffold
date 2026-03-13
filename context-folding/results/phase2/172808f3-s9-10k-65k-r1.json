@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s9-10k-65k-r1",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 54876,
+  "tailTokens": 9852,
+  "summaryChars": 5746,
+  "summaryTokensEst": 1437,
+  "compressionRatio": 5.8,
+  "foldLatencyMs": 21476,
+  "foldTokensIn": 22905,
+  "foldTokensOut": 1536,
+  "foldCostUsd": 0.024468,
+  "judgeScore": 4,
+  "judgeReasoning": "Strong separation of completed vs. active work. The one active topic (Runway interview prep) is crystal clear: what's done (questions drafted, system design doc with category 1 complete), what's next (skeleton answers for categories 2-5). The pending-action captures the interrupted conversation state well. Minor deduction: five completed topics create some cognitive load, though each is self-contained. The 'pending-action' framing is excellent — agent knows exactly where the conversation was cut off and can resume naturally.",
+  "judgeCostUsd": 0.00837,
+  "totalCostUsd": 0.032838,
+  "timestamp": "2026-02-15T21:11:56.162Z"
+}

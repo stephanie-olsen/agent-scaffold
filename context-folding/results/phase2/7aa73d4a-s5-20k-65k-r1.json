@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-20k-65k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 45122,
+  "tailTokens": 19744,
+  "summaryChars": 4608,
+  "summaryTokensEst": 1152,
+  "compressionRatio": 3.2,
+  "foldLatencyMs": 44493,
+  "foldTokensIn": 19846,
+  "foldTokensOut": 1424,
+  "foldCostUsd": 0.080898,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Summary captures all major workstreams (memory compaction, MoltCircle planning, poetry practice, Discord automation) with clear chronological progression. However, multiple unrelated threads are woven together without clear separation of what's ACTIVE vs. DONE. The agent could figure out next steps (check poems, set up Discord, continue reading) but would need to parse the entire narrative first. A 'Current State' section separating active work (Discord setup ready, poems in queue, books queued) from completed discussions (memory philosophy, MoltCircle pivot) would significantly improve usability.",
+  "judgeCostUsd": 0.008061,
+  "totalCostUsd": 0.088959,
+  "timestamp": "2026-02-15T20:08:29.506Z"
+}

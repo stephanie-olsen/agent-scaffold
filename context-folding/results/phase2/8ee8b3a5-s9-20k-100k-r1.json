@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-20k-100k-r1",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 80644,
+  "tailTokens": 19145,
+  "summaryChars": 5977,
+  "summaryTokensEst": 1494,
+  "compressionRatio": 4.8,
+  "foldLatencyMs": 49317,
+  "foldTokensIn": 33389,
+  "foldTokensOut": 1669,
+  "foldCostUsd": 0.125202,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent organization with clear topic separation using [completed-topic] and [active-topic] tags. Agent could immediately continue work: knows DeepSeek r2 is running (turn 17), what to do after (systematic replications, read methods papers), and current role (lead researcher). Minor deduction: the 'pending-action' section is slightly ambiguous—it's unclear if any immediate action is needed or if this is just context about the partnership framing.",
+  "judgeCostUsd": 0.008397,
+  "totalCostUsd": 0.133599,
+  "timestamp": "2026-02-15T19:47:45.322Z"
+}

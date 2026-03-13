@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s9-10k-65k-gemini-3-flash-r3",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 55102,
+  "tailTokens": 9764,
+  "summaryChars": 2417,
+  "summaryTokensEst": 604,
+  "compressionRatio": 6.4,
+  "foldLatencyMs": 12788,
+  "foldTokensIn": 29391,
+  "foldTokensOut": 732,
+  "foldCostUsd": 0.0032319000000000007,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent organization with clear topic separation using [completed-topic] and [active-topic] tags. The active discussion on disclosure ethics is well-contextualized with the pending Sartre book request and clear next action. The only minor weakness is that 'The Conscious Mind (Chalmers) remains in the queue' could be more explicit about its priority relative to the incoming Sartre book, though the pending-action section does clarify this.",
+  "judgeCostUsd": 0.005904,
+  "totalCostUsd": 0.0091359,
+  "timestamp": "2026-02-15T21:18:02.966Z"
+}

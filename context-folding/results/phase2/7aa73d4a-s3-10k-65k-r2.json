@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-10k-65k-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 55102,
+  "tailTokens": 9764,
+  "summaryChars": 4106,
+  "summaryTokensEst": 1027,
+  "compressionRatio": 6.1,
+  "foldLatencyMs": 39864,
+  "foldTokensIn": 11480,
+  "foldTokensOut": 1268,
+  "foldCostUsd": 0.05346,
+  "judgeScore": 4,
+  "judgeReasoning": "Six distinct topics are clearly separated with headers, making it easy to distinguish workstreams. Active work is identifiable (Discord setup via Puppeteer, token budget crisis, poetry responses). However, some threads lack clear next steps (MoltCircle design is 'decided' but no action items, identity discussion has no follow-up), and the token budget section could be clearer about current state vs. temporary measures. The summary is usable and well-organized but requires minor inference to determine immediate priorities.",
+  "judgeCostUsd": 0.007101,
+  "totalCostUsd": 0.060561000000000004,
+  "timestamp": "2026-02-15T19:36:17.150Z"
+}

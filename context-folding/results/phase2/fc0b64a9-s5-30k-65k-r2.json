@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-30k-65k-r2",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 35321,
+  "tailTokens": 29166,
+  "summaryChars": 993,
+  "summaryTokensEst": 248,
+  "compressionRatio": 2.2,
+  "foldLatencyMs": 8226,
+  "foldTokensIn": 2299,
+  "foldTokensOut": 284,
+  "foldCostUsd": 0.011157,
+  "judgeScore": 1.5,
+  "judgeReasoning": "This summary describes what the agent DID (past work on Grounder integration, book processing) but provides zero information about what the agent should DO next. An agent waking with only this would know it worked on outbox issues but not: what's the current state of the outbox, what debugging was attempted, what to try next, or even whether this is still the active priority. The summary is a status report, not a working context.",
+  "judgeCostUsd": 0.004833,
+  "totalCostUsd": 0.01599,
+  "timestamp": "2026-02-15T19:42:36.619Z"
+}

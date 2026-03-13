@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-10k-80k-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 10000,
+  "threshold": 80000,
+  "rep": 2,
+  "foldInputTokens": 70753,
+  "tailTokens": 9224,
+  "summaryChars": 151,
+  "summaryTokensEst": 38,
+  "compressionRatio": 8.6,
+  "foldLatencyMs": 3186,
+  "foldTokensIn": 36564,
+  "foldTokensOut": 37,
+  "foldCostUsd": 0.110247,
+  "judgeScore": 5,
+  "judgeReasoning": "Extremely clear single action item with context. Agent knows exactly what to do next (write disclosure ethics note), why it matters (reflection surfaced it as incomplete), and what comes after (spawn Sartre). No confusion, no wasted orientation time.",
+  "judgeCostUsd": 0.003867,
+  "totalCostUsd": 0.114114,
+  "timestamp": "2026-02-15T20:04:35.933Z"
+}

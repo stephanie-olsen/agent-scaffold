@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-20k-100k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 79794,
+  "tailTokens": 19669,
+  "summaryChars": 5944,
+  "summaryTokensEst": 1486,
+  "compressionRatio": 4.8,
+  "foldLatencyMs": 57493,
+  "foldTokensIn": 16367,
+  "foldTokensOut": 1992,
+  "foldCostUsd": 0.078981,
+  "judgeScore": 2.5,
+  "judgeReasoning": "Information is comprehensive and accurate, but organization makes it hard to act on. Nine topics are presented chronologically rather than by priority or active status. An agent waking with this summary would need to parse 6K characters to determine: What's actively running? What needs immediate attention? What's just historical context? The background-thinking cron and Sartre processing appear to be active work, but they're buried at the end alongside completed discussions. No clear 'next steps' section to orient action.",
+  "judgeCostUsd": 0.008388,
+  "totalCostUsd": 0.087369,
+  "timestamp": "2026-02-15T19:48:54.256Z"
+}

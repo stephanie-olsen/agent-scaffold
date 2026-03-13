@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s9-20k-65k-r2",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 45054,
+  "tailTokens": 19105,
+  "summaryChars": 2766,
+  "summaryTokensEst": 692,
+  "compressionRatio": 3.4,
+  "foldLatencyMs": 24919,
+  "foldTokensIn": 13305,
+  "foldTokensOut": 807,
+  "foldCostUsd": 0.05202,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent separation of completed vs. active work. The three completed topics are clearly closed, and the active security review has precise state: what was checked (register.ts, openclaw.json), what's pending (verify hooks.internal.entries, check for SOUL_EVIL.md file). Agent could immediately continue with the two specific verification steps. Only minor improvement: could explicitly state the two next actions as a bulleted list rather than embedding them in prose.",
+  "judgeCostUsd": 0.006105,
+  "totalCostUsd": 0.058124999999999996,
+  "timestamp": "2026-02-15T20:28:02.504Z"
+}

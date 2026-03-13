@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s3-30k-80k-r3",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 3,
+  "foldInputTokens": 52880,
+  "tailTokens": 26793,
+  "summaryChars": 3142,
+  "summaryTokensEst": 786,
+  "compressionRatio": 2.9,
+  "foldLatencyMs": 29586,
+  "foldTokensIn": 8111,
+  "foldTokensOut": 1029,
+  "foldCostUsd": 0.039768,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent topic separation with clear bracketed headers makes six distinct workstreams immediately scannable. Each topic is self-contained with what happened and current state. Minor weakness: no explicit 'next steps' section, though most topics are clearly complete (hop depth done, bug fixed, domain diversity implemented). Agent could immediately orient and continue any active work.",
+  "judgeCostUsd": 0.005859,
+  "totalCostUsd": 0.045627,
+  "timestamp": "2026-02-15T20:24:44.436Z"
+}

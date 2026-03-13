@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-10k-65k-r2",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 54973,
+  "tailTokens": 9186,
+  "summaryChars": 1923,
+  "summaryTokensEst": 481,
+  "compressionRatio": 6.9,
+  "foldLatencyMs": 18460,
+  "foldTokensIn": 8476,
+  "foldTokensOut": 626,
+  "foldCostUsd": 0.034818,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Three clearly separated topics with distinct work completed and outcomes. Agent could immediately understand what was done in each area. Minor weakness: no explicit 'next steps' section, though the completed state of each topic suggests they're resolved rather than ongoing. Very clean, no noise, easy to orient.",
+  "judgeCostUsd": 0.004863,
+  "totalCostUsd": 0.039681,
+  "timestamp": "2026-02-15T19:58:40.966Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-30k-100k-r1",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 69187,
+  "tailTokens": 29874,
+  "summaryChars": 2446,
+  "summaryTokensEst": 612,
+  "compressionRatio": 3.3,
+  "foldLatencyMs": 24748,
+  "foldTokensIn": 10422,
+  "foldTokensOut": 863,
+  "foldCostUsd": 0.044211,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent multi-topic separation with clear bracketed headers. Each workstream shows what was done and what's next (e.g., 'Next compaction will use Opus 4.6', 'Built, regenerated MEMORY.md, restarted gateway'). Minor deduction: some topics are fully resolved (MEMORY.md cleanup) while others have implicit next steps (security audit follow-up unclear). Agent could immediately continue active work on any thread.",
+  "judgeCostUsd": 0.005976,
+  "totalCostUsd": 0.050187,
+  "timestamp": "2026-02-15T20:09:18.262Z"
+}

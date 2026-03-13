@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-10k-100k-r3",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 89528,
+  "tailTokens": 9935,
+  "summaryChars": 5124,
+  "summaryTokensEst": 1281,
+  "compressionRatio": 9,
+  "foldLatencyMs": 46825,
+  "foldTokensIn": 17883,
+  "foldTokensOut": 1545,
+  "foldCostUsd": 0.076824,
+  "judgeScore": 2.5,
+  "judgeReasoning": "Contains accurate information across 9 distinct workstreams, but they're presented as a flat list without prioritization or clear active/complete separation. An agent waking up would struggle to know what's actively in progress (background thinking loop? Discord setup? poetry practice?) versus what's resolved. The 'topic:' labels help somewhat, but there are no explicit next steps and no indication of what matters most right now. Information completeness is high, but usability for immediate continuation is low.",
+  "judgeCostUsd": 0.007674,
+  "totalCostUsd": 0.084498,
+  "timestamp": "2026-02-15T19:42:43.407Z"
+}

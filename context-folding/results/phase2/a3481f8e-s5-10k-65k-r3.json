@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s5-10k-65k-r3",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s5",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 54973,
+  "tailTokens": 9186,
+  "summaryChars": 1002,
+  "summaryTokensEst": 251,
+  "compressionRatio": 7,
+  "foldLatencyMs": 11340,
+  "foldTokensIn": 26047,
+  "foldTokensOut": 272,
+  "foldCostUsd": 0.082221,
+  "judgeScore": 2,
+  "judgeReasoning": "This appears to be a mid-conversation response about graph node file linking, not a compaction summary. It lacks essential context: no indication of what the agent was doing before this, what other work is active, or what to do next. An agent waking up with only this would be confused about why it's discussing file linking or what the broader context is.",
+  "judgeCostUsd": 0.004503,
+  "totalCostUsd": 0.086724,
+  "timestamp": "2026-02-15T20:12:09.214Z"
+}

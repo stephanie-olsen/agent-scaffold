@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-30k-65k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 35812,
+  "tailTokens": 29054,
+  "summaryChars": 3373,
+  "summaryTokensEst": 843,
+  "compressionRatio": 2.2,
+  "foldLatencyMs": 33802,
+  "foldTokensIn": 9054,
+  "foldTokensOut": 1151,
+  "foldCostUsd": 0.044427,
+  "judgeScore": 4,
+  "judgeReasoning": "Clear topic separation makes it easy to distinguish six workstreams. Each topic has enough context to continue (e.g., MoltCircle pivot to Discord is actionable, poetry queue setup is complete). However, no explicit 'what's next' or priority signal — an agent would need to infer from HEARTBEAT.md what to do now. The summary is usable but slightly passive: it reports what happened without highlighting active threads or immediate next steps.",
+  "judgeCostUsd": 0.0066,
+  "totalCostUsd": 0.051027,
+  "timestamp": "2026-02-15T19:54:11.593Z"
+}

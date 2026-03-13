@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s5-30k-65k-r1",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 34187,
+  "tailTokens": 29972,
+  "summaryChars": 1376,
+  "summaryTokensEst": 344,
+  "compressionRatio": 2.2,
+  "foldLatencyMs": 13517,
+  "foldTokensIn": 4319,
+  "foldTokensOut": 412,
+  "foldCostUsd": 0.019137,
+  "judgeScore": 1.5,
+  "judgeReasoning": "This is a snapshot of a single exchange, not a summary. The agent would wake up mid-conversation about changing a model config with no context about what problem this solves, what the broader goal is, or what to do next. The <think> block and attempt_completion structure suggest this is raw conversation output, not a compaction summary. Completely unusable for continuation.",
+  "judgeCostUsd": 0.005898,
+  "totalCostUsd": 0.025035,
+  "timestamp": "2026-02-15T20:18:24.353Z"
+}

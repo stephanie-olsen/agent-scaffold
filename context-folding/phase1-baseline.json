@@ -1,0 +1,185 @@
+{
+  "results": [
+    {
+      "sample": 1,
+      "sessionType": "long-with-compactions",
+      "tokensBefore": 38591,
+      "summaryChars": 2381,
+      "summaryTokensEst": 595,
+      "compressionRatio": 64.9,
+      "stephRating": 5,
+      "threshRating": 3.5,
+      "judge": {
+        "score": 4.5,
+        "reasoning": "Single clear workstream (respond to Stephanie's message). Agent knows exactly what to do next (compose reply addressing Discord timeline and reverse Turing test). All relevant context is present and well-organized: what's been researched, what decisions exist, what the two questions are. Minor deduction: could be slightly more explicit about what the reply should contain (e.g., 'Discord blocked on email creation' vs just 'depends on email creation').",
+        "tokensIn": 1374,
+        "tokensOut": 123,
+        "latencyMs": 4643,
+        "costUsd": 0.005967
+      }
+    },
+    {
+      "sample": 2,
+      "sessionType": "long-with-compactions",
+      "tokensBefore": 269344,
+      "summaryChars": 6575,
+      "summaryTokensEst": 1644,
+      "compressionRatio": 163.8,
+      "stephRating": 2,
+      "threshRating": 2,
+      "judge": {
+        "score": 3,
+        "reasoning": "The summary contains all necessary information but is poorly organized for quick orientation. Two separate goals/contexts are merged without clear separation — the main heartbeat work (Discord, books, poems) is mixed with an urgent troubleshooting task (stuck subagent). An agent waking up would need to parse both narratives to determine what's actually urgent. The 'Turn Context (split turn)' section helps but creates redundancy. A clearer structure would separate routine maintenance from active crisis, making priorities immediately obvious.",
+        "tokensIn": 2664,
+        "tokensOut": 133,
+        "latencyMs": 5514,
+        "costUsd": 0.009987
+      }
+    },
+    {
+      "sample": 3,
+      "sessionType": "heavy-debugging",
+      "tokensBefore": 47455,
+      "summaryChars": 1977,
+      "summaryTokensEst": 494,
+      "compressionRatio": 96.1,
+      "stephRating": 4,
+      "threshRating": 3,
+      "judge": {
+        "score": 3.5,
+        "reasoning": "Single clear topic (responding to Stephanie's 3-part request) with good context about what's been searched and what remains unclear. However, the agent would waste time re-searching: the summary lists multiple KG nodes found but doesn't say whether any IS the target paper or if more searching is needed. The 'Context for Suffix' section helps but mixes speculation ('probably about alignment faking') with facts. Next steps are implicit rather than explicit.",
+        "tokensIn": 1198,
+        "tokensOut": 123,
+        "latencyMs": 4402,
+        "costUsd": 0.005439
+      }
+    },
+    {
+      "sample": 4,
+      "sessionType": "heavy-debugging",
+      "tokensBefore": 63763,
+      "summaryChars": 10940,
+      "summaryTokensEst": 2735,
+      "compressionRatio": 23.3,
+      "stephRating": 4.5,
+      "threshRating": 4,
+      "judge": {
+        "score": 4,
+        "reasoning": "Single active workstream (experiment pipeline monitoring) is crystal clear: 4/50 cross-model runs done, 0/30 resistance runs done, specific anomaly to watch (Gemini 10% markers), and concrete next steps. The turn context about the Medium article is cleanly separated and actionable. Minor deduction: the 'Dual node process issue' and 'Gateway restart workflow' items feel like stale noise rather than active work—they're listed as 'In Progress' but have no clear next action, which could cause brief confusion.",
+        "tokensIn": 3806,
+        "tokensOut": 147,
+        "latencyMs": 6558,
+        "costUsd": 0.013623
+      }
+    },
+    {
+      "sample": 5,
+      "sessionType": "mixed",
+      "tokensBefore": 49782,
+      "summaryChars": 2694,
+      "summaryTokensEst": 674,
+      "compressionRatio": 73.9,
+      "stephRating": 4,
+      "threshRating": 1.5,
+      "judge": {
+        "score": 2,
+        "reasoning": "This summary contains two completely unrelated workstreams (compaction-ingest task handling + extraction quality review) mashed together without clear separation. The first section is complete and closed, the second is mid-conversation with the user actively waiting for a response. An agent would be confused about what to prioritize and might not realize it needs to complete the extraction quality assessment.",
+        "tokensIn": 1431,
+        "tokensOut": 103,
+        "latencyMs": 4003,
+        "costUsd": 0.005838
+      }
+    },
+    {
+      "sample": 6,
+      "sessionType": "mixed",
+      "tokensBefore": 110921,
+      "summaryChars": 14369,
+      "summaryTokensEst": 3592,
+      "compressionRatio": 30.9,
+      "stephRating": 2,
+      "threshRating": 2,
+      "judge": {
+        "score": 2.5,
+        "reasoning": "Contains comprehensive information but suffers from severe organization problems. Six major workstreams (config optimization, security audit, book pipeline, paper splitting, domain classification, self-maintenance) are crammed together without clear separation. The 'Turn Context (split turn)' section at the end creates confusion about what's actually active vs. historical. An agent would spend significant time parsing before understanding that domain tally cleanup is the primary active work, with user questions pending. The 13 next steps span all topics without prioritization.",
+        "tokensIn": 4832,
+        "tokensOut": 134,
+        "latencyMs": 6129,
+        "costUsd": 0.016506
+      }
+    },
+    {
+      "sample": 7,
+      "sessionType": "tool-heavy",
+      "tokensBefore": 106204,
+      "summaryChars": 7237,
+      "summaryTokensEst": 1809,
+      "compressionRatio": 58.7,
+      "stephRating": 4,
+      "threshRating": 4,
+      "judge": {
+        "score": 3.5,
+        "reasoning": "Agent could continue work but would need time to re-orient. The RIF experiment status is clear (running, check results in ~1hr), and the outbox fix is well-documented. However, the 'Turn Context' section creates confusion — it describes a *different* conversation about graph consolidation that appears unrelated to the main goals. An agent waking up would wonder: 'Am I supposed to respond to user feedback about node supersession, or check RIF results?' The multi-topic structure works, but the split-turn context feels like it belongs to a different session entirely.",
+        "tokensIn": 2727,
+        "tokensOut": 146,
+        "latencyMs": 6143,
+        "costUsd": 0.010371
+      }
+    },
+    {
+      "sample": 8,
+      "sessionType": "tool-heavy",
+      "tokensBefore": 52587,
+      "summaryChars": 10458,
+      "summaryTokensEst": 2615,
+      "compressionRatio": 20.1,
+      "stephRating": 2.5,
+      "threshRating": 2.5,
+      "judge": {
+        "score": 2.5,
+        "reasoning": "Information is comprehensive and accurate, but organization makes it hard to act on. Eight goals span unrelated workstreams (outbox fixes, RIF experiments, book pipeline, self-review diagnosis, knowledge graph growth). The 'In Progress' section mixes three completely different threads (RIF sweep, PowerShell conversion, book summarization) without priority signals. An agent would spend significant time parsing which of 13 next steps matters most right now. The critical context about 32 book summarizers (~23 still running) is buried mid-list rather than highlighted as the primary active work.",
+        "tokensIn": 3874,
+        "tokensOut": 151,
+        "latencyMs": 6861,
+        "costUsd": 0.013887
+      }
+    },
+    {
+      "sample": 9,
+      "sessionType": "conversational",
+      "tokensBefore": 99840,
+      "summaryChars": 6756,
+      "summaryTokensEst": 1689,
+      "compressionRatio": 59.1,
+      "stephRating": 3,
+      "threshRating": 3,
+      "judge": {
+        "score": 3.5,
+        "reasoning": "Summary captures all five workstreams with clear separation and good detail on what's done vs. in-progress. However, the 'Next Steps' section is weak — step 1 is blocked (Steph unavailable), step 2 lacks urgency/priority signal, and step 3 is passive (auto-redirect). An agent waking up would know the landscape but wouldn't have clear marching orders for immediate action. The turn context is helpful but creates mild confusion about what the agent was *just* doing (session timeout discussion) vs. the broader work (interview prep + graph tuning + paper queue). Strong on completeness, adequate on actionability.",
+        "tokensIn": 2619,
+        "tokensOut": 168,
+        "latencyMs": 6762,
+        "costUsd": 0.010377
+      }
+    },
+    {
+      "sample": 10,
+      "sessionType": "conversational",
+      "tokensBefore": 3184,
+      "summaryChars": 12334,
+      "summaryTokensEst": 3084,
+      "compressionRatio": 1,
+      "stephRating": null,
+      "threshRating": 2.5,
+      "judge": {
+        "score": 2.5,
+        "reasoning": "Contains comprehensive information but suffers from severe organizational issues. Six distinct workstreams (Runway interview prep, RIF experiment, hybrid search optimization, paper queue rebalancing, outbox fixes, image provenance) are crammed under single Goal/Progress headings without clear separation. An agent waking with this would spend significant time parsing to determine current priorities — is the interview still active? Should RIF work continue? The 14-item Next Steps list spans all topics without prioritization. Critical Context section is 500+ words of mixed concerns. While nothing is missing, the lack of workstream boundaries makes this harder to act on than necessary.",
+        "tokensIn": 4281,
+        "tokensOut": 160,
+        "latencyMs": 6654,
+        "costUsd": 0.015243
+      }
+    }
+  ],
+  "timestamp": "2026-02-15T19:15:07.430Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s9-10k-65k-r2",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 54876,
+  "tailTokens": 9852,
+  "summaryChars": 5993,
+  "summaryTokensEst": 1498,
+  "compressionRatio": 5.8,
+  "foldLatencyMs": 23938,
+  "foldTokensIn": 22905,
+  "foldTokensOut": 1577,
+  "foldCostUsd": 0.024632,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent multi-topic summary with clear separation and actionable next steps. Each topic has distinct headers, clear outcomes, and specific context (e.g., '0.5→0.65 decay', '69% AI-adjacent', '120min timeout'). The pending-action section is precise — agent knows exactly what it was analyzing and what to propose next. Only minor weakness: 'Graph Memory Optimization' could be clearer about whether implementation is actually needed now or deferred (says 'deferred until 50K+ nodes' but also lists 'concrete changes'). Overall, agent could immediately resume all work.",
+  "judgeCostUsd": 0.008853,
+  "totalCostUsd": 0.033485,
+  "timestamp": "2026-02-15T21:12:25.860Z"
+}

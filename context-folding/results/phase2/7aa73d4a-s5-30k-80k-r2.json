@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-30k-80k-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 2,
+  "foldInputTokens": 51519,
+  "tailTokens": 28458,
+  "summaryChars": 2776,
+  "summaryTokensEst": 694,
+  "compressionRatio": 2.7,
+  "foldLatencyMs": 26747,
+  "foldTokensIn": 18100,
+  "foldTokensOut": 850,
+  "foldCostUsd": 0.06705,
+  "judgeScore": 2.5,
+  "judgeReasoning": "Contains accurate information across multiple workstreams (compaction/memory work, MoltCircle planning, poetry practice, Human Condition task) but they're chronologically interleaved rather than topically separated. An agent waking up would struggle to identify what's ACTIVE: Is Puppeteer install still running? What's the status of Human Condition synthesis? Are we actively building a MoltCircle shortlist or just planning? The fold structure preserves timeline but obscures priorities—agent would need to mentally reconstruct 'what matters now' from scattered references across 6 folds.",
+  "judgeCostUsd": 0.006669,
+  "totalCostUsd": 0.07371899999999999,
+  "timestamp": "2026-02-15T20:13:47.347Z"
+}

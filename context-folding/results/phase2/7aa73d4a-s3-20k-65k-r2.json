@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-20k-65k-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 45122,
+  "tailTokens": 19744,
+  "summaryChars": 3700,
+  "summaryTokensEst": 925,
+  "compressionRatio": 3.2,
+  "foldLatencyMs": 36191,
+  "foldTokensIn": 10461,
+  "foldTokensOut": 1143,
+  "foldCostUsd": 0.048528,
+  "judgeScore": 4,
+  "judgeReasoning": "Five distinct workstreams are clearly separated by topic headers, making it easy to identify what's active vs. complete. The agent could immediately continue work on budget monitoring, poetry responses, or Discord setup. Minor weakness: no explicit 'next steps' section means the agent must infer priorities from context (budget crisis suggests monitoring usage, poems in queue suggest reading when moved, Puppeteer installed suggests Discord account creation is unblocked). The summary is dense but navigable — each topic is self-contained enough to act on.",
+  "judgeCostUsd": 0.00687,
+  "totalCostUsd": 0.055398,
+  "timestamp": "2026-02-15T19:44:14.867Z"
+}

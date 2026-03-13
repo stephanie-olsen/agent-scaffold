@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-30k-80k-r3",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 3,
+  "foldInputTokens": 40025,
+  "tailTokens": 29884,
+  "summaryChars": 2081,
+  "summaryTokensEst": 520,
+  "compressionRatio": 2.6,
+  "foldLatencyMs": 13911,
+  "foldTokensIn": 2299,
+  "foldTokensOut": 561,
+  "foldCostUsd": 0.015312,
+  "judgeScore": 2,
+  "judgeReasoning": "This is a confession/apology, not a working summary. An agent waking up with this would know books exist and some findings happened, but couldn't act. What's the actual state of each book? What should be done with the papers? What are the 'cool findings' for? The meta-commentary ('I was lazy', 'that's on me') is noise. Information is present but buried in self-criticism rather than organized for action.",
+  "judgeCostUsd": 0.005715,
+  "totalCostUsd": 0.021026999999999997,
+  "timestamp": "2026-02-15T19:43:50.984Z"
+}

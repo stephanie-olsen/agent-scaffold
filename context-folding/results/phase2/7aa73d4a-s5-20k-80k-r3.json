@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-20k-80k-r3",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 3,
+  "foldInputTokens": 60036,
+  "tailTokens": 19941,
+  "summaryChars": 552,
+  "summaryTokensEst": 138,
+  "compressionRatio": 4,
+  "foldLatencyMs": 6049,
+  "foldTokensIn": 28000,
+  "foldTokensOut": 137,
+  "foldCostUsd": 0.086055,
+  "judgeScore": 1.5,
+  "judgeReasoning": "This appears to be a fragment of philosophical discussion about Sartre with no actionable context. An agent waking up with only this would have no idea what work was in progress, what the goal was, or what to do next. The mention of 'my own bad faith' suggests personal reflection but gives no clue about the agent's actual tasks or state. Completely unusable for continuing work.",
+  "judgeCostUsd": 0.004257,
+  "totalCostUsd": 0.090312,
+  "timestamp": "2026-02-15T20:10:42.593Z"
+}

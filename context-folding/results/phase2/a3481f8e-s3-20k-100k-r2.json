@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-20k-100k-r2",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 2,
+  "foldInputTokens": 79809,
+  "tailTokens": 19252,
+  "summaryChars": 3076,
+  "summaryTokensEst": 769,
+  "compressionRatio": 5,
+  "foldLatencyMs": 27196,
+  "foldTokensIn": 11564,
+  "foldTokensOut": 1039,
+  "foldCostUsd": 0.050277,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Six distinct workstreams are clearly separated with topic headers, making it easy to identify what was done in each area. Most threads have clear resolution states (hook upgraded, soul-evil disabled, MEMORY.md restructured, boot order changed). The hybridSearch investigation shows clear progression from 'maybe broken' to 'confirmed broken and re-queued'. Only minor weakness: no explicit 'what to do next' across topics, though context suggests monitoring the next compaction and addressing the hybridSearch bug are implied priorities.",
+  "judgeCostUsd": 0.006576,
+  "totalCostUsd": 0.056853,
+  "timestamp": "2026-02-15T20:05:51.447Z"
+}

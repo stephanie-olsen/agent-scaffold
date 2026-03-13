@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-10k-100k-r3",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 89988,
+  "tailTokens": 9073,
+  "summaryChars": 3319,
+  "summaryTokensEst": 830,
+  "compressionRatio": 10.1,
+  "foldLatencyMs": 36186,
+  "foldTokensIn": 13335,
+  "foldTokensOut": 1225,
+  "foldCostUsd": 0.05838,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Six distinct topics are clearly separated with bracketed headers, making it easy to distinguish workstreams. However, there are no explicit next steps — the agent would need to infer what to do from completed work (e.g., 'should I monitor the Opus ingests? investigate the hybridSearch bug?'). The summary is well-organized but lacks actionable direction for immediate continuation.",
+  "judgeCostUsd": 0.006276,
+  "totalCostUsd": 0.064656,
+  "timestamp": "2026-02-15T20:02:08.896Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-10k-100k-r3",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 90417,
+  "tailTokens": 9372,
+  "summaryChars": 4937,
+  "summaryTokensEst": 1234,
+  "compressionRatio": 9.4,
+  "foldLatencyMs": 42487,
+  "foldTokensIn": 40176,
+  "foldTokensOut": 1326,
+  "foldCostUsd": 0.140418,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent multi-topic organization with clear separation using [completed-topic] and [active-topic] tags. The pending action is specific and actionable — I know exactly what to draft next. The only minor weakness is that some completed topics (like methodology gaps) might inform the active restructure work, but that connection isn't explicit. Overall, this is highly usable: I can immediately continue drafting the restructure spec without re-reading 100K tokens.",
+  "judgeCostUsd": 0.007485,
+  "totalCostUsd": 0.14790299999999998,
+  "timestamp": "2026-02-15T19:54:10.952Z"
+}

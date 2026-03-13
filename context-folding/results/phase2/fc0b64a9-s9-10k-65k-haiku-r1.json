@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-10k-65k-haiku-r1",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 54766,
+  "tailTokens": 9721,
+  "summaryChars": 5162,
+  "summaryTokensEst": 1291,
+  "compressionRatio": 5.9,
+  "foldLatencyMs": 20294,
+  "foldTokensIn": 17459,
+  "foldTokensOut": 1461,
+  "foldCostUsd": 0.0198112,
+  "judgeScore": 4,
+  "judgeReasoning": "Strong separation of completed vs active topics makes orientation easy. The active RIF experiment status is clear (3 workers running, ~1hr ETA). However, the graph mutation section sprawls across three mechanisms without clear prioritization, and the pending-action conflates what Steph asked about vs what I'm ready to do. An agent could continue work but would need to re-parse which of the three graph mechanisms to tackle first.",
+  "judgeCostUsd": 0.0078,
+  "totalCostUsd": 0.027611200000000002,
+  "timestamp": "2026-02-15T21:16:52.345Z"
+}

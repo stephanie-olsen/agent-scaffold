@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s3-10k-65k-r2",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s3",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 54876,
+  "tailTokens": 9852,
+  "summaryChars": 3214,
+  "summaryTokensEst": 804,
+  "compressionRatio": 6.2,
+  "foldLatencyMs": 31865,
+  "foldTokensIn": 9254,
+  "foldTokensOut": 1177,
+  "foldCostUsd": 0.045417,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent multi-topic organization with clear [topic:] separators. Each workstream is self-contained and actionable. The agent could immediately identify what's done (hop depth tested, resumeMessage bug fixed), what's in progress (hop decay research, domain concentration fix deployed), and what to monitor (paper queue ratio). Minor deduction: doesn't explicitly state next steps for the hop decay research or whether to verify the domain cap is working in practice, but the context is clear enough to infer these.",
+  "judgeCostUsd": 0.006522,
+  "totalCostUsd": 0.051939,
+  "timestamp": "2026-02-15T20:07:46.791Z"
+}

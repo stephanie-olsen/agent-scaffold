@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-10k-100k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 89528,
+  "tailTokens": 9935,
+  "summaryChars": 5714,
+  "summaryTokensEst": 1429,
+  "compressionRatio": 8.8,
+  "foldLatencyMs": 52531,
+  "foldTokensIn": 17883,
+  "foldTokensOut": 1910,
+  "foldCostUsd": 0.082299,
+  "judgeScore": 3,
+  "judgeReasoning": "Information is complete and accurate, but organization makes it hard to orient quickly. Ten topics are clearly separated (good), but there's no indication of what's ACTIVE vs DONE. Is the agent still working on token budget optimization? Is background-thinking running and needs monitoring? The summary reads like a chronological archive rather than a working state. An agent would need to re-read multiple sections to figure out current priorities and next steps.",
+  "judgeCostUsd": 0.007983,
+  "totalCostUsd": 0.090282,
+  "timestamp": "2026-02-15T19:40:46.251Z"
+}

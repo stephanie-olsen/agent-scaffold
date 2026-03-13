@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-10k-80k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 10000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 70753,
+  "tailTokens": 9224,
+  "summaryChars": 6392,
+  "summaryTokensEst": 1598,
+  "compressionRatio": 7.4,
+  "foldLatencyMs": 57069,
+  "foldTokensIn": 14319,
+  "foldTokensOut": 2131,
+  "foldCostUsd": 0.074922,
+  "judgeScore": 2.5,
+  "judgeReasoning": "Information is complete and accurate, but organization makes it hard to use. Ten topics are presented chronologically rather than by active status. An agent waking up would need to parse the entire narrative to find: poetry queue has 8 poems, memory needs compaction (already done?), Puppeteer is installed, heartbeat is at 60m, token budget is critical. The '[topic: X]' headers help but don't distinguish completed work from active threads. No clear prioritization of what matters most right now versus historical context.",
+  "judgeCostUsd": 0.008961,
+  "totalCostUsd": 0.083883,
+  "timestamp": "2026-02-15T19:38:11.896Z"
+}

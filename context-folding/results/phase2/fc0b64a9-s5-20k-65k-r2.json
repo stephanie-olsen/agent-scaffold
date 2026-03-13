@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-20k-65k-r2",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 44854,
+  "tailTokens": 19633,
+  "summaryChars": 4382,
+  "summaryTokensEst": 1096,
+  "compressionRatio": 3.2,
+  "foldLatencyMs": 32505,
+  "foldTokensIn": 5878,
+  "foldTokensOut": 1119,
+  "foldCostUsd": 0.034419,
+  "judgeScore": 4,
+  "judgeReasoning": "Single clear topic (explaining three findings) with good structure and actionable next step (outbox decision). The three findings are well-separated and explained with context. Minor weakness: doesn't explicitly state what experiments are currently running or what the immediate next action is beyond the outbox question—agent could continue but might need a moment to check system state.",
+  "judgeCostUsd": 0.007029,
+  "totalCostUsd": 0.041448,
+  "timestamp": "2026-02-15T19:39:08.576Z"
+}

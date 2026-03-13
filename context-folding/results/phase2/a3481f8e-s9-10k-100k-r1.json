@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s9-10k-100k-r1",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 89988,
+  "tailTokens": 9073,
+  "summaryChars": 3977,
+  "summaryTokensEst": 994,
+  "compressionRatio": 10,
+  "foldLatencyMs": 34969,
+  "foldTokensIn": 37093,
+  "foldTokensOut": 1227,
+  "foldCostUsd": 0.129684,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent separation of completed vs. active work. The 8 completed topics are clearly closed and won't distract. The active book-sourcing-review section is detailed and actionable — specific problems identified, solution designed (JSON queue, diversity constraints, serendipity-first), and next steps are concrete (implement schema, update 4 handlers). Only minor weakness: could explicitly state 'start with book-queue.json schema' as immediate next action, though it's strongly implied.",
+  "judgeCostUsd": 0.007191,
+  "totalCostUsd": 0.136875,
+  "timestamp": "2026-02-15T20:25:24.299Z"
+}

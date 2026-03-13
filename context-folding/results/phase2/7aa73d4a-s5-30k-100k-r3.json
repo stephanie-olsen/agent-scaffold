@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-30k-100k-r3",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 70753,
+  "tailTokens": 28710,
+  "summaryChars": 7907,
+  "summaryTokensEst": 1977,
+  "compressionRatio": 3.3,
+  "foldLatencyMs": 69630,
+  "foldTokensIn": 29078,
+  "foldTokensOut": 2246,
+  "foldCostUsd": 0.120924,
+  "judgeScore": 2,
+  "judgeReasoning": "This summary contains accurate information but is organized as a chronological narrative of 15 conversation segments rather than a workable orientation document. An agent waking with this would need to parse through heartbeat sequences, token budget discussions, and completed tasks to figure out what's actually active. The critical next steps (MoltCircle Discord setup with Puppeteer, poetry reading practice, managing token budget) are buried among historical context. A usable summary would separate 'Done' from 'Active Work' and clearly state current priorities.",
+  "judgeCostUsd": 0.010995,
+  "totalCostUsd": 0.131919,
+  "timestamp": "2026-02-15T20:17:13.801Z"
+}

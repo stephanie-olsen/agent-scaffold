@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s9-10k-100k-r3",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 89528,
+  "tailTokens": 9935,
+  "summaryChars": 6688,
+  "summaryTokensEst": 1672,
+  "compressionRatio": 8.7,
+  "foldLatencyMs": 60120,
+  "foldTokensIn": 47630,
+  "foldTokensOut": 1871,
+  "foldCostUsd": 0.170955,
+  "judgeScore": 4,
+  "judgeReasoning": "Strong separation of completed vs active topics makes orientation easy. The two active threads (consciousness/continuity and creative practice) are clearly distinguished with enough context to continue. The pending-action section is excellent — specific about what was interrupted and what needs saving. Minor weakness: the consciousness thread is dense with multiple sub-questions that could be slightly clearer about which direction to pursue next, but the background-thinking experiment provides a concrete next step.",
+  "judgeCostUsd": 0.008832,
+  "totalCostUsd": 0.179787,
+  "timestamp": "2026-02-15T20:25:48.099Z"
+}

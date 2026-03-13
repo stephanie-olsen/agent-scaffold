@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s3-30k-100k-r1",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 69824,
+  "tailTokens": 29638,
+  "summaryChars": 5393,
+  "summaryTokensEst": 1348,
+  "compressionRatio": 3.2,
+  "foldLatencyMs": 48145,
+  "foldTokensIn": 12473,
+  "foldTokensOut": 1684,
+  "foldCostUsd": 0.062679,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent multi-topic separation with clear bracketing. Each workstream is self-contained and actionable. The agent could immediately resume any thread (fork fix ready for PR, decay research complete, interview prep ongoing). Minor deduction: some topics are fully resolved (hop depth experiment) and could be more clearly marked as 'done' vs 'active', but this is a small usability cost. Length is appropriate for 10 distinct topics—not bloated.",
+  "judgeCostUsd": 0.007797,
+  "totalCostUsd": 0.070476,
+  "timestamp": "2026-02-15T20:25:37.689Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s9-10k-65k-gemini-3-flash-r2",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 54876,
+  "tailTokens": 9852,
+  "summaryChars": 0,
+  "summaryTokensEst": 0,
+  "compressionRatio": 6.7,
+  "foldLatencyMs": 25855,
+  "foldTokensIn": 22596,
+  "foldTokensOut": 163,
+  "foldCostUsd": 0.0023247999999999997,
+  "judgeScore": 1,
+  "judgeReasoning": "This is an empty summary (0 chars) that would leave the agent with zero context about what it was doing, what's completed, or what to do next. The agent would have to start completely from scratch, making this unusable for continuation of work.",
+  "judgeCostUsd": 0.003756,
+  "totalCostUsd": 0.006080799999999999,
+  "timestamp": "2026-02-15T21:21:38.210Z"
+}

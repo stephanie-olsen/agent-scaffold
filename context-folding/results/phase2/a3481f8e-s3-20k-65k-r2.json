@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-20k-65k-r2",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 45054,
+  "tailTokens": 19105,
+  "summaryChars": 2006,
+  "summaryTokensEst": 502,
+  "compressionRatio": 3.4,
+  "foldLatencyMs": 17320,
+  "foldTokensIn": 7199,
+  "foldTokensOut": 706,
+  "foldCostUsd": 0.032187,
+  "judgeScore": 4,
+  "judgeReasoning": "Four distinct topics are clearly separated with brackets, making it easy to see what was worked on. Each topic shows what was done and the outcome. However, there are no explicit 'next steps' or 'in progress' markers — the agent would need to infer what to do next (e.g., monitor Opus ingest performance, verify vulnerable-node-review runs). The summary is actionable but requires one extra step of interpretation to determine priorities.",
+  "judgeCostUsd": 0.00555,
+  "totalCostUsd": 0.037737,
+  "timestamp": "2026-02-15T20:02:57.139Z"
+}

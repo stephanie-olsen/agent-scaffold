@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-20k-80k-r3",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 3,
+  "foldInputTokens": 49931,
+  "tailTokens": 19978,
+  "summaryChars": 3586,
+  "summaryTokensEst": 897,
+  "compressionRatio": 3.9,
+  "foldLatencyMs": 30091,
+  "foldTokensIn": 8850,
+  "foldTokensOut": 1053,
+  "foldCostUsd": 0.042345,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent organization with clear topic separation. Agent can immediately see what's done (outbox fix, overnight findings explained) vs. active (RIF experiment approved but blocked on logs/review). Next steps are specific and actionable (design framing test, check ground-truth file, or await instruction). Only minor weakness: could be slightly more explicit about priority between the three next-step options.",
+  "judgeCostUsd": 0.006621,
+  "totalCostUsd": 0.048966,
+  "timestamp": "2026-02-15T19:58:27.111Z"
+}

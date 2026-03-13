@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-20k-65k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 45122,
+  "tailTokens": 19744,
+  "summaryChars": 4034,
+  "summaryTokensEst": 1009,
+  "compressionRatio": 3.2,
+  "foldLatencyMs": 44557,
+  "foldTokensIn": 10461,
+  "foldTokensOut": 1399,
+  "foldCostUsd": 0.052368,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Summary clearly separates seven distinct workstreams with topic headers, making it easy to distinguish what happened. However, it's almost entirely retrospective—what was done—with minimal forward-looking guidance. The agent would know what happened but would need to infer next steps (e.g., 'Puppeteer installed' but no mention of using it for Discord account creation, 'poems added' but unclear if more responses are expected). The token budget section explains the problem and solution but doesn't say whether to monitor costs going forward. Good organization, but lacks actionable next steps.",
+  "judgeCostUsd": 0.007344,
+  "totalCostUsd": 0.059712,
+  "timestamp": "2026-02-15T19:43:33.440Z"
+}

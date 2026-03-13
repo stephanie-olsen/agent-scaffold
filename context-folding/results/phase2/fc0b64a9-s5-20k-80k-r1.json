@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-20k-80k-r1",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 49931,
+  "tailTokens": 19978,
+  "summaryChars": 2809,
+  "summaryTokensEst": 702,
+  "compressionRatio": 3.9,
+  "foldLatencyMs": 27310,
+  "foldTokensIn": 10043,
+  "foldTokensOut": 799,
+  "foldCostUsd": 0.042114,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Agent could continue work but would need to re-orient. The fold structure helps separate topics, and key findings are present (performativity trend, RLHF floor, outbox fix, RIF experiment status). However, there's no clear 'what to do next' — the summary ends with RIF status but doesn't say whether to monitor experiments, review ground truth, or wait. The outbox fix is described but not flagged as 'done and working' vs 'needs verification.' Multiple workstreams are distinguishable but priorities aren't explicit.",
+  "judgeCostUsd": 0.00639,
+  "totalCostUsd": 0.048504,
+  "timestamp": "2026-02-15T19:40:13.632Z"
+}

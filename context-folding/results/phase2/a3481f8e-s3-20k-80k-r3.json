@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-20k-80k-r3",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 3,
+  "foldInputTokens": 63616,
+  "tailTokens": 16207,
+  "summaryChars": 2190,
+  "summaryTokensEst": 548,
+  "compressionRatio": 4.8,
+  "foldLatencyMs": 23170,
+  "foldTokensIn": 8872,
+  "foldTokensOut": 877,
+  "foldCostUsd": 0.039771,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Four distinct topics are clearly separated with brackets, making workstreams distinguishable. However, the summary is dense with implementation details (file names, char counts, port numbers) that don't help the agent orient to *what to do next*. No explicit next steps or active work status — just what was done. An agent could figure out context but would need to infer priorities rather than act immediately.",
+  "judgeCostUsd": 0.005469,
+  "totalCostUsd": 0.04524,
+  "timestamp": "2026-02-15T20:04:44.227Z"
+}

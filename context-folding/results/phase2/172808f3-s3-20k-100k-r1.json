@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s3-20k-100k-r1",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 79502,
+  "tailTokens": 19960,
+  "summaryChars": 8766,
+  "summaryTokensEst": 2192,
+  "compressionRatio": 4.5,
+  "foldLatencyMs": 75453,
+  "foldTokensIn": 14133,
+  "foldTokensOut": 2722,
+  "foldCostUsd": 0.083229,
+  "judgeScore": 2.5,
+  "judgeReasoning": "Contains complete information across 18+ topics but is organized as a chronological narrative rather than actionable workstreams. An agent would need to parse the entire summary to understand what's actively in progress (hop decay implementation? interview prep complete? image generation integration?) versus what's done. No clear prioritization or separation of 'monitor this' vs 'do this next' vs 'context only'. The agent would spend significant time re-orienting before taking action.",
+  "judgeCostUsd": 0.010128,
+  "totalCostUsd": 0.093357,
+  "timestamp": "2026-02-15T20:19:29.000Z"
+}

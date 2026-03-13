@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-10k-65k-r3",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 54973,
+  "tailTokens": 9186,
+  "summaryChars": 2490,
+  "summaryTokensEst": 623,
+  "compressionRatio": 6.8,
+  "foldLatencyMs": 22930,
+  "foldTokensIn": 8476,
+  "foldTokensOut": 820,
+  "foldCostUsd": 0.037728,
+  "judgeScore": 4,
+  "judgeReasoning": "Four distinct topics are clearly separated with headers, making it easy to identify different workstreams. Each section captures what was done and key outcomes. However, the summary is purely retrospective — it lacks explicit 'next steps' or 'in progress' markers. An agent could infer what to do (monitor Opus ingests, review boot order changes) but would need to derive priorities rather than having them stated. Strong on organization and clarity, but missing the forward-looking orientation that would make it a 5.",
+  "judgeCostUsd": 0.006057,
+  "totalCostUsd": 0.043785,
+  "timestamp": "2026-02-15T19:59:08.965Z"
+}

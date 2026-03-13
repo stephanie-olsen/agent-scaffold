@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-20k-65k-r2",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 50379,
+  "tailTokens": 14460,
+  "summaryChars": 4052,
+  "summaryTokensEst": 1013,
+  "compressionRatio": 4.2,
+  "foldLatencyMs": 33859,
+  "foldTokensIn": 15328,
+  "foldTokensOut": 1072,
+  "foldCostUsd": 0.062064,
+  "judgeScore": 4,
+  "judgeReasoning": "Clear separation of completed vs active topics. Agent could immediately continue adversarial attacks work—knows what was suggested, what web-reader found, what decision is pending (queue Qin paper and/or search for more relevant work). The five completed topics are well-delineated and don't interfere with active work. Minor deduction: pending-action section could be slightly more concise (some redundancy between 'user requested' and 'assistant state'), and the completed topics contain rich context that won't be immediately actionable but doesn't actively obstruct.",
+  "judgeCostUsd": 0.007173,
+  "totalCostUsd": 0.069237,
+  "timestamp": "2026-02-15T19:44:24.257Z"
+}

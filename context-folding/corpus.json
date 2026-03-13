@@ -1,0 +1,29 @@
+{
+  "sessions": [
+    {
+      "id": "7aa73d4a-dc38-4070-b770-7b0ff3d0b465",
+      "type": "long-with-compactions",
+      "notes": "u:152, comp:19, 242/535 text/tool — most compactions, tool-heavy. 3/3 eval thresholds."
+    },
+    {
+      "id": "8ee8b3a5-0183-483d-873b-f5001333003f",
+      "type": "heavy-debugging",
+      "notes": "u:234, comp:10, 487/681 text/tool — deep debugging, many compactions, 258+ msgs at all snapshots. 3/3 eval thresholds."
+    },
+    {
+      "id": "a3481f8e-7130-4212-bef1-a9db772b3fa4",
+      "type": "mixed",
+      "notes": "u:114, comp:10, 277/438 text/tool — good balance. 3/3 eval thresholds."
+    },
+    {
+      "id": "fc0b64a9-fcff-444a-8061-4355fabe543b",
+      "type": "tool-heavy",
+      "notes": "u:136, comp:8, 270/469 text/tool — mid-size, good compaction density. 3/3 eval thresholds."
+    },
+    {
+      "id": "172808f3-017d-4515-8814-41d22bc69ecb",
+      "type": "conversational",
+      "notes": "u:107, comp:4, 186/250 text/tool — highest text ratio in set. 3/3 eval thresholds."
+    }
+  ]
+}

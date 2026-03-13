@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-30k-100k-r3",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 69187,
+  "tailTokens": 29874,
+  "summaryChars": 2493,
+  "summaryTokensEst": 623,
+  "compressionRatio": 3.3,
+  "foldLatencyMs": 24852,
+  "foldTokensIn": 10422,
+  "foldTokensOut": 859,
+  "foldCostUsd": 0.044151,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent multi-topic summary with clear separation. Each workstream is distinct and actionable: hook upgrade is done (next compaction will validate), security audit has clear next steps (disabled soul-evil, added graph nodes), MEMORY.md cleanup is complete, SOUL.md refactor is done with new handler added, boot order optimization is implemented and ready to observe. The only minor gap: no explicit 'what to monitor next' for the boot order changes, though the work is clearly complete. Agent could immediately continue any of these threads or move to new work.",
+  "judgeCostUsd": 0.006249,
+  "totalCostUsd": 0.0504,
+  "timestamp": "2026-02-15T20:10:22.454Z"
+}

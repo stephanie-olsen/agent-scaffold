@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-10k-100k-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 2,
+  "foldInputTokens": 89528,
+  "tailTokens": 9935,
+  "summaryChars": 6867,
+  "summaryTokensEst": 1717,
+  "compressionRatio": 8.6,
+  "foldLatencyMs": 58944,
+  "foldTokensIn": 17883,
+  "foldTokensOut": 2158,
+  "foldCostUsd": 0.086019,
+  "judgeScore": 2.5,
+  "judgeReasoning": "Information is comprehensive and accurate, but organization makes it hard to act on. Eleven topics are presented chronologically rather than by priority or active status. An agent waking with this summary would need to parse 6,867 chars to figure out what's actively in progress (background thinking cron just fixed? MoltCircle Discord work? poetry practice?) versus what's complete. No clear 'next steps' section—actionable items are buried in narrative. Compare to calibration examples: this resembles Example C (everything present, nothing prioritized) more than Example A (single clear thread).",
+  "judgeCostUsd": 0.009234,
+  "totalCostUsd": 0.095253,
+  "timestamp": "2026-02-15T19:41:51.742Z"
+}

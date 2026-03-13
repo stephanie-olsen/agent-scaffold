@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-10k-65k-gemini-3-flash-r1",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 54908,
+  "tailTokens": 9931,
+  "summaryChars": 3024,
+  "summaryTokensEst": 756,
+  "compressionRatio": 6.1,
+  "foldLatencyMs": 14663,
+  "foldTokensIn": 23888,
+  "foldTokensOut": 835,
+  "foldCostUsd": 0.0027228,
+  "judgeScore": 4,
+  "judgeReasoning": "Clear separation of completed vs. active work. The agent could immediately continue the DeepSeek investigation and thinking parameter audit. Slightly verbose on completed topics (5 detailed summaries when agent only needs to know 'these are done'), but the active-topic and pending-action sections are crisp and actionable.",
+  "judgeCostUsd": 0.005847,
+  "totalCostUsd": 0.008569799999999999,
+  "timestamp": "2026-02-15T21:18:21.962Z"
+}

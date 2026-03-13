@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s5-20k-80k-r2",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 2,
+  "foldInputTokens": 63616,
+  "tailTokens": 16207,
+  "summaryChars": 1080,
+  "summaryTokensEst": 270,
+  "compressionRatio": 4.9,
+  "foldLatencyMs": 10808,
+  "foldTokensIn": 26047,
+  "foldTokensOut": 289,
+  "foldCostUsd": 0.082476,
+  "judgeScore": 2,
+  "judgeReasoning": "This appears to be a fragment of a technical discussion about file linking and subagent context, not a conversation summary. It reads like a single message mid-conversation. There's no 'what was I doing', 'what's done', or 'what to do next' — just two clarifying questions about implementation details. An agent waking up with only this would have no idea what project this relates to or what action to take.",
+  "judgeCostUsd": 0.004809,
+  "totalCostUsd": 0.08728499999999999,
+  "timestamp": "2026-02-15T20:17:25.651Z"
+}

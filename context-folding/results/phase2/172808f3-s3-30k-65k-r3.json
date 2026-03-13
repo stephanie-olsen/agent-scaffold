@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s3-30k-65k-r3",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 40612,
+  "tailTokens": 24116,
+  "summaryChars": 2391,
+  "summaryTokensEst": 598,
+  "compressionRatio": 2.7,
+  "foldLatencyMs": 20896,
+  "foldTokensIn": 5589,
+  "foldTokensOut": 826,
+  "foldCostUsd": 0.029157,
+  "judgeScore": 4,
+  "judgeReasoning": "Five distinct topics are clearly separated with bracketed headers, making it easy to scan. Each thread has clear outcomes (hop depth testing complete, domain cap added, embedding correction made). Minor weakness: the hop decay topic ends with 'test when graph grows to 5K+' but doesn't say if this is tracked anywhere or what the agent should do now. Otherwise, agent could immediately continue work on any thread.",
+  "judgeCostUsd": 0.005649,
+  "totalCostUsd": 0.034806,
+  "timestamp": "2026-02-15T20:22:59.094Z"
+}

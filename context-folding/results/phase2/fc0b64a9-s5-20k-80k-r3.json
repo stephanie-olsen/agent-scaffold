@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-20k-80k-r3",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 3,
+  "foldInputTokens": 49931,
+  "tailTokens": 19978,
+  "summaryChars": 2421,
+  "summaryTokensEst": 605,
+  "compressionRatio": 3.9,
+  "foldLatencyMs": 24824,
+  "foldTokensIn": 10043,
+  "foldTokensOut": 724,
+  "foldCostUsd": 0.040989,
+  "judgeScore": 4,
+  "judgeReasoning": "Clear separation of topics with fold markers makes this navigable. Agent could immediately continue RIF experiment work (knows it's waiting on logs) and understand the outbox architecture fix that was implemented. The performativity/RLHF floor findings are summarized but not actionable—agent knows they exist but unclear if follow-up is needed. Slightly penalized for including resolved diagnostic work (outbox investigation) that doesn't affect next steps, but overall this is well-organized and usable.",
+  "judgeCostUsd": 0.005925,
+  "totalCostUsd": 0.046914,
+  "timestamp": "2026-02-15T19:41:17.953Z"
+}

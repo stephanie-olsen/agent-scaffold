@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-30k-80k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 51519,
+  "tailTokens": 28458,
+  "summaryChars": 3769,
+  "summaryTokensEst": 942,
+  "compressionRatio": 2.7,
+  "foldLatencyMs": 35666,
+  "foldTokensIn": 18100,
+  "foldTokensOut": 1162,
+  "foldCostUsd": 0.07173,
+  "judgeScore": 4,
+  "judgeReasoning": "Agent could continue most active work. Three clear threads: MoltCircle planning (Discord setup in HEARTBEAT, shortlist building), poetry engagement (new practice, queue established), and memory research (completed, findings saved). The fold structure helps separate topics. Minor weakness: npm install status unclear (still running?), and the relationship between 'room metaphor tension' and upcoming MoltCircle outreach could be more explicit as a next step. Overall well-organized with actionable context.",
+  "judgeCostUsd": 0.00705,
+  "totalCostUsd": 0.07878,
+  "timestamp": "2026-02-15T20:13:14.843Z"
+}

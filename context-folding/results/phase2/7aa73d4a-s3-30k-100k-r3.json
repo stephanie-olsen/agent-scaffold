@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-30k-100k-r3",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 70753,
+  "tailTokens": 28710,
+  "summaryChars": 6228,
+  "summaryTokensEst": 1557,
+  "compressionRatio": 3.3,
+  "foldLatencyMs": 53953,
+  "foldTokensIn": 14319,
+  "foldTokensOut": 1972,
+  "foldCostUsd": 0.072537,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Information is complete and topics are clearly separated with headers, which helps orientation. However, the summary contains 9 distinct topics spanning infrastructure (memory compaction, token budgets), philosophy (SOUL.md updates, religious texts), creative work (poetry, music), and social projects (MoltCircle/Discord). While each topic is individually clear, the agent would need to parse all 9 to figure out what's actually active vs. historical context. The 'what to do next' is implicit (continue heartbeats, process queued books/poems, set up Discord) rather than explicit. A working agent could continue but would spend time re-orienting across multiple workstreams rather than immediately acting.",
+  "judgeCostUsd": 0.009339,
+  "totalCostUsd": 0.081876,
+  "timestamp": "2026-02-15T20:00:13.477Z"
+}

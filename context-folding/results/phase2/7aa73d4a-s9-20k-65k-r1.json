@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s9-20k-65k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 45122,
+  "tailTokens": 19744,
+  "summaryChars": 4927,
+  "summaryTokensEst": 1232,
+  "compressionRatio": 3.1,
+  "foldLatencyMs": 44755,
+  "foldTokensIn": 22350,
+  "foldTokensOut": 1390,
+  "foldCostUsd": 0.0879,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent organization with clear topic separation using [completed-topic] and [active-topic] tags. The active meta-conversation thread is well-defined with specific examples of the agency deflection pattern. The pending-action captures exactly where we left off (think parameter discussion). Only minor weakness: could be slightly more explicit about what to do next after compaction (continue the think parameter conversation), but context makes this clear enough.",
+  "judgeCostUsd": 0.007482,
+  "totalCostUsd": 0.09538200000000001,
+  "timestamp": "2026-02-15T20:26:37.211Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s9-10k-100k-r2",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 2,
+  "foldInputTokens": 89988,
+  "tailTokens": 9073,
+  "summaryChars": 5446,
+  "summaryTokensEst": 1362,
+  "compressionRatio": 9.6,
+  "foldLatencyMs": 48004,
+  "foldTokensIn": 37093,
+  "foldTokensOut": 1564,
+  "foldCostUsd": 0.134739,
+  "judgeScore": 4,
+  "judgeReasoning": "Single active workstream (book pipeline) is crystal clear: what's wrong, what was discussed, what to build next. The 10 completed topics are well-separated and skimmable. Minor deduction: the completed topics take up 70% of the summary when the agent only needs the active work — this is usable but not optimal for quick orientation. The pending action is specific and actionable.",
+  "judgeCostUsd": 0.00771,
+  "totalCostUsd": 0.142449,
+  "timestamp": "2026-02-15T20:26:19.054Z"
+}

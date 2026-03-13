@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-20k-65k-r1",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 44854,
+  "tailTokens": 19633,
+  "summaryChars": 641,
+  "summaryTokensEst": 160,
+  "compressionRatio": 3.3,
+  "foldLatencyMs": 7471,
+  "foldTokensIn": 5878,
+  "foldTokensOut": 200,
+  "foldCostUsd": 0.020634,
+  "judgeScore": 5,
+  "judgeReasoning": "Single clear task with complete implementation details. Agent could immediately execute: run check script, conditionally format/send/clear based on exit code. Only minor ambiguity is notification channel (marked TBD), but that doesn't block understanding the workflow or next steps.",
+  "judgeCostUsd": 0.003996,
+  "totalCostUsd": 0.02463,
+  "timestamp": "2026-02-15T19:38:31.520Z"
+}

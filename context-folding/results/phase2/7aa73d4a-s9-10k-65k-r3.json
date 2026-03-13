@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s9-10k-65k-r3",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 55102,
+  "tailTokens": 9764,
+  "summaryChars": 6138,
+  "summaryTokensEst": 1535,
+  "compressionRatio": 5.8,
+  "foldLatencyMs": 52602,
+  "foldTokensIn": 29262,
+  "foldTokensOut": 1730,
+  "foldCostUsd": 0.113736,
+  "judgeScore": 4,
+  "judgeReasoning": "Strong separation of completed vs active work makes orientation easy. The one active topic (Sartre request) is clear and actionable. However, the completed topics section is dense—8 distinct threads with significant detail that won't be needed going forward. While accurate and well-organized, an agent resuming would spend time parsing completed work before finding the single active thread. Trimming completed context to essentials (e.g., 'MoltCircle: pivoted to Discord, Puppeteer installed' instead of full decision rationale) would improve usability without losing continuity.",
+  "judgeCostUsd": 0.00885,
+  "totalCostUsd": 0.122586,
+  "timestamp": "2026-02-15T20:20:12.445Z"
+}

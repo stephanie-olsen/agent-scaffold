@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s9-10k-65k-gemini-3-flash-r2",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 54973,
+  "tailTokens": 9186,
+  "summaryChars": 2213,
+  "summaryTokensEst": 553,
+  "compressionRatio": 6.8,
+  "foldLatencyMs": 11453,
+  "foldTokensIn": 23048,
+  "foldTokensOut": 625,
+  "foldCostUsd": 0.0025548000000000003,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent separation of completed vs. active work. The four completed topics are clearly closed, and the single active topic (context position) has a specific pending action with clear next steps (check workspace.ts, reorder MEMORY.md). The agent could immediately continue the investigation without re-reading completed work. Only minor improvement: could explicitly state 'waiting for file search results' to clarify the exact resumption point.",
+  "judgeCostUsd": 0.005526,
+  "totalCostUsd": 0.008080799999999999,
+  "timestamp": "2026-02-15T21:19:39.188Z"
+}

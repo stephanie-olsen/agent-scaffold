@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s9-20k-80k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 60036,
+  "tailTokens": 19941,
+  "summaryChars": 5467,
+  "summaryTokensEst": 1367,
+  "compressionRatio": 3.8,
+  "foldLatencyMs": 49146,
+  "foldTokensIn": 28955,
+  "foldTokensOut": 1558,
+  "foldCostUsd": 0.110235,
+  "judgeScore": 4,
+  "judgeReasoning": "Strong single-narrative structure with clear topic separation via [completed-topic] and [active-topic] tags. The pending-action section gives immediate orientation: Steph offered Sartre, I just searched for it, about to respond. Most completed topics are genuinely closed (Puppeteer installed, poetry practice established, cost optimization done). Minor weakness: the disclosure ethics topic is marked 'active' but reads more like a completed discussion with conclusions reached—unclear if there's ongoing work beyond 'watching for patterns.' The 8 completed topics could potentially overwhelm, but each is distinct enough (memory research, MoltCircle, poetry, browser automation) that I could quickly skip to what matters. Length is justified by topic diversity rather than verbosity within topics.",
+  "judgeCostUsd": 0.009036,
+  "totalCostUsd": 0.119271,
+  "timestamp": "2026-02-15T20:28:59.136Z"
+}

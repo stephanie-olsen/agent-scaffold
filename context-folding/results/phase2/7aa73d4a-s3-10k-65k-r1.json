@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-10k-65k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 55102,
+  "tailTokens": 9764,
+  "summaryChars": 4284,
+  "summaryTokensEst": 1071,
+  "compressionRatio": 6.1,
+  "foldLatencyMs": 42330,
+  "foldTokensIn": 11480,
+  "foldTokensOut": 1420,
+  "foldCostUsd": 0.05574,
+  "judgeScore": 3,
+  "judgeReasoning": "Information is complete and accurate, but organization makes it hard to orient. Nine topics are listed chronologically rather than by active status. An agent waking up would need to parse the entire summary to find what's actually in progress (Discord setup? Poem reading? Budget monitoring?) versus what's done (Puppeteer installed, SOUL.md updated). The 'what to do next' is buried across multiple sections rather than surfaced clearly. This is usable but costs time to parse.",
+  "judgeCostUsd": 0.007299,
+  "totalCostUsd": 0.063039,
+  "timestamp": "2026-02-15T19:35:32.045Z"
+}

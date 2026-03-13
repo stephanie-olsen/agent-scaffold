@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s9-10k-65k-haiku-r2",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 54973,
+  "tailTokens": 9186,
+  "summaryChars": 5342,
+  "summaryTokensEst": 1336,
+  "compressionRatio": 6.3,
+  "foldLatencyMs": 20452,
+  "foldTokensIn": 23132,
+  "foldTokensOut": 1527,
+  "foldCostUsd": 0.024613600000000003,
+  "judgeScore": 4,
+  "judgeReasoning": "Clear separation of 9 completed topics from 1 active topic. The active-topic section makes it obvious what the agent was doing (investigating boot context load order) and what to do next (trace bootstrap sequence, reorder MEMORY.md sections, establish flat-file linking convention). The pending-action captures the user's three-part question verbatim, which is helpful. Minor weakness: the assistant state repeats information already in pending-action rather than adding new insight, and the next steps could be slightly more specific (e.g., 'search gateway/src for bootstrap or loadContext').",
+  "judgeCostUsd": 0.008373,
+  "totalCostUsd": 0.032986600000000005,
+  "timestamp": "2026-02-15T21:16:04.381Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s9-20k-65k-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 45122,
+  "tailTokens": 19744,
+  "summaryChars": 4092,
+  "summaryTokensEst": 1023,
+  "compressionRatio": 3.2,
+  "foldLatencyMs": 36945,
+  "foldTokensIn": 22350,
+  "foldTokensOut": 1234,
+  "foldCostUsd": 0.08556,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Strong organization with clear topic separation and good completed work documentation. However, the active work is unclear—the 'think parameter discussion' isn't really active work, it's a meta-conversation about settings. The pending action captures the immediate context but doesn't tell the agent what to DO next beyond 'wait for Steph.' An agent waking up would know what's been done but wouldn't have clear next steps for continuing substantive work (MoltCircle outreach? More poetry? Puppeteer projects?). The completed topics are excellent, but lack of actionable forward direction costs points.",
+  "judgeCostUsd": 0.007524,
+  "totalCostUsd": 0.093084,
+  "timestamp": "2026-02-15T20:27:19.619Z"
+}

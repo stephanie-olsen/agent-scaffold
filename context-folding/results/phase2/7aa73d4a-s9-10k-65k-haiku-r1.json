@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s9-10k-65k-haiku-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 55102,
+  "tailTokens": 9764,
+  "summaryChars": 6011,
+  "summaryTokensEst": 1503,
+  "compressionRatio": 5.8,
+  "foldLatencyMs": 25028,
+  "foldTokensIn": 29262,
+  "foldTokensOut": 1753,
+  "foldCostUsd": 0.030421600000000003,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent organization with clear topic separation and completion states. Active work is immediately actionable (Discord setup, Sartre prioritization, heartbeat tasks). The pending-action section cleanly captures the conversation state. Only minor weakness: MoltCircle section could be slightly clearer on immediate next step (Discord setup is mentioned but could be more prominent as the blocking task).",
+  "judgeCostUsd": 0.008355,
+  "totalCostUsd": 0.0387766,
+  "timestamp": "2026-02-15T21:12:59.715Z"
+}

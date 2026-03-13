@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-20k-80k-r1",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 49931,
+  "tailTokens": 19978,
+  "summaryChars": 3760,
+  "summaryTokensEst": 940,
+  "compressionRatio": 3.8,
+  "foldLatencyMs": 31560,
+  "foldTokensIn": 8850,
+  "foldTokensOut": 1063,
+  "foldCostUsd": 0.042495,
+  "judgeScore": 4,
+  "judgeReasoning": "Clear separation of completed vs active work. Agent could immediately identify what's in progress (RIF experiment with specific blockers: 5 more days of logs + ground truth review) and what was just discussed (outbox fix, RLHF findings). Minor weakness: the 'pending-action' section describes what Steph requested but doesn't explicitly state 'next step = wait for logs + prompt for review', requiring slight inference. Otherwise well-organized and actionable.",
+  "judgeCostUsd": 0.006948,
+  "totalCostUsd": 0.049443,
+  "timestamp": "2026-02-15T19:57:12.752Z"
+}

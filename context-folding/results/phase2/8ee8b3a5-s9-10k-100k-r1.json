@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-10k-100k-r1",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 90417,
+  "tailTokens": 9372,
+  "summaryChars": 6101,
+  "summaryTokensEst": 1525,
+  "compressionRatio": 9.2,
+  "foldLatencyMs": 51226,
+  "foldTokensIn": 40176,
+  "foldTokensOut": 1609,
+  "foldCostUsd": 0.144663,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Single active workstream (task pipeline restructure) with clear next steps: draft proposal, create experiments/ folder, split queue files, write protocol template. Completed topics are well-separated and contain useful context (attractor findings, methodology gaps, debugging resolution). Could immediately continue work. Minor deduction: the 'about to draft' framing creates slight ambiguity about whether drafting has started, but the 5-point action list is concrete enough to proceed without confusion.",
+  "judgeCostUsd": 0.008379,
+  "totalCostUsd": 0.153042,
+  "timestamp": "2026-02-15T19:40:22.698Z"
+}

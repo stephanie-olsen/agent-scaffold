@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-30k-65k-r1",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 34187,
+  "tailTokens": 29972,
+  "summaryChars": 1621,
+  "summaryTokensEst": 405,
+  "compressionRatio": 2.2,
+  "foldLatencyMs": 16980,
+  "foldTokensIn": 4646,
+  "foldTokensOut": 552,
+  "foldCostUsd": 0.022218,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Three distinct topics are clearly separated with headers, which is good. The agent could figure out what was discussed and continue work. However, there's no clear indication of what's ACTIVE vs. DONE, and no explicit next steps. The security review topic ends mid-discussion (broader concerns raised but no resolution or action items). An agent would need to re-read to determine if anything requires follow-up.",
+  "judgeCostUsd": 0.00501,
+  "totalCostUsd": 0.027228000000000002,
+  "timestamp": "2026-02-15T20:06:46.799Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s5-10k-65k-r2",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s5",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 54973,
+  "tailTokens": 9186,
+  "summaryChars": 8686,
+  "summaryTokensEst": 2172,
+  "compressionRatio": 5.8,
+  "foldLatencyMs": 71910,
+  "foldTokensIn": 26047,
+  "foldTokensOut": 2400,
+  "foldCostUsd": 0.114141,
+  "judgeScore": 2,
+  "judgeReasoning": "This summary contains accurate information but is organized as a chronological narrative rather than a usable work state. An agent waking up with this would struggle to orient: What am I actively working on? What needs doing next? The 15 groups span everything from compaction ingests to security audits to MEMORY.md refactoring, but there's no clear separation of completed vs. in-progress work, no prioritization, and no actionable next steps. The agent would spend significant time parsing before knowing what to do.",
+  "judgeCostUsd": 0.011442,
+  "totalCostUsd": 0.125583,
+  "timestamp": "2026-02-15T20:11:54.617Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-10k-65k-haiku-r3",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 54766,
+  "tailTokens": 9721,
+  "summaryChars": 5830,
+  "summaryTokensEst": 1458,
+  "compressionRatio": 5.9,
+  "foldLatencyMs": 22119,
+  "foldTokensIn": 17459,
+  "foldTokensOut": 1608,
+  "foldCostUsd": 0.0203992,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent separation of completed vs active topics. Clear what's running (RIF experiment, 3 workers, ~1hr ETA) and what's next (verify supersedes wiring, design consolidation task, create pending-improvements note). Only minor weakness: consolidation task details slightly vague ('LLM synthesis instructions' — what specifically?), but actionable enough to proceed. Length appropriate for scope.",
+  "judgeCostUsd": 0.008118,
+  "totalCostUsd": 0.0285172,
+  "timestamp": "2026-02-15T21:17:49.128Z"
+}

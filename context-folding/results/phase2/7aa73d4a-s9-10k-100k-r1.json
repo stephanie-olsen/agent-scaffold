@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s9-10k-100k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 89528,
+  "tailTokens": 9935,
+  "summaryChars": 5843,
+  "summaryTokensEst": 1461,
+  "compressionRatio": 8.8,
+  "foldLatencyMs": 53241,
+  "foldTokensIn": 47630,
+  "foldTokensOut": 1640,
+  "foldCostUsd": 0.16749,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Single active thread (consciousness/continuity work) with clear next step (complete interrupted edit, confirm ready for compaction). Completed topics cleanly separated and contextually rich without overwhelming detail. The pending-action section precisely captures mid-execution state. Minor deduction: could be slightly more explicit about what the background-thinking cron is testing (does crude recurrence produce genuine thought development?), but the agent has enough to continue immediately.",
+  "judgeCostUsd": 0.008157,
+  "totalCostUsd": 0.175647,
+  "timestamp": "2026-02-15T20:23:42.410Z"
+}

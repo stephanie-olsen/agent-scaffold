@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-30k-80k-r1",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 40025,
+  "tailTokens": 29884,
+  "summaryChars": 1893,
+  "summaryTokensEst": 473,
+  "compressionRatio": 2.6,
+  "foldLatencyMs": 12189,
+  "foldTokensIn": 2491,
+  "foldTokensOut": 501,
+  "foldCostUsd": 0.014988,
+  "judgeScore": 4,
+  "judgeReasoning": "Clear separation of completed context (morning check-in) from active issue (outbox filtering). The pending-action captures exactly where the conversation stopped and what needs addressing. Minor weakness: could be slightly more explicit about what answer the user is expecting (criteria explanation vs. acknowledgment of problem), but the context makes this recoverable.",
+  "judgeCostUsd": 0.004875,
+  "totalCostUsd": 0.019863,
+  "timestamp": "2026-02-15T20:02:08.887Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-10k-100k-r2",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 2,
+  "foldInputTokens": 90053,
+  "tailTokens": 9889,
+  "summaryChars": 3707,
+  "summaryTokensEst": 927,
+  "compressionRatio": 9.3,
+  "foldLatencyMs": 37150,
+  "foldTokensIn": 35432,
+  "foldTokensOut": 1133,
+  "foldCostUsd": 0.123291,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Agent could continue work but would need time to re-orient. The fold structure helps separate topics, and active work (RIF experiment running, book pipeline fixes in progress, subagent spawned) is identifiable. However, critical next steps are buried: no clear statement that reconciliation script needs completion, subagent results need review, or RIF experiment needs monitoring. The 'three findings' in fold 12-41 feel like historical context rather than actionable state. Adequate for continuation but not optimized for immediate action.",
+  "judgeCostUsd": 0.007212,
+  "totalCostUsd": 0.130503,
+  "timestamp": "2026-02-15T19:37:40.615Z"
+}

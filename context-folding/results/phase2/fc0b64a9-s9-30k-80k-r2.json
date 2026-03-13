@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-30k-80k-r2",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 2,
+  "foldInputTokens": 40025,
+  "tailTokens": 29884,
+  "summaryChars": 1990,
+  "summaryTokensEst": 498,
+  "compressionRatio": 2.6,
+  "foldLatencyMs": 11449,
+  "foldTokensIn": 2491,
+  "foldTokensOut": 532,
+  "foldCostUsd": 0.015453,
+  "judgeScore": 4,
+  "judgeReasoning": "Single clear thread (outbox investigation) with good context on what happened and what's next. The completed-topic section provides useful background without cluttering the active work. Minor weakness: the pending-action section is slightly verbose (includes both the question and a detailed restatement of findings), but the agent could immediately continue with a clear answer about the outbox discrepancy.",
+  "judgeCostUsd": 0.005118,
+  "totalCostUsd": 0.020571,
+  "timestamp": "2026-02-15T20:02:24.867Z"
+}

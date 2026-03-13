@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-10k-65k-r2",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 54908,
+  "tailTokens": 9931,
+  "summaryChars": 4139,
+  "summaryTokensEst": 1035,
+  "compressionRatio": 5.9,
+  "foldLatencyMs": 40818,
+  "foldTokensIn": 24585,
+  "foldTokensOut": 1194,
+  "foldCostUsd": 0.091665,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Strong multi-topic summary with clear separation. Each completed topic is self-contained and easy to parse. The active DeepSeek experiment is well-described with clear context (what's different, why it matters, what to watch). The pending-action section gives immediate orientation for next steps. Only minor weakness: could be slightly more explicit about priority (is the thinking parameter investigation urgent or can it wait while monitoring DeepSeek?).",
+  "judgeCostUsd": 0.007059,
+  "totalCostUsd": 0.09872399999999999,
+  "timestamp": "2026-02-15T19:36:10.748Z"
+}

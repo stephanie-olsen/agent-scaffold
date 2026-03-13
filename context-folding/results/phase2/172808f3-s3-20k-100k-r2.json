@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s3-20k-100k-r2",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 2,
+  "foldInputTokens": 79502,
+  "tailTokens": 19960,
+  "summaryChars": 6809,
+  "summaryTokensEst": 1702,
+  "compressionRatio": 4.6,
+  "foldLatencyMs": 63297,
+  "foldTokensIn": 14133,
+  "foldTokensOut": 2503,
+  "foldCostUsd": 0.079944,
+  "judgeScore": 2.5,
+  "judgeReasoning": "Contains complete information across 20+ workstreams but no prioritization or active work identification. Agent would spend significant time parsing to find what matters now. Interview prep appears complete (multiple 'prep complete' mentions), but unclear if any follow-up needed. Image generation work shows recent activity but no next steps. The 'Steph nervous' note suggests interview is imminent but no explicit next action. Multi-topic format helps separation, but sheer volume (20 topics) without priority ordering makes orientation costly.",
+  "judgeCostUsd": 0.009324,
+  "totalCostUsd": 0.089268,
+  "timestamp": "2026-02-15T20:20:38.662Z"
+}

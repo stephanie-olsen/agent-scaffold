@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s3-10k-65k-r1",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s3",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 54876,
+  "tailTokens": 9852,
+  "summaryChars": 3957,
+  "summaryTokensEst": 989,
+  "compressionRatio": 6.1,
+  "foldLatencyMs": 35182,
+  "foldTokensIn": 9254,
+  "foldTokensOut": 1327,
+  "foldCostUsd": 0.047667,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Summary covers 8 distinct topics with clear separation, making it easy to distinguish workstreams. However, there's no indication of what's ACTIVELY in progress vs completed discussion. The hop depth experiment appears done, the ResumeMessage bug is fixed but untested, and the domain concentration problem has a solution implemented—but none of this is explicitly marked as 'done' vs 'monitor' vs 'next action'. An agent could figure out priorities but would need to re-parse each topic to determine current state rather than immediately knowing what to do next.",
+  "judgeCostUsd": 0.007239,
+  "totalCostUsd": 0.054906,
+  "timestamp": "2026-02-15T20:07:09.573Z"
+}

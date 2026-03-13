@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s3-20k-80k-r3",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 3,
+  "foldInputTokens": 59888,
+  "tailTokens": 19785,
+  "summaryChars": 4621,
+  "summaryTokensEst": 1155,
+  "compressionRatio": 3.9,
+  "foldLatencyMs": 39408,
+  "foldTokensIn": 10690,
+  "foldTokensOut": 1480,
+  "foldCostUsd": 0.05427,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Summary clearly separates 10 distinct topics with good topic labels, making it easy to distinguish workstreams. However, it's purely historical — describes what was discussed/completed but provides no actionable next steps or indication of what's actively in progress. An agent would know what happened but not what to do next, requiring re-inference of priorities from completed work.",
+  "judgeCostUsd": 0.006951,
+  "totalCostUsd": 0.061221,
+  "timestamp": "2026-02-15T20:18:08.891Z"
+}

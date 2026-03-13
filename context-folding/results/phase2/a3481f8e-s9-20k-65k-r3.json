@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s9-20k-65k-r3",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 45054,
+  "tailTokens": 19105,
+  "summaryChars": 2272,
+  "summaryTokensEst": 568,
+  "compressionRatio": 3.4,
+  "foldLatencyMs": 20063,
+  "foldTokensIn": 13305,
+  "foldTokensOut": 668,
+  "foldCostUsd": 0.049935,
+  "judgeScore": 4,
+  "judgeReasoning": "Strong separation of completed vs active work. The three completed topics are clearly closed and won't distract. The active topic (soul-evil security review) has clear context and a specific pending action. Minor weakness: the pending-action could be slightly more specific about what to look for in the config (e.g., 'check hooks.internal.entries for soul-evil key or schedule/trigger config'), but the agent could reasonably continue from here without confusion.",
+  "judgeCostUsd": 0.005691,
+  "totalCostUsd": 0.055626,
+  "timestamp": "2026-02-15T20:28:27.267Z"
+}

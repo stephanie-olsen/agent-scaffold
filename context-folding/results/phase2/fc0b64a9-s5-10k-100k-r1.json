@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-10k-100k-r1",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 90053,
+  "tailTokens": 9889,
+  "summaryChars": 3918,
+  "summaryTokensEst": 980,
+  "compressionRatio": 9.2,
+  "foldLatencyMs": 40247,
+  "foldTokensIn": 35432,
+  "foldTokensOut": 1202,
+  "foldCostUsd": 0.124326,
+  "judgeScore": 3,
+  "judgeReasoning": "Information is complete and chronologically organized, but the agent would need to parse 9 distinct workstreams (performativity trends, RLHF experiments, dream analysis, graph growth, supersession implementation, RIF experiments, friction logging, book pipeline audit, PowerShell fixes) to figure out what's actively in progress. The final fold mentions a subagent spawn and script-in-progress but doesn't clearly state what to monitor or do next. An agent could reconstruct context but would spend time re-orienting rather than immediately acting.",
+  "judgeCostUsd": 0.007338,
+  "totalCostUsd": 0.131664,
+  "timestamp": "2026-02-15T19:36:57.449Z"
+}

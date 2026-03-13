@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-30k-65k-r3",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 35019,
+  "tailTokens": 29820,
+  "summaryChars": 2148,
+  "summaryTokensEst": 537,
+  "compressionRatio": 2.1,
+  "foldLatencyMs": 15359,
+  "foldTokensIn": 3369,
+  "foldTokensOut": 564,
+  "foldCostUsd": 0.018567,
+  "judgeScore": 3.5,
+  "judgeReasoning": "The summary clearly separates three topics and identifies what's pending (update pending-improvements, explain cold experiment connection). However, the active-topic section is verbose with search details that don't help orient action — the agent needs to know 'find the paper user mentioned' not a list of what searches returned. The pending-action section is clearer but could be more concise. Adequate for continuation but wastes tokens on search history.",
+  "judgeCostUsd": 0.005346,
+  "totalCostUsd": 0.023913,
+  "timestamp": "2026-02-15T19:54:30.655Z"
+}

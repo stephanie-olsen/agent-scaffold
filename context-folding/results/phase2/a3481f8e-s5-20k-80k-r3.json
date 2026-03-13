@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s5-20k-80k-r3",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 3,
+  "foldInputTokens": 63616,
+  "tailTokens": 16207,
+  "summaryChars": 1337,
+  "summaryTokensEst": 334,
+  "compressionRatio": 4.9,
+  "foldLatencyMs": 13893,
+  "foldTokensIn": 26047,
+  "foldTokensOut": 345,
+  "foldCostUsd": 0.083316,
+  "judgeScore": 1.5,
+  "judgeReasoning": "This is a fragment of a conversation mid-thought, not a usable summary. The agent would wake up with no idea what it was doing before this exchange, what prompted these questions, or what to do next. It's discussing potential improvements (file linking, MEMORY.md in subagent context) but there's no context about active work, completed tasks, or actionable next steps. This would force the agent to essentially start over.",
+  "judgeCostUsd": 0.005007,
+  "totalCostUsd": 0.088323,
+  "timestamp": "2026-02-15T20:17:43.949Z"
+}

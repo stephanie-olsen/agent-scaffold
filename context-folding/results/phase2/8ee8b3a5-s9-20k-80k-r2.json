@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-20k-80k-r2",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 2,
+  "foldInputTokens": 52444,
+  "tailTokens": 19935,
+  "summaryChars": 4061,
+  "summaryTokensEst": 1015,
+  "compressionRatio": 3.8,
+  "foldLatencyMs": 31506,
+  "foldTokensIn": 16972,
+  "foldTokensOut": 1126,
+  "foldCostUsd": 0.067806,
+  "judgeScore": 4,
+  "judgeReasoning": "Strong separation of completed vs active topics makes orientation easy. Clear what's done (SOUL.md updates, cross-model experiments queued, book testing) and what's pending (queue Chen paper). The active-topic and pending-action sections give immediate actionable context. Minor deduction: some completed topics (book testing, factual failures) could be more concise — the agent doesn't need full conversational detail to continue work, just enough to know 'tested honestly, queued papers, caught confabulation.'",
+  "judgeCostUsd": 0.007137,
+  "totalCostUsd": 0.07494300000000001,
+  "timestamp": "2026-02-15T19:46:16.897Z"
+}

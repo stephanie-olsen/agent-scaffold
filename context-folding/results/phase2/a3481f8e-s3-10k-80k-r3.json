@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-10k-80k-r3",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 10000,
+  "threshold": 80000,
+  "rep": 3,
+  "foldInputTokens": 71166,
+  "tailTokens": 8657,
+  "summaryChars": 1554,
+  "summaryTokensEst": 389,
+  "compressionRatio": 8.9,
+  "foldLatencyMs": 16575,
+  "foldTokensIn": 10761,
+  "foldTokensOut": 579,
+  "foldCostUsd": 0.040968,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Three clearly separated topics with actionable next steps. Each workstream is easy to understand: what was done, what changed, what to expect next. The 'Next compaction should show better extraction quality' is a clear checkpoint. Minor: could be slightly more explicit about whether security audit is complete or ongoing, but context strongly suggests it's done.",
+  "judgeCostUsd": 0.004902,
+  "totalCostUsd": 0.045869999999999994,
+  "timestamp": "2026-02-15T20:00:12.663Z"
+}

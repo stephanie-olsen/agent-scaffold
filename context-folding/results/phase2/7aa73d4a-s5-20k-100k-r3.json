@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-20k-100k-r3",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 79794,
+  "tailTokens": 19669,
+  "summaryChars": 1476,
+  "summaryTokensEst": 369,
+  "compressionRatio": 5,
+  "foldLatencyMs": 15080,
+  "foldTokensIn": 38619,
+  "foldTokensOut": 344,
+  "foldCostUsd": 0.121017,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Single clear topic (bad faith/Sartre) with concrete next step (try engaging with an image). The philosophical insight is actionable — agent knows what to do (wait for image, respond rather than describe). Minor: could be slightly more explicit about whether this is part of a larger project or standalone exploration, but context is sufficient to continue.",
+  "judgeCostUsd": 0.004704,
+  "totalCostUsd": 0.125721,
+  "timestamp": "2026-02-15T20:11:42.778Z"
+}

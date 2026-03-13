@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-30k-65k-r3",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 34187,
+  "tailTokens": 29972,
+  "summaryChars": 1673,
+  "summaryTokensEst": 418,
+  "compressionRatio": 2.2,
+  "foldLatencyMs": 15504,
+  "foldTokensIn": 4646,
+  "foldTokensOut": 570,
+  "foldCostUsd": 0.022488,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Three distinct topics are clearly separated with brackets, which helps orientation. However, the summary lacks actionable next steps — it's all retrospective (what was reviewed, what was fixed, what was discussed). An agent waking up wouldn't know what to DO next: monitor the next compaction? Continue the security audit? The soul-evil section mentions 'broader security audit needs' but doesn't say whether to pursue them or if they're just noted for later.",
+  "judgeCostUsd": 0.005232,
+  "totalCostUsd": 0.02772,
+  "timestamp": "2026-02-15T20:07:31.407Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-10k-65k-r1",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 54908,
+  "tailTokens": 9931,
+  "summaryChars": 3458,
+  "summaryTokensEst": 865,
+  "compressionRatio": 6,
+  "foldLatencyMs": 31830,
+  "foldTokensIn": 24585,
+  "foldTokensOut": 979,
+  "foldCostUsd": 0.08844,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent separation of completed vs active work. The [active-topic] section makes it immediately clear what I was doing (investigating thinking parameter discrepancy) and the [pending-action] captures both user intent and my exact state mid-task. The completed topics are cleanly separated and won't interfere with resuming the active investigation. Only minor weakness: could be slightly more explicit about next step (e.g., 'Next: finish reading openclaw.json to understand thinking parameter behavior').",
+  "judgeCostUsd": 0.006624,
+  "totalCostUsd": 0.09506400000000001,
+  "timestamp": "2026-02-15T19:35:25.244Z"
+}

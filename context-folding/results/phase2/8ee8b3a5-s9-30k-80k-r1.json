@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-30k-80k-r1",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 42400,
+  "tailTokens": 29979,
+  "summaryChars": 2493,
+  "summaryTokensEst": 623,
+  "compressionRatio": 2.6,
+  "foldLatencyMs": 19177,
+  "foldTokensIn": 6059,
+  "foldTokensOut": 666,
+  "foldCostUsd": 0.028167,
+  "judgeScore": 4,
+  "judgeReasoning": "Single clear workstream (attractor experiments and SOUL.md updates) with good separation of completed vs pending work. Agent could immediately continue: respond to user about scheduling, then queue cross-model experiments. Minor weakness: 'einmal ist keinmal' framing appears twice but its operational meaning (when to update files) isn't fully explicit—agent knows user asked about file changes but the decision criteria is slightly ambiguous. Otherwise well-organized and actionable.",
+  "judgeCostUsd": 0.005703,
+  "totalCostUsd": 0.03387,
+  "timestamp": "2026-02-15T19:54:55.112Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s5-30k-65k-r2",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 34187,
+  "tailTokens": 29972,
+  "summaryChars": 876,
+  "summaryTokensEst": 219,
+  "compressionRatio": 2.2,
+  "foldLatencyMs": 8481,
+  "foldTokensIn": 4319,
+  "foldTokensOut": 276,
+  "foldCostUsd": 0.017097,
+  "judgeScore": 1.5,
+  "judgeReasoning": "This summary captures a single moment mid-investigation (checking model config) but loses all prior context about what prompted this check, what the actual problem is, or what to do after finding the answer. An agent waking up with this would have no idea why they're checking model configs or what the broader goal is. The <think> tag provides some clue but doesn't establish enough context to continue productively.",
+  "judgeCostUsd": 0.004689,
+  "totalCostUsd": 0.021786,
+  "timestamp": "2026-02-15T20:18:36.985Z"
+}

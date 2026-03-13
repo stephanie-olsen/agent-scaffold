@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-10k-65k-gemini-3-flash-r2",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 54766,
+  "tailTokens": 9721,
+  "summaryChars": 637,
+  "summaryTokensEst": 159,
+  "compressionRatio": 6.6,
+  "foldLatencyMs": 12856,
+  "foldTokensIn": 17444,
+  "foldTokensOut": 764,
+  "foldCostUsd": 0.00205,
+  "judgeScore": 2,
+  "judgeReasoning": "The completed topics are all 'undefined' (likely a bug), providing zero context about what was accomplished. The pending action describes a user request and assistant state but lacks specifics: which dependencies were found? What's the status of the grid sweep (how many configs done)? What should the agent do next — implement supersedes edges, check the sweep, or both? The agent would need to re-examine code and session state to orient.",
+  "judgeCostUsd": 0.00441,
+  "totalCostUsd": 0.0064600000000000005,
+  "timestamp": "2026-02-15T21:20:29.810Z"
+}

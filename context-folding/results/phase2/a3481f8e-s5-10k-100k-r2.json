@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s5-10k-100k-r2",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s5",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 2,
+  "foldInputTokens": 89988,
+  "tailTokens": 9073,
+  "summaryChars": 5498,
+  "summaryTokensEst": 1375,
+  "compressionRatio": 9.6,
+  "foldLatencyMs": 52891,
+  "foldTokensIn": 41905,
+  "foldTokensOut": 1684,
+  "foldCostUsd": 0.150975,
+  "judgeScore": 3,
+  "judgeReasoning": "Information is complete and accurate, but organization makes it hard to act on. The agent would need to parse 13 folds spanning 6+ unrelated workstreams (compaction speed, soul-evil security, MEMORY.md refactoring, boot order restructuring, hybridSearch bug, book sourcing) to figure out what's actively in progress. The final fold indicates book-source task analysis is incomplete ('Began planning...'), but this critical next step is buried at the end after 300+ folds of completed work. An agent could eventually orient, but would waste significant time.",
+  "judgeCostUsd": 0.008913,
+  "totalCostUsd": 0.159888,
+  "timestamp": "2026-02-15T20:14:29.037Z"
+}

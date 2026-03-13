@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s9-10k-65k-gemini-3-flash-r3",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 54876,
+  "tailTokens": 9852,
+  "summaryChars": 0,
+  "summaryTokensEst": 0,
+  "compressionRatio": 6.7,
+  "foldLatencyMs": 23141,
+  "foldTokensIn": 22596,
+  "foldTokensOut": 164,
+  "foldCostUsd": 0.0023252,
+  "judgeScore": 1,
+  "judgeReasoning": "This is a completely empty summary (0 chars) replacing 65,961 tokens of conversation. The agent would wake up with zero context about what it was doing, what's completed, or what to do next. This is the definition of unusable — the agent must start from scratch.",
+  "judgeCostUsd": 0.003486,
+  "totalCostUsd": 0.0058112,
+  "timestamp": "2026-02-15T21:22:03.935Z"
+}

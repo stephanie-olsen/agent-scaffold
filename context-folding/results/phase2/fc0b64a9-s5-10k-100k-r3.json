@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-10k-100k-r3",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 90053,
+  "tailTokens": 9889,
+  "summaryChars": 3387,
+  "summaryTokensEst": 847,
+  "compressionRatio": 9.3,
+  "foldLatencyMs": 34398,
+  "foldTokensIn": 35432,
+  "foldTokensOut": 1028,
+  "foldCostUsd": 0.121716,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Summary captures all major workstreams (outbox fix, RIF experiment, graph architecture, book pipeline) with clear fold structure. However, active work is buried: RIF experiment status unclear (still running? completed?), book pipeline fixes in progress but no next steps specified. The 59-book gap and subagent work are mentioned but not actionable—agent would need to check if subagent finished, whether reconciliation script was completed, what to do next. Good separation of topics, but lacks the 'what now?' clarity needed for immediate continuation.",
+  "judgeCostUsd": 0.006954,
+  "totalCostUsd": 0.12867,
+  "timestamp": "2026-02-15T19:38:20.778Z"
+}

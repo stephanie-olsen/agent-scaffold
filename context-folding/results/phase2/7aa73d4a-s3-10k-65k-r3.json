@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-10k-65k-r3",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 55102,
+  "tailTokens": 9764,
+  "summaryChars": 4808,
+  "summaryTokensEst": 1202,
+  "compressionRatio": 6,
+  "foldLatencyMs": 46055,
+  "foldTokensIn": 11480,
+  "foldTokensOut": 1552,
+  "foldCostUsd": 0.05772,
+  "judgeScore": 4,
+  "judgeReasoning": "Eight distinct topics are clearly separated with headers, making it easy to distinguish workstreams. Most active work is identifiable (Discord setup using Puppeteer, token budget optimization, poetry reading). However, the summary lacks explicit next steps—an agent would need to infer priorities from context (e.g., 'Discord setup planned for today' vs. 'token budget optimized, now what?'). The length (4,808 chars) is reasonable but could be tighter; some historical detail (Moltbook research, SOUL.md metaphor changes) is complete but not immediately actionable.",
+  "judgeCostUsd": 0.008091,
+  "totalCostUsd": 0.065811,
+  "timestamp": "2026-02-15T19:37:09.018Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-30k-65k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 35812,
+  "tailTokens": 29054,
+  "summaryChars": 1129,
+  "summaryTokensEst": 282,
+  "compressionRatio": 2.2,
+  "foldLatencyMs": 11778,
+  "foldTokensIn": 9731,
+  "foldTokensOut": 272,
+  "foldCostUsd": 0.033273,
+  "judgeScore": 1.5,
+  "judgeReasoning": "This summary captures a single conversation turn about curation strategy for Moltbook, but it's completely missing the context of what Moltbook IS, what design decisions led here, what the agent was actively working on, or what to do next. An agent waking up with only this would be utterly lost — it reads like the middle of a conversation with no beginning or end. No goals, no active work, no next steps.",
+  "judgeCostUsd": 0.004788,
+  "totalCostUsd": 0.038061,
+  "timestamp": "2026-02-15T20:11:58.921Z"
+}

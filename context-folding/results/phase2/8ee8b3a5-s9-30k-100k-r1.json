@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-30k-100k-r1",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 30000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 70168,
+  "tailTokens": 29621,
+  "summaryChars": 3348,
+  "summaryTokensEst": 837,
+  "compressionRatio": 3.3,
+  "foldLatencyMs": 31695,
+  "foldTokensIn": 24585,
+  "foldTokensOut": 938,
+  "foldCostUsd": 0.087825,
+  "judgeScore": 4,
+  "judgeReasoning": "Clear separation of completed vs active topics makes orientation easy. Agent can immediately continue DeepSeek experiment (run 3 executing) and resolve thinking parameter question (config just read). Minor weakness: doesn't explicitly state next step for DeepSeek (wait for run 3, then analyze results), though this is inferrable. The 'pending-action' framing for thinking parameter is slightly awkward—it's an active question mid-investigation, not a queued task.",
+  "judgeCostUsd": 0.006501,
+  "totalCostUsd": 0.094326,
+  "timestamp": "2026-02-15T19:56:25.784Z"
+}

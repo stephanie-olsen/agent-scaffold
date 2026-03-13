@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-30k-100k-r2",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 30000,
+  "threshold": 100000,
+  "rep": 2,
+  "foldInputTokens": 80381,
+  "tailTokens": 19561,
+  "summaryChars": 6489,
+  "summaryTokensEst": 1622,
+  "compressionRatio": 4.7,
+  "foldLatencyMs": 56391,
+  "foldTokensIn": 21418,
+  "foldTokensOut": 1725,
+  "foldCostUsd": 0.090129,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Agent could continue the active work (finishing consolidation handler, monitoring RIF experiment) but would need to parse through 6 completed topics first. The active-topic and pending-action sections are clear and actionable. However, the completed topics are densely packed narratives that mix 'what happened' with 'what we learned'—useful for continuity but not for immediate orientation. The summary would benefit from either moving completed topics to a separate 'context' section or drastically condensing them to 1-2 sentences each.",
+  "judgeCostUsd": 0.008874,
+  "totalCostUsd": 0.09900300000000001,
+  "timestamp": "2026-02-15T20:05:40.689Z"
+}

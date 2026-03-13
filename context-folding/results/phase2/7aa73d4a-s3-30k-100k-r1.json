@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-30k-100k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 70753,
+  "tailTokens": 28710,
+  "summaryChars": 6698,
+  "summaryTokensEst": 1675,
+  "compressionRatio": 3.3,
+  "foldLatencyMs": 60614,
+  "foldTokensIn": 14319,
+  "foldTokensOut": 2207,
+  "foldCostUsd": 0.076062,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Information is complete and chronologically organized, but the agent would need to parse 14 distinct topics to orient. Active work is identifiable (Sartre processing, Discord setup planned, token budget monitoring) but buried among completed items. Next steps exist but aren't consolidated—agent would spend time extracting 'what now?' from the narrative. A 'Current Focus' section separating active threads from completed work would significantly improve usability.",
+  "judgeCostUsd": 0.008889,
+  "totalCostUsd": 0.084951,
+  "timestamp": "2026-02-15T19:58:21.657Z"
+}

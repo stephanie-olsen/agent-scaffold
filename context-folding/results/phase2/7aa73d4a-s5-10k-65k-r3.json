@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-10k-65k-r3",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 55102,
+  "tailTokens": 9764,
+  "summaryChars": 9546,
+  "summaryTokensEst": 2387,
+  "compressionRatio": 5.4,
+  "foldLatencyMs": 86842,
+  "foldTokensIn": 28075,
+  "foldTokensOut": 2600,
+  "foldCostUsd": 0.123225,
+  "judgeScore": 2.5,
+  "judgeReasoning": "Contains complete information but poor usability. Six distinct workstreams (memory management, SOUL.md updates, MoltCircle/Discord, poetry practice, usage optimization, disclosure ethics) are woven into one chronological narrative. An agent waking up would struggle to identify current priorities — is Discord setup the active task? The disclosure framework? Poetry reading? The 'next steps' are implicit rather than explicit. While nothing critical is lost, the agent would spend significant time re-parsing to figure out what matters now versus what's resolved context.",
+  "judgeCostUsd": 0.011163,
+  "totalCostUsd": 0.134388,
+  "timestamp": "2026-02-15T20:03:02.954Z"
+}

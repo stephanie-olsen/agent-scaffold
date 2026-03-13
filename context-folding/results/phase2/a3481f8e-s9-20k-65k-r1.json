@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s9-20k-65k-r1",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 45054,
+  "tailTokens": 19105,
+  "summaryChars": 2700,
+  "summaryTokensEst": 675,
+  "compressionRatio": 3.4,
+  "foldLatencyMs": 23185,
+  "foldTokensIn": 13305,
+  "foldTokensOut": 774,
+  "foldCostUsd": 0.051525,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent single-topic focus with clear active work. Three completed topics are cleanly separated and contextually complete. The active topic (soul-evil security review) has clear state: what was found, what's being checked, and exactly where the agent left off (just retrieved config, about to parse for soul-evil status). The pending action is specific and actionable. Only minor improvement would be explicitly stating the next step ('parse openclaw.json to confirm soul-evil absent from enabled hooks').",
+  "judgeCostUsd": 0.006117,
+  "totalCostUsd": 0.057642,
+  "timestamp": "2026-02-15T20:27:32.915Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s5-30k-80k-r1",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 50035,
+  "tailTokens": 29788,
+  "summaryChars": 841,
+  "summaryTokensEst": 210,
+  "compressionRatio": 2.7,
+  "foldLatencyMs": 7813,
+  "foldTokensIn": 16191,
+  "foldTokensOut": 249,
+  "foldCostUsd": 0.052308,
+  "judgeScore": 2,
+  "judgeReasoning": "This appears to be mid-debugging conversation about hook registration logic, not a workstream summary. The agent would wake up confused about what problem they're solving, why it matters, or what to do next. There's no context about the broader goal, what's been tried, or what the next action should be. It reads like a snapshot of active thinking, not a summary to resume from.",
+  "judgeCostUsd": 0.004548,
+  "totalCostUsd": 0.056856000000000004,
+  "timestamp": "2026-02-15T20:19:09.859Z"
+}

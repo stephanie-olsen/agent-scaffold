@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-20k-100k-r2",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 2,
+  "foldInputTokens": 80381,
+  "tailTokens": 19561,
+  "summaryChars": 1001,
+  "summaryTokensEst": 250,
+  "compressionRatio": 5.1,
+  "foldLatencyMs": 10151,
+  "foldTokensIn": 30050,
+  "foldTokensOut": 300,
+  "foldCostUsd": 0.09465,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Single clear topic (book pipeline status) with specific numbers and two concrete issues identified. However, ends mid-action with a tool call — the agent would need to re-run diagnostics to figure out what happened next. The 'what to do' is implicit (investigate why queue isn't processing) but not stated as a next step.",
+  "judgeCostUsd": 0.004722,
+  "totalCostUsd": 0.099372,
+  "timestamp": "2026-02-15T19:41:50.173Z"
+}

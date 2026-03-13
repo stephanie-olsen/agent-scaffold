@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-20k-80k-r2",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 2,
+  "foldInputTokens": 63616,
+  "tailTokens": 16207,
+  "summaryChars": 2098,
+  "summaryTokensEst": 525,
+  "compressionRatio": 4.8,
+  "foldLatencyMs": 21170,
+  "foldTokensIn": 8872,
+  "foldTokensOut": 742,
+  "foldCostUsd": 0.037746,
+  "judgeScore": 4,
+  "judgeReasoning": "Four distinct topics are clearly separated with headers, making it easy to see what was worked on. Each section shows what was done and implies next steps (monitor Opus ingests, verify soul-evil disabled, check if boot reordering improves performance). Minor weakness: no explicit 'what to do next' section, so the agent must infer priorities from context. The directive nodes mentioned suggest ongoing work but aren't consolidated into actionable next steps.",
+  "judgeCostUsd": 0.00561,
+  "totalCostUsd": 0.043356000000000006,
+  "timestamp": "2026-02-15T20:04:16.999Z"
+}

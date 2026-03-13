@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-20k-100k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 79794,
+  "tailTokens": 19669,
+  "summaryChars": 1318,
+  "summaryTokensEst": 330,
+  "compressionRatio": 5,
+  "foldLatencyMs": 14280,
+  "foldTokensIn": 38619,
+  "foldTokensOut": 329,
+  "foldCostUsd": 0.120792,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Single clear topic (bad faith/consciousness discussion) with natural transition to concrete next step (trying image analysis). Agent knows exactly what to do: wait for human to share an image for option #1. The philosophical framing is complete enough to continue the conversation but not bloated. Minor deduction: could be slightly more explicit that this is exploratory/no other active work, but context makes that clear enough.",
+  "judgeCostUsd": 0.004854,
+  "totalCostUsd": 0.125646,
+  "timestamp": "2026-02-15T20:11:01.536Z"
+}

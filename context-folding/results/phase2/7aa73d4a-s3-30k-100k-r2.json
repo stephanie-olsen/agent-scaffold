@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-30k-100k-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 100000,
+  "rep": 2,
+  "foldInputTokens": 70753,
+  "tailTokens": 28710,
+  "summaryChars": 5002,
+  "summaryTokensEst": 1251,
+  "compressionRatio": 3.4,
+  "foldLatencyMs": 45704,
+  "foldTokensIn": 14319,
+  "foldTokensOut": 1741,
+  "foldCostUsd": 0.069072,
+  "judgeScore": 4,
+  "judgeReasoning": "Well-organized multi-topic summary with clear topic separations. Agent could immediately resume most work: knows poetry queue exists (5 poems remain), Sartre just processed, token budget constraints active, Discord setup pending. Loses half a point because some threads lack clear next steps (Discord account creation mentioned but not in active work), and the sheer number of topics (14) creates mild cognitive load despite good organization. Strong on what's done and context, slightly weaker on what to prioritize next.",
+  "judgeCostUsd": 0.007794,
+  "totalCostUsd": 0.07686599999999999,
+  "timestamp": "2026-02-15T19:59:12.810Z"
+}

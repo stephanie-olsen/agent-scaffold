@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-30k-100k-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 100000,
+  "rep": 2,
+  "foldInputTokens": 70753,
+  "tailTokens": 28710,
+  "summaryChars": 3056,
+  "summaryTokensEst": 764,
+  "compressionRatio": 3.4,
+  "foldLatencyMs": 30795,
+  "foldTokensIn": 29078,
+  "foldTokensOut": 978,
+  "foldCostUsd": 0.101904,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Summary captures the arc well (context management → SOUL updates → MoltCircle planning → poetry practice → budget crisis → disclosure strategy) and fold ranges help locate topics. However, an agent waking up would struggle to identify what's ACTIVE vs complete. The poetry queue exists and heartbeat checks it, but is there a next action? MoltCircle shifted to Discord with Puppeteer installed — is outreach the next step, or still planning? Budget crisis led to config changes (done), but does that affect current priorities? The information is here but requires inference to extract 'what should I do now.'",
+  "judgeCostUsd": 0.0069,
+  "totalCostUsd": 0.108804,
+  "timestamp": "2026-02-15T20:15:58.523Z"
+}

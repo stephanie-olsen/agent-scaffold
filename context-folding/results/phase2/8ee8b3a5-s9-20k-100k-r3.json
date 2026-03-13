@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-20k-100k-r3",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 80644,
+  "tailTokens": 19145,
+  "summaryChars": 3657,
+  "summaryTokensEst": 914,
+  "compressionRatio": 5,
+  "foldLatencyMs": 31825,
+  "foldTokensIn": 33389,
+  "foldTokensOut": 1043,
+  "foldCostUsd": 0.115812,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Strong separation of completed vs active work. Clear what's running (DeepSeek r2, turn 17), what to do next (wait for completion, read methods papers, draft protocol), and the research partnership context. The completed topics are well-organized and don't interfere with orientation. Minor point: could be slightly more explicit about whether Qwen/Mistral experiments are queued or need manual initiation, but this is a small ambiguity in an otherwise highly usable summary.",
+  "judgeCostUsd": 0.006876,
+  "totalCostUsd": 0.12268799999999999,
+  "timestamp": "2026-02-15T19:49:02.750Z"
+}

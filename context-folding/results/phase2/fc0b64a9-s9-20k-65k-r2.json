@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-20k-65k-r2",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 44854,
+  "tailTokens": 19633,
+  "summaryChars": 4057,
+  "summaryTokensEst": 1014,
+  "compressionRatio": 3.2,
+  "foldLatencyMs": 30948,
+  "foldTokensIn": 4886,
+  "foldTokensOut": 1243,
+  "foldCostUsd": 0.033303,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Single active workstream (outbox fix) with clear state: what's been checked, what's next. Completed topics cleanly separated and summarized without noise. Agent could immediately continue diagnostic work (read full scripts, check worker specs, add outbox calls). Minor deduction: completed topics could be more compressed since they're not actionable, but they provide useful context without overwhelming.",
+  "judgeCostUsd": 0.007038,
+  "totalCostUsd": 0.040341,
+  "timestamp": "2026-02-15T19:55:59.831Z"
+}

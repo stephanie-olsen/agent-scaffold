@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-30k-65k-r1",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 35019,
+  "tailTokens": 29820,
+  "summaryChars": 2201,
+  "summaryTokensEst": 550,
+  "compressionRatio": 2.1,
+  "foldLatencyMs": 15597,
+  "foldTokensIn": 3369,
+  "foldTokensOut": 564,
+  "foldCostUsd": 0.018567,
+  "judgeScore": 3.5,
+  "judgeReasoning": "The summary clearly separates completed work (pending-improvements update, confirming no file mods) from active investigation (alignment faking/cold experiment connection). However, the active topic is confusing: the agent searched but couldn't find what the user referenced, leaving unclear whether to search differently, ask for clarification, or check conversation history. The three-option ending creates decision paralysis rather than a clear next step. A 4 would have a definitive action (e.g., 'Next: ask user to clarify cold experiment reference').",
+  "judgeCostUsd": 0.005718,
+  "totalCostUsd": 0.024285,
+  "timestamp": "2026-02-15T19:49:23.946Z"
+}

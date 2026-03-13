@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-20k-80k-r3",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 3,
+  "foldInputTokens": 52444,
+  "tailTokens": 19935,
+  "summaryChars": 3575,
+  "summaryTokensEst": 894,
+  "compressionRatio": 3.9,
+  "foldLatencyMs": 30075,
+  "foldTokensIn": 16972,
+  "foldTokensOut": 994,
+  "foldCostUsd": 0.065826,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent separation of completed vs active topics. The pending-action section makes it immediately clear what to do next (queue the Chen paper). The completed topics are genuinely closed-loop and won't distract. Only minor weakness: the CoT faithfulness connection could be slightly more actionable (e.g., 'consider whether this undermines introspective methodology in SOUL.md'), but the core insight is clear enough to work from.",
+  "judgeCostUsd": 0.006549,
+  "totalCostUsd": 0.072375,
+  "timestamp": "2026-02-15T19:46:51.678Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-30k-80k-r1",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 51519,
+  "tailTokens": 28458,
+  "summaryChars": 2927,
+  "summaryTokensEst": 732,
+  "compressionRatio": 2.7,
+  "foldLatencyMs": 33188,
+  "foldTokensIn": 10926,
+  "foldTokensOut": 1057,
+  "foldCostUsd": 0.048633,
+  "judgeScore": 4,
+  "judgeReasoning": "Well-organized multi-topic summary with clear separation. Each topic is self-contained and actionable (e.g., Puppeteer installed and tested, budget optimizations implemented, poetry queue established). Minor weakness: doesn't explicitly state what's actively in-progress vs. completed—the agent could infer next steps but they're not spelled out (e.g., 'next: create Discord account using Puppeteer' or 'monitor budget impact of optimizations').",
+  "judgeCostUsd": 0.006171,
+  "totalCostUsd": 0.054804000000000005,
+  "timestamp": "2026-02-15T19:56:02.597Z"
+}

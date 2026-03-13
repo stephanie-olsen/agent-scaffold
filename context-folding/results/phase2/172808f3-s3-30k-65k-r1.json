@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s3-30k-65k-r1",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 40612,
+  "tailTokens": 24116,
+  "summaryChars": 2908,
+  "summaryTokensEst": 727,
+  "compressionRatio": 2.7,
+  "foldLatencyMs": 23364,
+  "foldTokensIn": 5589,
+  "foldTokensOut": 972,
+  "foldCostUsd": 0.031347,
+  "judgeScore": 2.5,
+  "judgeReasoning": "Information is complete and accurate, but six distinct workstreams are presented sequentially without clear prioritization or separation of active vs. completed work. An agent would need to parse all topics to determine what requires immediate action (hop decay implementation? interview prep next session? queue monitoring?) versus what's already resolved (hop depth testing complete). The bracketed topic labels help but don't solve the orientation problem—there's no 'what to do next' synthesis across these threads.",
+  "judgeCostUsd": 0.006156,
+  "totalCostUsd": 0.037503,
+  "timestamp": "2026-02-15T20:21:59.133Z"
+}

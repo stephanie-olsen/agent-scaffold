@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s5-30k-80k-r3",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 3,
+  "foldInputTokens": 50035,
+  "tailTokens": 29788,
+  "summaryChars": 520,
+  "summaryTokensEst": 130,
+  "compressionRatio": 2.7,
+  "foldLatencyMs": 5823,
+  "foldTokensIn": 16191,
+  "foldTokensOut": 158,
+  "foldCostUsd": 0.050943,
+  "judgeScore": 1,
+  "judgeReasoning": "This summary captures a single micro-moment (checking if soul-evil hook is registered) with no context about what problem this solves, what the agent was trying to accomplish, or what to do next. An agent waking up with this would have no idea why it was checking this file or what action to take based on the result. Critical context about the broader task is completely missing.",
+  "judgeCostUsd": 0.00426,
+  "totalCostUsd": 0.055203,
+  "timestamp": "2026-02-15T20:19:36.276Z"
+}

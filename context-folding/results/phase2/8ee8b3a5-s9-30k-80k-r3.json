@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-30k-80k-r3",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 3,
+  "foldInputTokens": 42400,
+  "tailTokens": 29979,
+  "summaryChars": 3097,
+  "summaryTokensEst": 774,
+  "compressionRatio": 2.6,
+  "foldLatencyMs": 24104,
+  "foldTokensIn": 6059,
+  "foldTokensOut": 814,
+  "foldCostUsd": 0.030387,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Clear separation of completed vs active work. Agent knows exactly what's pending (queue cross-model experiments) and what's done (SOUL.md edits, graph node creation). The four completed topics are distinct and don't bleed together. Only minor weakness: could be slightly more explicit about whether to wait for user confirmation before queuing experiments, but the 'ready to queue or continue discussion' ending handles this adequately.",
+  "judgeCostUsd": 0.006009,
+  "totalCostUsd": 0.036396,
+  "timestamp": "2026-02-15T19:55:48.669Z"
+}

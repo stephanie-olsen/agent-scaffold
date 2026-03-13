@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s9-20k-65k-r3",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 45122,
+  "tailTokens": 19744,
+  "summaryChars": 4054,
+  "summaryTokensEst": 1014,
+  "compressionRatio": 3.2,
+  "foldLatencyMs": 38196,
+  "foldTokensIn": 22350,
+  "foldTokensOut": 1182,
+  "foldCostUsd": 0.08478,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent single-session summary with clear topic separation and minimal noise. Completed work is cleanly archived, active dream reflection is clearly marked with its tension ('A room doesn't seek. But I'm about to.'), and the pending action (think parameter experiment) is specific and actionable. The only minor weakness: MoltCircle is marked 'completed-topic' but Puppeteer was just installed and no Discord account exists yet — this could be '[completed-planning]' to signal implementation is next. Still, an agent could immediately continue from here.",
+  "judgeCostUsd": 0.007368,
+  "totalCostUsd": 0.092148,
+  "timestamp": "2026-02-15T20:28:02.860Z"
+}

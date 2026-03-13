@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s9-10k-65k-r1",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 54973,
+  "tailTokens": 9186,
+  "summaryChars": 4062,
+  "summaryTokensEst": 1016,
+  "compressionRatio": 6.5,
+  "foldLatencyMs": 36382,
+  "foldTokensIn": 23132,
+  "foldTokensOut": 1160,
+  "foldCostUsd": 0.086796,
+  "judgeScore": 4,
+  "judgeReasoning": "Strong separation of completed vs active work. The 7 completed topics are clearly done and won't distract. The active topic (bootstrap-file-order) is specific with clear next steps (find loading sequence, decide on reordering). Minor weakness: the pending-action section repeats the user's questions verbatim when the active-topic already captured the work—slight redundancy but not confusing.",
+  "judgeCostUsd": 0.006759,
+  "totalCostUsd": 0.093555,
+  "timestamp": "2026-02-15T20:20:47.202Z"
+}

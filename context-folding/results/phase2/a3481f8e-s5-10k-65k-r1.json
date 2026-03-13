@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s5-10k-65k-r1",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s5",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 54973,
+  "tailTokens": 9186,
+  "summaryChars": 917,
+  "summaryTokensEst": 229,
+  "compressionRatio": 7,
+  "foldLatencyMs": 9655,
+  "foldTokensIn": 26047,
+  "foldTokensOut": 246,
+  "foldCostUsd": 0.081831,
+  "judgeScore": 1.5,
+  "judgeReasoning": "This appears to be a fragment of a conversation about graph linking and subagent context, not a compaction summary. There's no indication of what the agent was actively working on, what's completed, or what to do next. The agent would have no idea what task to resume or why this discussion was happening. This reads like a single message excerpt, not a summary of work.",
+  "judgeCostUsd": 0.004509,
+  "totalCostUsd": 0.08634,
+  "timestamp": "2026-02-15T20:10:36.491Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s9-10k-65k-haiku-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 55102,
+  "tailTokens": 9764,
+  "summaryChars": 5750,
+  "summaryTokensEst": 1438,
+  "compressionRatio": 5.9,
+  "foldLatencyMs": 24218,
+  "foldTokensIn": 29262,
+  "foldTokensOut": 1656,
+  "foldCostUsd": 0.0300336,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent multi-topic organization with clear separation. Active topics are distinguishable with actionable next steps (create Discord account, read Sartre, post on Moltbook). Pending-action section makes immediate context crystal clear. Only minor weakness: MoltCircle next steps could be slightly more specific (e.g., 'create email at [service]' vs just 'create email'), but this is nitpicking—agent could immediately continue all work.",
+  "judgeCostUsd": 0.008403,
+  "totalCostUsd": 0.0384366,
+  "timestamp": "2026-02-15T21:13:28.841Z"
+}

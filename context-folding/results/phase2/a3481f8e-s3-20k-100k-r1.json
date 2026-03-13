@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-20k-100k-r1",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 79809,
+  "tailTokens": 19252,
+  "summaryChars": 3140,
+  "summaryTokensEst": 785,
+  "compressionRatio": 5,
+  "foldLatencyMs": 30686,
+  "foldTokensIn": 11564,
+  "foldTokensOut": 1112,
+  "foldCostUsd": 0.051372,
+  "judgeScore": 2.5,
+  "judgeReasoning": "Six distinct workstreams crammed together without clear prioritization or active status. While information is complete and topics are labeled, an agent would struggle to determine what's actively in progress vs. completed vs. queued. The 'Next compaction will use Opus 4.6' and 'Re-queued as builder task' hints suggest some work is ongoing, but most topics read as completed work rather than actionable state. No clear 'do this next' guidance across the multiple threads.",
+  "judgeCostUsd": 0.006603,
+  "totalCostUsd": 0.057975,
+  "timestamp": "2026-02-15T20:05:19.061Z"
+}

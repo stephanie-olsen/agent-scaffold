@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-30k-65k-r1",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 35321,
+  "tailTokens": 29166,
+  "summaryChars": 2534,
+  "summaryTokensEst": 634,
+  "compressionRatio": 2.2,
+  "foldLatencyMs": 14929,
+  "foldTokensIn": 2491,
+  "foldTokensOut": 634,
+  "foldCostUsd": 0.016983,
+  "judgeScore": 3.5,
+  "judgeReasoning": "Agent could continue the investigation but with some inefficiency. The summary clearly captures the discrepancy between initial report and actual activity, and lists what happened overnight in detail. However, the 'active-topic' section is a dense paragraph mixing multiple workstreams (book processing, experiments, creative integration, safety mapping, bug fixes) without clear separation, making it harder to identify what needs immediate attention. The pending-action correctly identifies the next step (reconcile/explain discrepancy, check outbox logic) but the agent would need to re-parse the activity list to prioritize follow-up.",
+  "judgeCostUsd": 0.006132,
+  "totalCostUsd": 0.023115000000000004,
+  "timestamp": "2026-02-15T20:01:15.474Z"
+}

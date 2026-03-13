@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s3-30k-65k-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s3",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 35812,
+  "tailTokens": 29054,
+  "summaryChars": 3599,
+  "summaryTokensEst": 900,
+  "compressionRatio": 2.2,
+  "foldLatencyMs": 36354,
+  "foldTokensIn": 9054,
+  "foldTokensOut": 1110,
+  "foldCostUsd": 0.043812,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Five distinct workstreams are clearly separated with topic headers, making it easy to identify what's active vs. complete. The agent could immediately continue Discord setup (Puppeteer installed, ready for account creation), poetry reading (queue established, first poem processed), or book synthesis (Human Condition done). Next steps are implicit but clear from context. Minor deduction: could be slightly more explicit about priorities (e.g., 'Discord account creation is next step for MoltCircle'), but the structure makes orientation fast.",
+  "judgeCostUsd": 0.006759,
+  "totalCostUsd": 0.050571,
+  "timestamp": "2026-02-15T19:54:53.781Z"
+}

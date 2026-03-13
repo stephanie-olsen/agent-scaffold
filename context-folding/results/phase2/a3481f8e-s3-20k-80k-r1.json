@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-20k-80k-r1",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 80000,
+  "rep": 1,
+  "foldInputTokens": 63616,
+  "tailTokens": 16207,
+  "summaryChars": 2518,
+  "summaryTokensEst": 630,
+  "compressionRatio": 4.8,
+  "foldLatencyMs": 25154,
+  "foldTokensIn": 8872,
+  "foldTokensOut": 957,
+  "foldCostUsd": 0.040971,
+  "judgeScore": 4,
+  "judgeReasoning": "Four distinct topics are clearly separated with brackets, making it easy to distinguish workstreams. Each topic captures what was done and key outcomes. However, there are no explicit next steps — an agent would need to infer what to do next (e.g., monitor Opus ingests, verify disabled hooks, test new boot ordering). The summary is information-dense but lacks actionable 'what now' guidance, which would require re-reading to extract priorities.",
+  "judgeCostUsd": 0.005931,
+  "totalCostUsd": 0.046902,
+  "timestamp": "2026-02-15T20:03:51.285Z"
+}

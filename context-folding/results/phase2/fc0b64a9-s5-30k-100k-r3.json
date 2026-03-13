@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s5-30k-100k-r3",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 100000,
+  "rep": 3,
+  "foldInputTokens": 80381,
+  "tailTokens": 19561,
+  "summaryChars": 1788,
+  "summaryTokensEst": 447,
+  "compressionRatio": 5,
+  "foldLatencyMs": 16289,
+  "foldTokensIn": 23157,
+  "foldTokensOut": 506,
+  "foldCostUsd": 0.077061,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Single-topic summary about graph memory improvements. Clear what was built (supersession decay + consolidation task), how it works (specific flags, decay rates, thresholds), and what's deployed. The question at the end provides a natural next step. No confusion about context or priorities.",
+  "judgeCostUsd": 0.00501,
+  "totalCostUsd": 0.082071,
+  "timestamp": "2026-02-15T19:53:53.610Z"
+}

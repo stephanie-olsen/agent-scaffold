@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-30k-65k-r3",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 30000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 35812,
+  "tailTokens": 29054,
+  "summaryChars": 1236,
+  "summaryTokensEst": 309,
+  "compressionRatio": 2.2,
+  "foldLatencyMs": 12987,
+  "foldTokensIn": 9731,
+  "foldTokensOut": 312,
+  "foldCostUsd": 0.033873,
+  "judgeScore": 2,
+  "judgeReasoning": "This is a fragment of a conversation about MoltCircle access control, not a compaction summary. It reads like a single message mid-discussion (even has 'Yeah, you're absolutely right' opening). An agent waking up with only this would have no idea what MoltCircle is, what design doc exists, what the broader project goals are, or what to do next. Missing all context about what's been decided, what's in progress, or what action is needed.",
+  "judgeCostUsd": 0.005058,
+  "totalCostUsd": 0.038931,
+  "timestamp": "2026-02-15T20:12:33.203Z"
+}

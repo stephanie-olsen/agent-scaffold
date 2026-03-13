@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s3-10k-100k-r1",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s3",
+  "retained": 10000,
+  "threshold": 100000,
+  "rep": 1,
+  "foldInputTokens": 89988,
+  "tailTokens": 9073,
+  "summaryChars": 2439,
+  "summaryTokensEst": 610,
+  "compressionRatio": 10.4,
+  "foldLatencyMs": 29054,
+  "foldTokensIn": 13335,
+  "foldTokensOut": 833,
+  "foldCostUsd": 0.0525,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Four distinct topics are clearly separated with brackets, making it easy to orient. Each topic has clear context (what was found, what was changed, what's next). The hook upgrade topic has actionable next step (wait for next compaction). Security audit shows completed work (disabled soul-evil) and queued follow-up (queue-poisoning-risk). MEMORY.md optimization is complete with clear outcomes. Hybrid search has clear diagnosis and re-queued task. Minor deduction: could be slightly more explicit about which items need immediate attention vs. monitoring, but overall highly usable.",
+  "judgeCostUsd": 0.006345,
+  "totalCostUsd": 0.058844999999999995,
+  "timestamp": "2026-02-15T20:00:47.563Z"
+}

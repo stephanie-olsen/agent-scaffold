@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-20k-65k-r1",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 44854,
+  "tailTokens": 19633,
+  "summaryChars": 3466,
+  "summaryTokensEst": 867,
+  "compressionRatio": 3.2,
+  "foldLatencyMs": 27541,
+  "foldTokensIn": 4886,
+  "foldTokensOut": 1038,
+  "foldCostUsd": 0.030228,
+  "judgeScore": 4,
+  "judgeReasoning": "Single active thread (outbox wiring) is crystal clear with specific next steps. Completed topics are well-separated and informative. Minor deduction: the 6 completed topics take significant space to describe overnight findings that aren't immediately actionable — could be more concise. But the active work is unambiguous and the agent could continue immediately.",
+  "judgeCostUsd": 0.006279,
+  "totalCostUsd": 0.036507,
+  "timestamp": "2026-02-15T19:55:24.343Z"
+}

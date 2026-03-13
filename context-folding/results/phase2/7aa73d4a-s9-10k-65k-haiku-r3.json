@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s9-10k-65k-haiku-r3",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 3,
+  "foldInputTokens": 55102,
+  "tailTokens": 9764,
+  "summaryChars": 6382,
+  "summaryTokensEst": 1596,
+  "compressionRatio": 5.8,
+  "foldLatencyMs": 24909,
+  "foldTokensIn": 29262,
+  "foldTokensOut": 1853,
+  "foldCostUsd": 0.0308216,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent multi-topic organization with clear [active-topic] labels that separate workstreams. Each section is actionable: book pipeline status is specific (10 done, Arendt in progress, Sartre requested), MoltCircle has concrete next steps (email → Discord → server), pending-action is explicit. Minor deduction: 'Assistant state' paragraph at end could be tighter—'awaiting confirmation' is clear but 'Context is at 1%' is meta-noise. Overall, agent could immediately resume any thread without confusion.",
+  "judgeCostUsd": 0.009231,
+  "totalCostUsd": 0.0400526,
+  "timestamp": "2026-02-15T21:14:00.375Z"
+}

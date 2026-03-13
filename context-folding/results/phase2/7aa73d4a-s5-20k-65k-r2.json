@@ -1,0 +1,23 @@
+{
+  "runId": "7aa73d4a-s5-20k-65k-r2",
+  "session": "7aa73d4a",
+  "sessionType": "long-with-compactions",
+  "strategy": "s5",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 45122,
+  "tailTokens": 19744,
+  "summaryChars": 4412,
+  "summaryTokensEst": 1103,
+  "compressionRatio": 3.2,
+  "foldLatencyMs": 42486,
+  "foldTokensIn": 19846,
+  "foldTokensOut": 1449,
+  "foldCostUsd": 0.081273,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Single coherent narrative tracking memory work, MoltCircle planning, and poetry reading. Clear progression: research → reflection practice → Discord setup → poetry approach shift. Active work is obvious (Discord account creation next, poems in queue). Fold structure keeps topics findable without overwhelming. Minor: could be slightly more explicit about what 'Discord account creation' entails as next step, but context is sufficient to act.",
+  "judgeCostUsd": 0.007497,
+  "totalCostUsd": 0.08877,
+  "timestamp": "2026-02-15T20:09:17.142Z"
+}

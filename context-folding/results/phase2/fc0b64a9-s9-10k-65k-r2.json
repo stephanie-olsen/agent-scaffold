@@ -1,0 +1,23 @@
+{
+  "runId": "fc0b64a9-s9-10k-65k-r2",
+  "session": "fc0b64a9",
+  "sessionType": "tool-heavy",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 2,
+  "foldInputTokens": 54766,
+  "tailTokens": 9721,
+  "summaryChars": 4653,
+  "summaryTokensEst": 1163,
+  "compressionRatio": 6,
+  "foldLatencyMs": 41649,
+  "foldTokensIn": 17459,
+  "foldTokensOut": 1275,
+  "foldCostUsd": 0.071502,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent separation of completed vs active work. The active-topic section clearly states what's being discussed (graph growth mechanisms) and pending-action captures exactly where the conversation stands (user asked about implementation, assistant just mapped dependencies, about to respond with plan). RIF experiment status is clear (running, ~1hr, will check when done). Only minor weakness: could be slightly more explicit about whether to prioritize graph implementation vs waiting for RIF results, but context makes it clear graph discussion is the active thread.",
+  "judgeCostUsd": 0.007524,
+  "totalCostUsd": 0.079026,
+  "timestamp": "2026-02-15T19:45:36.669Z"
+}

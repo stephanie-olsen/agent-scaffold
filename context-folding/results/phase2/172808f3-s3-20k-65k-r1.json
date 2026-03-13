@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s3-20k-65k-r1",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s3",
+  "retained": 20000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 44892,
+  "tailTokens": 19836,
+  "summaryChars": 2866,
+  "summaryTokensEst": 717,
+  "compressionRatio": 3.2,
+  "foldLatencyMs": 26740,
+  "foldTokensIn": 6450,
+  "foldTokensOut": 957,
+  "foldCostUsd": 0.033705,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent multi-topic separation with clear bracketing. Each workstream is self-contained with what was done and current state. The hop depth and paper concentration topics show clear completion; the hop decay topic has an implicit next step (implement fan-out normalization). Minor: could be slightly more explicit about what's actively in-progress vs completed, but an agent could immediately orient and continue work on any thread.",
+  "judgeCostUsd": 0.005934,
+  "totalCostUsd": 0.039639,
+  "timestamp": "2026-02-15T20:15:00.755Z"
+}

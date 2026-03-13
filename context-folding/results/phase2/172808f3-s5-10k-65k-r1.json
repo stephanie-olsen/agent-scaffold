@@ -1,0 +1,23 @@
+{
+  "runId": "172808f3-s5-10k-65k-r1",
+  "session": "172808f3",
+  "sessionType": "conversational",
+  "strategy": "s5",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 54876,
+  "tailTokens": 9852,
+  "summaryChars": 4965,
+  "summaryTokensEst": 1241,
+  "compressionRatio": 5.9,
+  "foldLatencyMs": 46063,
+  "foldTokensIn": 21047,
+  "foldTokensOut": 1456,
+  "foldCostUsd": 0.084981,
+  "judgeScore": 2.5,
+  "judgeReasoning": "Information is complete and accurate, but six distinct workstreams (LanceDB architecture, hop depth testing, decay research, interview prep, domain diversification, resumeMessage bug fix) are compressed into one narrative without clear separation. An agent waking up would struggle to identify what's actively in progress versus completed. The fold structure helps chronologically but doesn't distinguish topics—e.g., the hop decay research spans folds 34-81 interleaved with interview prep and paper queue work. No clear 'next steps' section; the last item (context budget discussion) ends mid-question without resolution.",
+  "judgeCostUsd": 0.008445,
+  "totalCostUsd": 0.093426,
+  "timestamp": "2026-02-15T20:28:18.948Z"
+}

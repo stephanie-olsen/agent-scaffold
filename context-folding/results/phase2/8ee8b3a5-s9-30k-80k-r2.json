@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-30k-80k-r2",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 30000,
+  "threshold": 80000,
+  "rep": 2,
+  "foldInputTokens": 42400,
+  "tailTokens": 29979,
+  "summaryChars": 2529,
+  "summaryTokensEst": 632,
+  "compressionRatio": 2.6,
+  "foldLatencyMs": 18389,
+  "foldTokensIn": 6059,
+  "foldTokensOut": 657,
+  "foldCostUsd": 0.028032,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent single-session summary with clear topic separation and actionable state. Four distinct threads are cleanly marked (completed vs active), the pending action is specific (queue cross-model experiments, not run immediately), and the assistant's current position is unambiguous (SOUL.md edits done, awaiting user direction). The only minor weakness is that 'exploration pipeline' could be slightly more concrete (is this a file? a mental queue?), but this doesn't meaningfully impair continuation.",
+  "judgeCostUsd": 0.005778,
+  "totalCostUsd": 0.03381,
+  "timestamp": "2026-02-15T19:55:18.972Z"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "a3481f8e-s9-10k-65k-haiku-r1",
+  "session": "a3481f8e",
+  "sessionType": "mixed",
+  "strategy": "s9",
+  "retained": 10000,
+  "threshold": 65000,
+  "rep": 1,
+  "foldInputTokens": 54973,
+  "tailTokens": 9186,
+  "summaryChars": 3138,
+  "summaryTokensEst": 785,
+  "compressionRatio": 6.7,
+  "foldLatencyMs": 11518,
+  "foldTokensIn": 23132,
+  "foldTokensOut": 836,
+  "foldCostUsd": 0.021849600000000004,
+  "judgeScore": 4,
+  "judgeReasoning": "Three distinct topics are cleanly separated with clear status markers. Completed work is concise, active work has clear next steps (verify boot order, reorder sections). The pending-action section effectively captures the user's multi-part question and agent's current understanding. Minor weakness: the active topic could be slightly more concise (some detail about what was removed could be trimmed), but overall the agent could immediately continue work without confusion.",
+  "judgeCostUsd": 0.00615,
+  "totalCostUsd": 0.027999600000000003,
+  "timestamp": "2026-02-15T21:15:38.577Z"
+}

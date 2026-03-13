@@ -1,0 +1,23 @@
+{
+  "runId": "8ee8b3a5-s9-20k-100k-r2",
+  "session": "8ee8b3a5",
+  "sessionType": "heavy-debugging",
+  "strategy": "s9",
+  "retained": 20000,
+  "threshold": 100000,
+  "rep": 2,
+  "foldInputTokens": 80644,
+  "tailTokens": 19145,
+  "summaryChars": 4371,
+  "summaryTokensEst": 1093,
+  "compressionRatio": 4.9,
+  "foldLatencyMs": 34720,
+  "foldTokensIn": 33389,
+  "foldTokensOut": 1169,
+  "foldCostUsd": 0.117702,
+  "judgeScore": 4.5,
+  "judgeReasoning": "Excellent separation of completed vs. active work. The [completed-topic] tags make it trivial to skip what's done and focus on the active research partnership and pending methodology work. Clear next steps (read 3 papers, draft protocol). The 'pending-action' section explicitly states what's running (DeepSeek r2, turn 17) and what to do next. Only minor weakness: could be slightly more explicit about prioritization (are the methodology papers the immediate priority, or monitoring the running experiment?).",
+  "judgeCostUsd": 0.007284,
+  "totalCostUsd": 0.124986,
+  "timestamp": "2026-02-15T19:48:25.570Z"
+}
